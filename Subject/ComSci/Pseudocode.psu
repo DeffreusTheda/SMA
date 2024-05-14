@@ -1,0 +1,32 @@
+// Construct an algorithm using pseudocode to take the marks that have been stored in MARK[ ],
+//  convert them into the appropriate grade and store the calculated grades in GRADE[ ].
+// Grade boundaries: {{80 ≤ "Distinction"}, {60 ≤ "Merit" < 80}, {40 ≤ "Pass" < 60}, {"Fail" < 40}}
+
+// START
+// There is no specification on the mark array elements.
+
+// Declare and initialize an array named ‘mark’ with 10 elements.
+mark = collection([93, 98, 95, 62, 84, 91, 75, 95, 90, 32])
+
+// Declare and ?initialize? an empty array named ‘grade’ that
+//  will store string element representing the grade of the
+//  element in ‘mark’.
+grade = collection([])
+
+// Loop on each index in ‘mark’.
+loop for i from 0 to 9
+    // chained else if for grading marks
+    if MARK[i] < 40 then
+        GRADE.addItem("Fail")
+    else if MARK[i] < 60 then
+        GRADE.addItem("Pass")
+    else if MARK[i] < 80 then
+        GRADE.addItem("Merit")
+    else then
+        GRADE.addItem("Distinction")
+    end if
+    // Output the grades corresponding to 
+    //  the current ‘mark’ index.
+    //output GRADE[i]
+end loop
+// END

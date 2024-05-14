@@ -1,0 +1,12 @@
+- Judul: 70 Kisah Soekarno
+	- Judul biasanya berbentuk paling besar dan hurufnya tebal, karena kalimat tersebut penting dan perlu dibuat sebagai hal yang paling menarik dari sampul majalah
+- Ears & Teasers: Edisi Khusus 70 Tahun Indonesia
+	- "Ears" adalah pojok atas kanan dan kiri pada suatu majalah. Headlines di "Ear" itu diesbut "Teasers" karena unsur ini menarik pembaca untuk mendalami isi majalah
+- Headlines: 7 Sosok Muda Inspiratif - Ikan Kembung Bikin Panjang Umur - Berkebun Angin, Memanen Listrik
+	- Hal yang mengambil perhatian pembaca dan biasanya menonjol daripada unsur-unsur sampul majalah lainnya
+- Photograph: Sebagian besar ~~gambar~~ majalah adalah gambar dari Ir. Soekarno
+	- Berdasarkan sudut kamera, dapat ditentukan sifat dan posisi/kedudukan seseorang
+- Symbols: Berpidato (Semangat) dan Mic. (Influensial)
+	- Simbol-simbol disini itu ada bukan tanpa alasan, contohnya yaa berpidato, disini maksudnya Soekarno yang dalam posisi badan berpidato dengan tangan mengacung ke atas, semangat karena biasanya saat berpidato seseorang akan bersemangat dan penuh percaya diri, serta bukan hanya pidato melainkan juga proklamasi soekarno sebagai 
+- Colors and Lightning: Merah putih (Nasionalis)
+	- Kontras gambar tinggi

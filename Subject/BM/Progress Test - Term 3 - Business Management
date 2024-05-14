@@ -1,0 +1,90 @@
+# Progress Test BM
+
+Paper 2, durasi 90 Minutes, membahas bab 3 dan sedikit bab 2.
+Jangan lupa bawa kalkulator!
+
+## Sections
+
+### Section A [20]
+
+Wajib dijawab.
+Company: AW (Artisan Woodcraft).
+AW mau beli mesin A|B, income 4 tahun; hitung untuk kedua mesin itu;
+
+1. Bikin **Cash Flow** 4 bulan. Note: Sales ("Penjualan") dan CoGS yang di kredit tidak diterima 100% secara langsung.
+2. Find the **Payback Period** for both of the machine.
+   <details>
+     <summary>Pre-Answer</summary>
+     $PP = \frac{initial\~cost}{average\~annual\~cash\~flow}$
+   </details>
+3. Find the **Average rate of return** (ARR) for both of the machine.
+   <details>
+     <summary>Pre-Answer</summary>
+     $ARR = \frac{total~profit}{initial~costs \cdot years} \cdot 100%$
+   </details>
+4. Balance sheets; Note: Hati-hati membedakan akun income statements dan balance sheets!
+5. Menghitung **Acid Test Ratio** [1] and **Current Ratio** [1]; total [2];
+6. Memberikan analisis hasil perhitungan dua ratio tadi, e.g current ratio (current asset/current liability) lebih tinggi dan acid ratio (current asset - inventory / current liability), maka stocks/inventory management jelek.
+   - These ratios represent a company\'s short term liquidity. For both ratios, higher the value means the company is able to pay off its short-term debts. If the Acid-Test Ratio is significantly higher than the Current Ratio, it means the company doesn\'t rely on its inventory/stocks to repay its short-term debts, and the opposite happens when Current Ratio is higher than Acid-Test Ratio. A low value on both ratio show the company is struggling to meet its short-term obligation.
+
+### Section B [20]
+
+Choose only one of the case.
+
+#### Case 1
+
+A Tourism company.
+
+1. State ("cari") 2 **Sources of Finance**!
+   <details>
+     <summary>Pre-Answer</summary>
+     Retained profit and sales of asset.
+   </details>
+2. What are the characteristics of **Partnership**?
+   <details>
+     <summary>Pre-Answer</summary>
+     A company is owned by at least 2 person.<br>
+     Each member can contribute to a specialized ares of the business management.<br>
+     Profit are shared between owners.<br>
+     Fewer legal formalities compared to corporate organizations or companies.
+   </details>
+3. *Finance*
+   - Make a **Cash Flow** for 6 bulan ["bobot terbesar"].
+   - Analisis hasil **Cash Flow**.
+   - Find the **Net Profit** (Total Revenue - Total Cost); Note: remember, net profit is different from cash flow.
+   - So the Tourism company started offline and now wanting to go online; Analyze the advantage and disadvantage.
+     - **Advatages**:
+       - Market reach: wider global audience, exponentially increasing potential customer base.
+       - Reduced costs: eliminate overhead costs from running a store e.g rent, utilities, and staffs.
+       - 24/7 Availability: online store can be accessed anytime and anywhere, increasing convenience and potential sales.
+       - Data collection and customer insights: gather customer data on habits and preferences.
+       - Scalability: scale up more easily, without physical constraints.
+       - Targeted marketing: specific demographics and interest.
+       - Interactive content: virtual tours and 360$\degree$ view.
+       - Reviews and social proof: positive online reviews give trust signals and build brand reputation.
+     - **Disadvantages**:
+       - High competition: need brand presence and markering strategies to stand out.
+       - Delivery logistics and costs: add complexity and cost.
+       - Cybersecurity risks: risk of data breaches and cyberattacks, which call for security measures that cost money.
+       - Marketing costs: require investment in SEO, pay-per-click advertising, and social media marketing.
+       - Limited customer interaction: lower customer relatioships and trust.
+       - Customer expectation: essence of a destination are limited, unless accompanied with high-quality visuals, detailed descriptions, and virtual tours.
+
+#### Case 2
+
+Context: Investasi dikira return *sekian*; Ternyata pada kenyaataanya ketika sudah berjalan tidak sesuai, sehingga inventasi dirubah di tengah-tengah jalan.
+
+1. Explain what is **Working Capital Cycle**.
+2. {*Insert text*}
+   - Find Payback period (initially, before investment change).
+   - Find Average rate of Return (After changing investment nominal);
+3. Explain the advantage and disadvantage of **Debt Factoring**
+4. CEO X punya konflik dengan bawahan yang mengajukan proposal program baru, disuruh eval apakah proposal perlu diambil atau tidak (program environment friendly) [10]
+
+Balance harus urut dan tak ada yang terlewat; e.g Tulis total, current asset, total asset; peletakan angka harus benar; jangan lupa nulis net asset. Dan kasih JUDUL!
+   
+
+# Debt Factoring
+
+Contoh Lev jual sosis, Abyan customer, Intan pemilik debt factoring. Abyan ngutang 50 juta ke Lev, tapi ga punya duit. Akhirnya Abyan ngutang, dibayar sebulan lagi 30 juni; Lev keluarin invovoice menyatakan utang Abyan sebelum 30 Juni; Lev ngasih invoice ke Intan, nah 50 juta kan, ditempatnya Intan dikurangi 5 Juta, "tak kasih 45 juta, anggap utang abyan lunas"; resiko gagal bayar di tanggung debt factorer, 45 juta itu hasil resiko; ga perlu nagih ke abyan. 
+Intan nagih Abyan terus dibayar 50 Juta, untung 5 juta.

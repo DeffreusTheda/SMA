@@ -1,0 +1,70 @@
+### Learning Check
+
+#### 6
+
+1. Determine a value for the average speed of nitrogen molecules at normal air pressure ($1.0E+5~P_a$) if a mass of $1.4~g$ of the gas was in a container of volume $1200~cm^3$.
+
+   - 
+
+2. How many moles of nitrogen were in the container (see Table B3.1)?
+
+   - $n = \frac{m}{mr} = \frac{1.4\~g}{28} = 5E-2\~mol$
+
+3. Calculate the temperature of the gas.
+
+   -
+
+4. Determine a value for the average molecular speed if the temperature rose to $350~K$ in the same container.
+
+   - $m_p = \frac{m}{N}$
+   - $\frac{\frac{1}{2} \cdot m \cdot v^2}{N} = \frac{3}{2} \cdot kT$
+   - $\frac{1}{2} \cdot m_p \cdot v_p^2 = \frac{3}{2} \cdot kT$
+   - $\frac{1}{2} \cdot m \cdot v^2 = \frac{3}{2} \cdot N \cdot kT$
+   - $m \cdot v^2 = 3 \cdot n \cdot N_A \cdot kT$
+   - $v = 560~ms^{-1}$
+
+#### 7
+
+A hot air balloon works because the density of hot air is less than the surrounding cold air.
+
+1. The volume of a hot air balloon is $2500\~m^3$ and its mass is $250\~kg$ (without passengers). The temperature of the air in the balloon is $100\~\degree C$. Density of air at $20\~\degree C = 1.21\~kgm^3$. Average relative molecular mass of air = $29\~g\~mol^{-1}$
+
+   1. Calculate the volume of $1\~kg$ of at $20\~\degree C$. (2)
+
+      - $\frac{v_1}{T_1} = \frac{v_2}{T_2}$
+      - $v = \frac{m}{p} = \frac{1}{1.21}$
+      - $v = 0.826\~m^3$
+
+   2. Calculate the volume of 1 kg of air at 100 °C and hence show that the density of air at $100\~degree C$ is $0.95\~kgm^3$. (3)
+
+      - $\frac{0.8264\~m^3}{293\~K} = \frac{v_2}{373\~K}$
+      - $v_2 = 1.01\~m^3$
+      - $p = \frac{m}{v} = \frac{1}{1.01} = 0.95\~kgm^{-3}$
+
+   3. Calculate the mass of hot air in the balloon. (1)
+
+      -
+
+   4. Calculate the mass of cold air displaced by the balloon. (1)
+
+      - 
+
+   5. Determine whether the balloon will leave the ground or not. (2)
+  
+      -
+
+2. continued...
+  
+   1. Calculate the average velocity of air molecules in the balloon (assume the molecules behave as spheres). (2)
+
+      -
+
+   2. Calculate the number of moles in the balloon. (2)
+
+      - 
+
+   3. Calculate the internal energy contained by the hot gas. (2)
+
+      - 
+
+(Total 15 marks)
