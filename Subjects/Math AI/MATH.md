@@ -1,29 +1,18 @@
 Percentage error = (approximateVal - exactValue)/exactValue x 100%
 
-# 2023-08-23
- 17
- 18
- 19
- 20
- 21
- 22
-
-online
-- 10 team
-- PP
-	- gedung lama agar tidak menggema
-- PRS
-	- ruang teater
-
 # 2023-10-23
+
 ### Exercise 10D
+
 1. 9538.442902 
      8375  
  2. a = 643291158.9; b = 22.00560358
  3. a = 2.4%; b. 24.26005098
  4. 5.606490583 years
  5. a = UK£5307.28692; b = 
+
 # 2023-11-01
+
 1. a. 27
    b. 5/2
    c. 4/9
