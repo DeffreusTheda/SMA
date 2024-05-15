@@ -2,9 +2,12 @@
 
 ![Screenshot 2024-05-10 at 10.53.08.png](img/Screenshot%202024-05-10%20at%2010.53.08.png)
 
-3. 1.5 rad<br>
+3. $l = \theta r$<br>
+   $12 = \theta 8$<br>
+   $\theta = \frac{12}{8}$<br>
+   $\theta = 1.5 rad$<br><br>
 
-4. (a) $480 \degree s^{-1}$<br>
+4. (a) $\omega = 360 \degree \cdot 1.5 s^{-1} = 480 \degree s^{-1}$<br>
    (b) $3 \pi \cdot 3.5E^{-4}\~km \cdot 1^{-1} h = 11.86\~km h^{-1}$<br><br>
 
 ![Handout_1-2](img/Handout_1-2.png)
@@ -123,7 +126,7 @@
 
 18. $A = \frac{y \cdot z \cdot sin X}{2}$<br>
     $A = \sqrt{s \cdot (s - x) \cdot (s - y) \cdot (s - z)}$, where $s = \frac{x + y + z}{2}$<br>
-    $$<br><br>
+    $A = \frac{\sqrt{x^2 + y^2 - 2xy * cos Z}}{2}$<br><br>
 
 19. $A = \frac{sin (180 \degree - 60 \degree - 45 \degree) \cdot x \cdot y}{2}$<br><br>
 
@@ -203,7 +206,7 @@
    $Norbert = \frac{66 \degree \cdot 2 \pi \cdot 500 m}{360 \degree}$<br>
    $Norbert = 575.96\~m$<br>
    $Norbert - Maria = 126.36\~m$<br>
-   Norbert walks further than Maria by $126.36\~m$.<br><br>
+   ∴ Norbert walks further than Maria by $126.36\~m$.<br><br>
 
 ![Trig_2](img/Trig_2.png)
 
@@ -242,11 +245,12 @@
 
 ![Screenshot 2024-05-10 at 10.54.03.png](img/Screenshot%202024-05-10%20at%2010.54.03.png)
 
-10. (a) $\frac{2 \pi \cdot 6370\~km}{360 \degree \cdot 60}$<br>
-        $1.85\~km$<br><br>
-    (b) $2 \pi \cdot 6370\~km \cdot \frac{1}{4}$<br>
-        $10005.97\~km$<br><br>
+10. (a) $mile_{nautical} = \frac{2 \pi \cdot 6370\~km}{360 \degree \cdot 60}$<br>
+        $mile_{nautical} = 1.85\~km$<br><br>
+    (b) Let d = Distance from Equator to the South Pole,
+        $d = 2 \pi \cdot 6370\~km \cdot \frac{1}{4}$<br>
+        $d = 10005.97\~km$<br><br>
 
-11. $(\frac{3}{4} \cdot \pi 10^2\~m) + (\frac{\pi 5^2\~cm}{4}) + (\frac{\pi 2^2\~cm}{4})$<br>
-    $235.62\~cm^2 + 19.63\~cm^2 + 3.14\~cm^2$<br>
-    $791.37\~cm^2$<br><br>
+11. $A = (\frac{3}{4} \cdot \pi 10^2\~m) + (\frac{\pi 5^2\~cm}{4}) + (\frac{\pi 2^2\~cm}{4})$<br>
+    $A = 235.62\~cm^2 + 19.63\~cm^2 + 3.14\~cm^2$<br>
+    $A = 791.37\~cm^2$<br><br>
