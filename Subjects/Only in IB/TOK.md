@@ -156,4 +156,9 @@ Group work:
 		Alfin
 		Sora
 	Tasks:
-		Put each card into it's intended coordinate in the axis
+		Put each card into it's intended coordinate in the axisAre intuition, evidence, reasoning, consensus, and authority all equally convincing methods of justifications?
+- Intuition
+- Evidence
+- Reasoning
+- Consensus
+- Authority
