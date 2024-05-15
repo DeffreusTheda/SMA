@@ -14,9 +14,9 @@
 
 1. $AB = \sqrt{10^2 - 6^2} = 8$<br>
    $\theta = sin^{-1} (\frac{6\~cm}{10\~cm}) = 36.87$<br>
-   $sin \theta = 3/5$<br>
-   $cos \theta = 4/5$<br>
-   $tan \theta = 5/4$<br><br>
+   $sin \theta = \frac{6\~cm}{10\~cm} = 0.6$<br>
+   $cos \theta = \frac{8\~cm}{10\~cm} = 0.8$<br>
+   $tan \theta = \frac{6\~cm}{8\~cm} = 0.75$<br><br>
 
 2. $sin a = sin (cos^{-1} \frac{8}{17}) = 0.88$<br>
    $tan a = tan (cos^{-1} \frac{8}{17}) = 1.875$<br><br>
