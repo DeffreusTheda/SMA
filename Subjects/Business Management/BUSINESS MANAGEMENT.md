@@ -945,6 +945,7 @@ Menarik uang lebih dari saldo bank yang dimiliki, biasanya dengan waktu pengemba
 ### Leasing
 
 Kredit; pendanaan bukan dari uang tapi mesin/transport yang tidak bisa dibeli - mencicil biaya sewa. Endingnya akan dijual oleh penjual. Pembeli = Lessee; Penyewa = Lessor
+
 ### Trade Creditors
 
 dari supplier (30-90 years), tanpa bunga.
