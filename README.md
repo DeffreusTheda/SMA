@@ -10,14 +10,20 @@ Pradita Dirgantara High School is an international high school located in Komple
 
 <!-- If you're reading this, Heya!
 
-I personally applied for this school *just* because one of my friend invite me. I literally register myself at the last day of the registration period. I was just getting through the tests, waiting this all to end, but then before I know it, I'm accepted as a new student here. Alas, the same can't be said to the friend that invited me in the first place. My parent was way more happy than I was, and that's enough for me.
+I personally applied for this school *just* because one of my friend invite me.
+I literally register myself at the last day of the registration period.
+I was just getting through the tests, waiting this all to end, but then before I know it, the announcement day is here.
+I vividly remember flipping 3 coins to predict the result, with head for fail and tail for accepted.
+I got 3 tails, and the coin didn't lie that day.
+Alas, the same can't be said to the friend that invited me in the first place.
+Any how, my parent was way more happy than I was, and that's enough for me.
 
 -->
 
 During my time studying here, I've been taking notes on various subjects and accumulated a vault of notes.
-I've been using git to mirror this vault and manage it from both of my Asahi Linux and macOS partition.
-I decided to make this public so that the juniors (adeck kelas!) are able to get ahead in class.<br>
-Have fun studying and take care! :D
+I used git to mirror this vault from my macOS partition to manage it from my Asahi Linux, my main OS 'till this day.
+I decided to make this public so that the juniors (adeck kelas~) are able to access materials earlier.<br>
+That said, have fun studying and take care! :D
 
 > [!IMPORTANT]
 > To view the notes, either use git web, [Obsidian](https://obsidian.md/download), or any other softwares that support [markdown](https://www.markdownguide.org).
@@ -42,7 +48,8 @@ Considering adding your own notes here?<br>
 Or maybe there's something you want to change or fix?<br>
 
 [Fork](https://github.com/DeffreusTheda/SMA/fork) this repo, make your changes, and submit a pull request; simple as that.<br>
-I've prepared 2 scripts to make things easier for you, `Pull.sh` for *pulling* changes from this remote repo, and `Push.sh` for *pushing* **your** changes to the remote repo.
+Just in case you cloned this repo to you local machine, I've prepared 2 scripts to make things easier for beginners, `Pull.sh` for *pulling* changes from this remote repo, and `Push.sh` for *pushing* **your** changes to the remote repo.
+Keep in mind that you **before you push,** you need to **pull first**, otherwise it might fail.
 
 ## 🪪・License
 
