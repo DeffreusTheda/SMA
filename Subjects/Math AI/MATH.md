@@ -1,5 +1,8 @@
 Percentage error = (approximateVal - exactValue)/exactValue x 100%
 
+> > [!NOTE]
+> If reference is a book: Johnson, Chen. 1990. Matematika Asik. Oxford Press <!-- firstName, lastName. yearPublished. bookTitle. publisher -->
+
 # 2023-10-23
 
 ### Exercise 10D
@@ -58,3 +61,5 @@ a.
 Œ„´‰ˇÁ¨ˆØ∏”’»
 ÅÍÎÏ˝ÓÔÒÚÆ
 ¸˛Ç◊ı˜Â¯˘¿
+
+
