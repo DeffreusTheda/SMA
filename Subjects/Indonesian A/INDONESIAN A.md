@@ -1,5 +1,7 @@
+# Indonesian A
 
 ## Pidato
+
 Anies program Pelajar Mengajar, bisa kemana saja, beliau bisa merangkai kata dengan sangat baik.
 Temukan analisis dalam teks, cari retorical devices & teori retorika aristoteles.
 
@@ -31,7 +33,9 @@ Pathos: "Merdeka!"@0.21
 Logos:
 
 ## IKLAN
+
 ### Istilah
+
 Manliness:
 	Karakteristiik yang harus di capai agar dipandang sebagai pria.
 Masculinity:

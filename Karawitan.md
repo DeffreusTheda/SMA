@@ -1,3 +1,12 @@
+# Karawitan
+
+## Identitas
+
+6 65 6 1  2 3 5 3
+. . 3 3  . 1 2 3  . 1 2 3  1 2 3 5
+
+6 . . .  5 . . .  6 5 4 6  4
+
 ## Amur Wani
 
 - Umpak

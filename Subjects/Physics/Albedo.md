@@ -1,4 +1,3 @@
-
 #### Learning Check 1
 
 a. $E_{absorbed} = 610 W m^{-2} \cdot (1 - 0.18) = 500.2 W m^{-2}$

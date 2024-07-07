@@ -1204,3 +1204,125 @@ Focus in R&D: trial and error -> higher production cost.
 ## B) Market Share
 
 ## C) Market Growth
+
+# Marketing Planning
+
+A structured process of **formulating** marketing objectives and appropriate marketing strategies to achieve marketing goals over a given period.
+It is a process that helps determine goals and develop marketing strategies and techniques to achieve these goals.
+Evaluate after a period.
+
+Marketing Budget is last because **you're planning**, you want to know what're the objectives.
+The budget determine whether it's possible to execute the plan.
+
+EA may create a marketing plan.
+
+## Flow
+
+### Marketing Objectives
+
+It uses SMART: Specific, Measurable, Achievable, Relevant, and Time-bound.
+Just be optimistic.
+
+- Get 3 boyfriend in 2 years
+
+### Key Strategic Plan
+
+How to achieve SMART marketing objectives.
+
+- No dry text
+- Improve typing
+- Take it slow
+- Get more personal
+- Personal branding
+
+### Marketing Actions
+
+<!-- - Selfie together -->
+- Type double letter
+- Contextual chat
+- Watch movies together
+- Play games together
+- Photo booth
+<!-- First date is important -->
+- Couple-an
+<!-- - Introduce self to parent -->
+
+### Marketing Budget
+
+Select which actions need budget:
+
+- Watch movies together
+- Play games together
+- Photo booth
+- Couple-an
+
+Prioritize what to do first, then you'll have a priority list!
+
+## Steps for 
+
+### Segmenting
+
+Consumer.
+Can be based on geography.
+City of metro size.
+Density.
+Climate.
+
+Kpop likers buy kpop things.
+Weeb too.
+these Interest collide, so they're grouped together.
+
+eco friendly- lifestyle.
+
+Demo: gender, age, education
+
+e.g. Segmentation based on education level:
+
+- TikTok -> depending on content.
+- IB -> 
+- Valorant -> Because kids play games.
+
+e.g. Specifically for female:
+
+e.g. Specifically for high income:
+
+- Tesla
+- ARG
+- L-Men
+- Hyundai -> Electric car
+- Lego -> Complex sets
+- IB -> A month is Rp.10.000.000,00 for each student
+
+Segmenting is based on three things: geography, demography, and psychography.
+
+Sub-segment exist.
+Sometime a product can satisfy all segment.
+
+### Targeting
+
+Customer, who will buy and pay for the product.
+It's a combination of sub-segments.
+
+e.g. Woman, > 21yo, office worker, Rp.25jt/bulan -> gender, age, occupation/job, income.
+
+There's a few abbreviation for demography: DINKY, DINKER, OINKY.<br>
+
+- DI: Double Income
+- OI: One Income
+- NKY: No Kids Yet
+- NKER: No Kids Early Retire
+
+### Positioning
+
+How to make company image with high product value according to market preferences; Branding.
+
+e.g. Coca Cola & MacDonalds who position themselves as mass market, but Wagyu is in 'niche' position.
+
+Niche market is generally loyal, and niche company are usually market oriented and its product is customizable.
+Change in price has insignificant affect unlike in mass market.
+
+#### Position Map
+
+It's a 2D graph that is able to tell company position based on the quadrant and competitors on the same quadrant.
+The variables can be anything.
+

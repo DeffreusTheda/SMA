@@ -1,5 +1,9 @@
 <h1 align="center">Physics Formulas</h1>
 
+Sigma = 
+Lambda = wavelenght
+Capital L = 
+
 <h2 align="center">Topic 1 — Measurement and Uncertainties</h2>
 
 <h2 align="center">Topic 2 — Mechanics</h2>
@@ -163,6 +167,8 @@ $T$ = Temperature ($\degree K$)
 <h2 align="center">Topic 5 - Electricity and Magnetism</h2>
 
 <h3 align="center">Topic 5.1 - Electric Fields</h3>
+
+p (rho) = resistivity
 
 <details>
 <summary>$I = \frac{Q}{\delta t} = n \cdot A \cdot V \cdot \delta t \cdot e$</summary>

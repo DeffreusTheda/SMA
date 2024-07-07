@@ -26,7 +26,3 @@ Networks is connected by [routers](Router).
 8. [[VPN]]
 9. [[PAN]]
 10. [[P2P]]
-
-<hr>
-# References:
-1. [The Various Types of Network Topologies - swiss network solutions - swissns GmbH](https://www.swissns.ch/site/2017/06/the-various-types-of-network-topologies/)
