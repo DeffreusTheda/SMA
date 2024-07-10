@@ -1262,6 +1262,8 @@ Prioritize what to do first, then you'll have a priority list!
 
 ### Segmenting
 
+Divide a broad market into smaller, more defined and distinct categories of consumers who have common needs, interests, or characteristics.
+
 Consumer.
 Can be based on geography.
 City of metro size.
@@ -1300,6 +1302,8 @@ Sometime a product can satisfy all segment.
 
 ### Targeting
 
+A company decides which segment(s) to focus on based size, growth potential, and how well the company can serve and compete in that segment.
+
 Customer, who will buy and pay for the product.
 It's a combination of sub-segments.
 
@@ -1313,6 +1317,8 @@ There's a few abbreviation for demography: DINKY, DINKER, OINKY.<br>
 - NKER: No Kids Early Retire
 
 ### Positioning
+
+How a company wants its product or brand to be perceived by the target market relative to competitors. It involves creating a unique image or identity for the product in the consumers' mind.
 
 How to make company image with high product value according to market preferences; Branding.
 

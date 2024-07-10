@@ -44,14 +44,14 @@ One-bedroom apartment in the city center only cost around $130-$170 per month.
 However, it is important to pay attention to improving labor welfare standards in Yogyakarta.
 Although some basic necessities are cheap, in certain contexts, land prices in Yogyakarta are really high.
 
-## UMR and Yogyakarta's Culture
+## UMP and Yogyakarta's Culture
 
 Despite that, the happiness index in Yogyakarta is known to be one of the highest in Indonesia, sitting at 72.08 in 2021.
-<!--However, the government still needs to pay attention to the UMR aspect.
+<!--However, the government still needs to pay attention to the UMP aspect.
 
-This is because with a higher UMR, people's purchasing power improve as well.-->
+This is because with a higher UMP, people's purchasing power improve as well.-->
 
-If indeed the UMR is difficult to raise, the aspects of social security for workers must be considered so that they can still feel comfortable.
+If indeed the UMP is difficult to raise, the aspects of social security for workers must be considered so that they can still feel comfortable.
 This can include as example BPJS Ketenagakerjaan dan Keseharan.
 
 On the other hand, the atmosphere of Yogyakarta City, which is thick with Javanese philosophy that is full of meaning, also support a different perspective on welfare than other cities.
@@ -62,7 +62,6 @@ Happiness index are not affiliated with several planning documents in the Provin
 
 A study titled “Poor but Happy: Life Struggle and the Meaning of Happiness among the Poor in Yogyakarta”, found that despite a high poverty rate in the region, the residents were among the top ranks in the National Human Happiness Index in 2014 and 2017.
 The study concluded that the respondents were not happy living in poverty but were content with their lives due to their belief system and local culture.
-
 
 ## Working According to Passion
 
