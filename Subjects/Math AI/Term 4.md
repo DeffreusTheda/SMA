@@ -344,17 +344,17 @@ Find the angles between vector:
 ### Exercise 3L
 
 1. Calculate the angle between the following pairs of vectors
-   1. [2 -1 4] and [3 1 2]
+   1. [2 -1 4] and [3 1 2]<br>
       $40.7 \degree$
-   2. [2 0 1] and [-2 1 -1]
+   2. [2 0 1] and [-2 1 -1]<br>
       $156 \degree$
-   3. [2 1 -1] and [3 2 0]
+   3. [2 1 -1] and [3 2 0]<br>
       $25.1 \degree$
-   4. [2 -1 -2] and [3 2 -5]
+   4. [2 -1 -2] and [3 2 -5]<br>
       $40.8 \degree$
-   5. [2 3] and [4 6]
+   5. [2 3] and [4 6]<br>
       $0$
-   6. [2 0 1] and [-4 0 -2]
+   6. [2 0 1] and [-4 0 -2]<br>
       $180 \degree$
 2. A triangle has vertices at the points A(1,2, 3), B(0,2,5) and C(1,3,−2)
    1. State which two vectors you could use to find the angle at 
@@ -363,9 +363,37 @@ Find the angles between vector:
       2. B<br>
          BA and BC
    2. Find all the angles of the triangle<br>
-      $\angle BAC = $
+      $\angle BAC =$
+      $cos^{-1} (\frac{AB AC}{|AB| |AC|}) =$
+      $cos^{-1} (\frac{[-1\~0\~2] \cdot [0\~1\~-5]}{\sqrt{(-1)^2 + 2^2} \cdot \sqrt{1^2 + (-5)^2}}) =$
+      $cos^{-1} (\frac{-10}{11.40175425}) =$
+      $151 \degree$<br><br>
+      $\angle ABC =$
+      $cos^{-1} (\frac{BA BC}{|BA| |BC|}) =$
+      $cos^{-1} (\frac{[-1\~0\~-2] \cdot [1\~1\~-7]}{\sqrt{(-1)^2 + (-2)^2} \cdot \sqrt{1^2 + 1^2 + (-7)^2}}) =$
+      $cos^{-1} (\frac{-1 + 14}{15.96871942}) =$
+      $35.5 \degree$<br><br>
+      $\angle ACB =$
+      $cos^{-1} (\frac{AC CB}{|AC| |CB|}) =$
+      $cos^{-1} (\frac{[0\~1\~-5] \cdot [-1\~-1\~7]}{\sqrt{1^2 + (-5)^2} \cdot \sqrt{(-1)^2 + (-1)^2 + 7^2}}) =$
+      $cos^{-1} (\frac{-1 + -35}{36.41428291}) =$
+      $171 \degree$
    3. Find the length of the longest side
+      $|BC| =$
+      $\sqrt{1^2 + 1^2 + (-7)^2} =$
+      $7.14$
 3. Find p if the two vectors given are perpendicular.
    1. [2 1 p] and [-3p 2 -2]<br>
-      $cos \theta = 0 = \frac{-6p 2 -2p}{6p 2 2p} $
+      $[2\~1\~p] \cdot [-3p\~2\~-2] = 0$<br>
+      $-6p + 2 - 2p = 0$<br>
+      $-8p = -2$<br>
+      $p = 0.25$
    2. [p -2 4] and [p-1 p -1]<br>
+      $[p\~-2\~4] \cdot [p-1\~p\~-1]$<br>
+      $p^2-p -2p -4 = 0$<br>
+      $p^2-3p = 4$<br>
+      $p = 0$<br>
+
+### Exercise 3M
+
+2. 

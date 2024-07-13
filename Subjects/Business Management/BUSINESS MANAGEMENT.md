@@ -897,7 +897,7 @@ Also IPO: Initial Public Offering.
 Kode emiten : TSLA, UNIR, TLKM, ICBP, INDF
 Issuing share, when a company share their shares.
 
-Overvalue is when a share is higher than the average from one company in many fields, while undervalue is the opposite.
+Overvalue is happen when a share price is higher than the actual value, while undervalue is the opposite.
 This cause a Right Issue, basically the second IPO; the emiten code is prefixed with 'R-' - this is extreme move.
 
 #### Buy bock
