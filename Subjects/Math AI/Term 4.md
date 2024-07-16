@@ -299,7 +299,7 @@ As you might notice, This means that $AB == -BA$.
       QR = OR - OQ<br>
       QR = [2 4 -1] - [-1 0 5]<br>
       QR = [3 4 -6]
-   3. Hence or otherwise find the vector PR	<br>
+   3. Hence or otherwise find the vector PR<br>
       PR = PQ + QR<br>
       PR = [-2 -3 -1] + [3 4 -6]<br>
       PR = [1 1 -7]
@@ -383,12 +383,12 @@ Find the angles between vector:
       $\sqrt{1^2 + 1^2 + (-7)^2} =$
       $7.14$
 3. Find p if the two vectors given are perpendicular.
-   1. [2 1 p] and [-3p 2 -2]<br>
+   1. $[2\~1\~p] and []-3p\~2\~-2]$<br>
       $[2\~1\~p] \cdot [-3p\~2\~-2] = 0$<br>
       $-6p + 2 - 2p = 0$<br>
       $-8p = -2$<br>
       $p = 0.25$
-   2. [p -2 4] and [p-1 p -1]<br>
+   2. $[p\~-2\~4] and [p-1\~p\~-1]$<br>
       $[p\~-2\~4] \cdot [p-1\~p\~-1]$<br>
       $p^2-p -2p -4 = 0$<br>
       $p^2-3p = 4$<br>
@@ -396,4 +396,97 @@ Find the angles between vector:
 
 ### Exercise 3M
 
-2. 
+2. Find the vector products of the following pairs of vectors.
+   1. $[2\~8\~1]$
+   2. $[-3\~0\~6]$
+   3. $[2\~-3\~1]$
+   4. $[9\~4\~7]$
+3. Two sides of a triangle ABC are formed by the vectors AB [2 0 1] and AC [2 1 -1]
+   1. Find the vector forming the third side.<br>
+      $BC = AC - AB$<br>
+      $BC = [0 -1 2]$
+   2. Find the area of the triangle.<br>
+      $\frac{1}{2} |AB \cdot AC|$<br>
+      $\frac{1}{2} |[2\~0\~1] \cdot [2\~1\~-1]|$<br>
+      $\frac{1}{2} \sqrt{1^2 + 2^2}$<br>
+      $1.12$
+4. A triangle has vertices at the points A (1, 2, 3), B (0, 2, 5) and C (1, 3, −2). Find the area of triangle ABC.<br>
+   $AB = OB - OA$<br>
+   $AB = [-1 0 2]$<br>
+   $AC = OC - OA$<br>
+   $AC = [0 1 -5]$<br><br>
+   $\frac{1}{2} |AB \cdot AC|$<br>
+   $\frac{1}{2} |[-1 0 2] \cdot [0 1 -5]|$<br>
+   $\frac{1}{2} |[-2 -5 -1]|$<br>
+   $\frac{1}{2} \sqrt{(-2)^2 + (-5)^2 + (-1)^2}$<br>
+   $2.74$
+
+### Practice
+
+1. Find each vector product of U and V
+   1. $U = [1\~2\~2]; V = [2\~1\~2]$<br>
+      $[2\~2\~-3]$
+   2. $U = [5\~2\~-2]; V = [2\~1\~6]$<br>
+      $[14\~-34\~1]$
+2. Find the angle between each pair of vectors, correct to the nearest degree.
+   1. $U = [13\~-12]; V = [-15\~-8]$<br>
+      $cos^{-1} (\frac{13 (-15) + -12 (-8)}{\sqrt{13^2 + (-12)^2} \cdot \sqrt{(-15)^2 + (-8)^2}})$<br>
+      $109 \degree$
+   2. $U = [-1\~2\~2]; V = [3\~6\~-2]$<br>
+      $cos^{-1} (\frac{-1 (3) + 2 (6) + 2 (-2)}{\sqrt{(-1)^2 + 2^2 + 2^2} \cdot \sqrt{3^2 + 6^2 + (-2)^2}})$<br>
+      $76.2 \degree$
+
+### Exercise 3N
+
+1. Find a vector equation of the line passing through two points.
+   1. (2, 4) and (3, 1)<br>
+      $r = [3\~1] + t [1\~-3]$ or
+      $r = [2\~4] + t [4\~-2]$
+   2. (2, 1, -1) and (4, 2, 0)<br>
+      $r = [2\~1\~-1] + t [2\~1\~1]$
+2. The point (a, -2, b) list on the line $r = [x\~y\~z] = [1\~2\~1] + t [1\~8\~-2]$
+   1. Find a and b.<br>
+      $r = [x\~y\~z] = [1\~2\~1] + t [1\~8\~-2]$<br>
+      $r = [x\~y\~z] = [1+1t\~2+8t\~1-2t]$<br>
+      $2+8t = -2$<br>
+      $t = -0.5$<br>
+      $a = 1 + 1 (-0.5) = 0.5$<br>
+      $b = 1 - 2 (-0.5) = 2$
+   2. Find the coordinates of the point on the line with x-coordinate equal to 0.<br>
+      $0 = 1+t$<br>
+      $t = -1$<br>
+      $y = 2 + 8 (-1) = -6$<br>
+      $z = 1 - 2 (-1) = 3$
+
+**3. a. Find the value of $s$ and $p$ if the point $(2, s, p−1)$ lies on the line $r = [1\~0\~2] + t [1\~3\~1]$**
+
+$[2\~s\~p-1] = [1+t\~3t\~2+t]$<br>
+$2 = 1+t$<br>
+$t = 1$<br>
+$s = 3t = 3$<br>
+$p-1 = 2+t = 3$<br>
+$p = 4$
+
+**3. b. i. Verify the point $A$ $(1, −3, 8)$ lies on the line $r = [3\~1\~2] + t [1\~2\~-3]$ and state the value of $t$ for this point.**
+
+$[1\~-3\~8] = [3+t\~1+2t\~2-3t]$<br>
+$1 = 3+t$<br>
+$t = -2$<br>
+$-3 = 1 + 2 (-2)$<br>
+$8 = 2 - 3 (-2)$
+
+**3. b. ii. The point $B$ is also on the line and has parameter $t = 5$. Write down the vector $AB$**
+
+$B = ((3 + 5), (1 + 2 \cdot 5), (2 - 3 \cdot 5))$<br>
+$B = (8, 11, -13)$<br>
+$AB = OB - OA$
+
+$$AB = \begin{bmatrix} 8 \\
+11 \\
+-13 \end{bmatrix} - \begin{bmatrix} 1 \\
+-3 \\
+8 \end{bmatrix}$$
+
+$$AB = \begin 7{bmatrix} \\
+14 \\
+-21 \end{bmatrix}$$

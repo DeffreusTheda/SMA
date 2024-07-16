@@ -64,4 +64,52 @@ Unless stated otherwise, take the radius and mass of the earth to be 6.4 x 10 6 
    $\frac{0.5 \cdot r^2}{0.25 r^2} =$
    $2$<br>
 	 $\therefore g' = 2 g$
+6. THe mass of the moon is about 81 times less than that of the earth. Estimate the fraction of the distance from the earth to the moon where the gravitational field strength is zero. (Take into account the earth and the moon only.)<br>
+   $\frac{G M_e}{r^2} = \frac{G M_m}{r^2}$<br>
+   $Mm = \frac{M_e}{81}$<br>
+   $81 = (\frac{x}{d - x})^2$<br>
+   $\frac{81 Mm}{x^2} = \frac{Mm}{(d-x)^2}$<br>
+   $\sqrt{81} = \frac{x}{d - x}$<br>
+   $9 (d - x) = x$<br>
+   $9d - 9x = x$<br>
+   $9d = 10x$<br>
+   $\frac{9}{10} = \frac{x}{d}$
 
+## Sharing Session with Tharsakara
+
+Banyak Belajar, Lari!!!!!!!!!!!!!!
+Di Kelas bener-bener di perhatiin!
+Kalau ga paham, belajar sendiri di asrama!
+PENTING Baca buku & beneran paham (bagaimana turunannya)!
+Pertanyaan-pertanyaan konsep fisika ada di paper.
+Belajar materi di depan materi di kelas.
+IA kerjain cepet.
+SL fokus ke konsep, perlu latihan soal tapi ga sebanyak HL.
+For IA and EE of the same subject,
+do the same topic!
+This'll result in just one experiment for both IA and EE.
+Target: before November!
+EE must be finished ASAP.
+You may copy the best scorer in EE/IA.
+Don't do too high level.
+MAKE SURE the presentation is the best.
+
+### Physics IA
+
+Physics subject guide,
+focus on the criterions that's easy.
+Topik pasaran gpp, yang penting ada modifikasi yang original.
+IA dicicil secara rata.
+Metode; focus on how to do the experiment.
+References is important.
+Nyontek past IA gpp!!
+IA peer review is good,
+it makes sure the presentation criteria is very good.
+Know yourself: are you more into experiment or theory?
+Diagrams are visuals is bonus point for presentation.
+Compare your paper to previous works,
+it'll be helpful.
+Evaluate the things you lack,
+it may cover the drawback.
+Most importantly,
+have fun!

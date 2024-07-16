@@ -1,5 +1,4 @@
----
-tags:
+--- tags:
   - IB_SUBJECT
 ---
 
