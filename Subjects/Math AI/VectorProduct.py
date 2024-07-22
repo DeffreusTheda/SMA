@@ -5,9 +5,9 @@ B1 = int(input())
 B2 = int(input())
 B3 = int(input())
 
-print(f'{A2} ({B3}) - {B2} ({A3})')
-print(f'{A3} ({B1}) - {B3} ({A1})')
-print(f'{A1} ({B2}) - {B1} ({A2})')
+print(f'{A2} ({B3}) - {B3} ({A2})')
+print(f'{A3} ({B1}) - {B1} ({A3})')
+print(f'{A1} ({B2}) - {B2} ({A1})')
 
 print()
 

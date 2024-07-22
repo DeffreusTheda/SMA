@@ -1332,3 +1332,24 @@ Change in price has insignificant affect unlike in mass market.
 It's a 2D graph that is able to tell company position based on the quadrant and competitors on the same quadrant.
 The variables can be anything.
 
+# 4.4 Market Research
+
+Assessment Objectives (AO)
+
+EO 3 is highest in SL, whereas for HL it's EO 4.
+Eash EO has their own command term.
+
+- Why and How (AO3)
+  - AO1 = Define, state (not related to case) [2]
+	- AO2 = **Explain**, compare, **describe**, **outline**, distinguish, **analyze** [4-6] (related to case)
+	- AO3 = Discuss, evaluate, to what extent, examine [10] (balance e.g. advantage and disadvantage)
+	- AO4 = Suggest, recommend [17] (HL Only)
+
+fooCompany.co sales is declining in the pandemic. They rely on transportation for their product.
+
+Discuss how would the transition to e-commerce affect the profitability of fooCompany.co?<br>
+Hint: Search for ads that's bad. Three main things to focus: company, event, impact
+
+1. Increase customer engagement
+2. Gather info about market preference
+3. Allocate appropriate budget for launching new product; if the potential is high, then the budget will be allocated more

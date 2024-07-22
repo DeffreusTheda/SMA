@@ -1,0 +1,8 @@
+# Dari soal
+DATA = [12,321,4,214,214,214,21,4,2141,2421,4,21,412,4,214,12]
+
+FLAG = -999
+for DEG in DATA:
+	if DEG > FLAG:
+		FLAG = DEG
+print(FLAG)

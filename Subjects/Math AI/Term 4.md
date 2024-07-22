@@ -438,25 +438,58 @@ Find the angles between vector:
 
 ### Exercise 3N
 
-1. Find a vector equation of the line passing through two points.
-   1. (2, 4) and (3, 1)<br>
-      $r = [3\~1] + t [1\~-3]$ or
-      $r = [2\~4] + t [4\~-2]$
-   2. (2, 1, -1) and (4, 2, 0)<br>
-      $r = [2\~1\~-1] + t [2\~1\~1]$
-2. The point (a, -2, b) list on the line $r = [x\~y\~z] = [1\~2\~1] + t [1\~8\~-2]$
-   1. Find a and b.<br>
-      $r = [x\~y\~z] = [1\~2\~1] + t [1\~8\~-2]$<br>
-      $r = [x\~y\~z] = [1+1t\~2+8t\~1-2t]$<br>
-      $2+8t = -2$<br>
-      $t = -0.5$<br>
-      $a = 1 + 1 (-0.5) = 0.5$<br>
-      $b = 1 - 2 (-0.5) = 2$
-   2. Find the coordinates of the point on the line with x-coordinate equal to 0.<br>
-      $0 = 1+t$<br>
-      $t = -1$<br>
-      $y = 2 + 8 (-1) = -6$<br>
-      $z = 1 - 2 (-1) = 3$
+**1. Find a vector equation of the line passing through two points**
+
+**a. (2, 4) and (3, 1)**
+
+$$r = \begin{bmatrix} 3 \\
+1 \end{bmatrix} + t \begin{bmatrix} 1 \\
+-3 \end{bmatrix}$$
+
+or
+
+$$r = \begin{bmatrix} 2 \\
+4 \end{bmatrix} + t \begin{bmatrix} 4 \\
+-2 \end{bmatrix}$$
+
+**b. (2, 1, -1) and (4, 2, 0)**
+
+$$r = \begin{bmatrix} 2 \\
+1 \\
+-1 \end{bmatrix} + t \begin{bmatrix} 2 \\
+1 \\
+1 \end{bmatrix}$$
+
+**2. The point (a, -2, b) list on the line**
+
+$r = [x\~y\~z] = [1\~2\~1] + t [1\~8\~-2]
+
+$$r = \begin{bmatrix} x \\
+y \\
+z \end{bmatrix} = \begin{bmatrix} 1 \\
+2 \\
+1 \end{bmatrix} + t \begin{bmatrix} 1 \\
+8 \\
+-2 \end{bmatrix}$$
+
+**a. Find a and b.**
+
+$$\begin{bmatrix} a \\
+-2 \\
+b \end{bmatrix} = \begin{bmatrix} 1+1t \\
+2+8t \\
+1-2t \end{bmatrix}$$
+
+$2 + 8t = -2 \textrightarrow t = -0.5$<br>
+$a = 1 + 1 (-0.5) = 0.5$<br>
+$b = 1 - 2 (-0.5) = 2$
+
+**b. Find the coordinates of the point on the line with x-coordinate equal to 0.**
+
+$0 = 1+t \textrightarrow t = -1$<br>
+$y = 2 + 8 (-1) = -6$<br>
+$z = 1 - 2 (-1) = 3$<br>
+$\therefore (0, -6, 3)$
 
 **3. a. Find the value of $s$ and $p$ if the point $(2, s, p−1)$ lies on the line $r = [1\~0\~2] + t [1\~3\~1]$**
 
@@ -490,3 +523,534 @@ $$AB = \begin{bmatrix} 8 \\
 $$AB = \begin 7{bmatrix} \\
 14 \\
 -21 \end{bmatrix}$$
+
+**4. a. Verify that the point $(2, 1, 3)$ lies on both of the lines**
+
+$$r = \begin{bmatrix} 4 \\
+-5 \\
+1 \end{bmatrix} + t \begin{bmatrix} -1 \\
+3 \\
+1 \end{bmatrix}$$
+
+and
+
+$$r = \begin{bmatrix} 4 \\
+2 \\
+0 \end{bmatrix} + s \begin{bmatrix} 2 \\
+1 \\
+-3 \end{bmatrix}$$
+
+$$\begin{bmatrix} 2 \\
+1 \\
+3 \end{bmatrix} = \begin{bmatrix} 4-t \\
+-5+3t \\
+1+t \end{bmatrix}$$
+
+$2 = 4-t \textrightarrow t = 2$<br>
+$1 = -5+3t \textrightarrow t = 2$<br>
+$3 = 1+t \textrightarrow t = 2$
+
+$$\begin{bmatrix} 2 \\
+1 \\
+3 \end{bmatrix} = \begin{bmatrix} 4+2s \\
+2+s \\
+-3s \end{bmatrix}$$
+
+$2 = 4+2s \textrightarrow s = -1$<br>
+$1 = 2+s \textrightarrow s = -1$<br>
+$3 = -3s \textrightarrow s = -1$
+
+**4. b. Find the acute angle between the two lines**
+
+$$cos^{-1} (\frac{-1 (2) + 3 (1) + 1 (-3)}{\sqrt{(-1)^2 + 3^2 + 1^2} \sqrt{2^2 + 1^2 + (-3)^2}}) = 99.3 \degree$$
+
+What?
+
+**5. Two lines $l_1$ and $l_2$ have equations $r = [3\~5\~2] + t [-1\~2\~1]$ and $r = [3\~5\~2] + s [2\~-4\~-2]$**
+
+**5. a. Explain why $l_1$ and $l_2$ are parallel.**
+
+Because the ratio between the magnitude of elements in the vector &s& and $t$ are the same.<br>
+
+**5. b. Verify that (1, 9, 4) lies on both lines.**
+
+$$\begin{bmatrix} 1 \\
+9 \\
+4 \end{bmatrix} = \begin{bmatrix} 3-t \\
+5+2t \\
+2+t \end{bmatrix}$$
+
+$1 = 3-t \textrightarrow t = 2$<br>
+$9 = 5+2t \textrightarrow t = 2$<br>
+$4 = 2+t \textrightarrow t = 2$
+
+$$\begin{bmatrix} 1 \\
+9 \\
+4 \end{bmatrix} = \begin{bmatrix} 3+2s \\
+5-4s \\
+2-2s \end{bmatrix}$$
+
+$1 = 3+2s \textrightarrow s = -1$<br>
+$9 = 5-4s \textrightarrow s = -1$<br>
+$4 = 2-2s \textrightarrow s = -1$
+
+**5. c. Explain what this tells you about the two lines.**
+
+**6. The points $A$ and $B$ have coordinates (1,−5,6) and (5, −3, 11) respectively. The line $l_1$ has equation**
+
+$$r = \begin{bmatrix} 3 \\
+1 \\
+2 \end{bmatrix} + s \begin{bmatrix} 1 \\
+3 \\
+-2 \end{bmatrix}$$
+
+**6. a. Show $A$ lies on $l_1$**
+
+$$\begin{bmatrix} 1 \\
+-5 \\
+6 \end{bmatrix} = \begin{bmatrix} 3+s \\
+1+3s \\
+2-2s \end{bmatrix}$$
+
+$1 = 3+s \textrightarrow s = -2$<br>
+$-5 = 1+3s \textrightarrow s = -2$<br>
+$6 = 2-2s \textrightarrow s = -2$
+
+**6. b. Show $AB$ is perpendicular to $l_1$**
+
+$$AB = OB - OA = \begin{bmatrix} 5 \\
+-3 \\
+11 \end{bmatrix} - \begin{bmatrix} 1 \\
+-5 \\
+6 \end{bmatrix} = \begin{bmatrix} 4 \\
+2 \\
+5 \end{bmatrix}$$
+
+$$cos^{-1} (\frac{4 (1) + 2 (3) + 5 (-2)}{\sqrt{4^2 + 2^2 + 5^2} \sqrt{1^2 + 3^2 + (-2)^2}}) = 90 \degree$$
+
+**7. The line $l_1$ has equation**
+
+$$r = \begin{bmatrix} 2 \\
+0 \\
+1 \end{bmatrix} + t \begin{bmatrix} 1 \\
+3 \\
+2 \end{bmatrix}$$
+
+**7. a. Write down the coordinates of the point $P$ which lies on the line and has parameter $t$**
+
+<!-- $$(2+t, 3t, 1+2t), t = 3 \textrightarrow (5, 9, 7)$$ -->
+
+$$(2+t, 3t, 1+2t)$$
+
+**7. b. The point A has coordinates $(1, 2, −2)$. Find the vector $AP$**
+
+$$AP = OP - OA = \begin{bmatrix} 2+t \\
+3t \\
+1+2t \end{bmatrix} - \begin{bmatrix} 1 \\
+2 \\
+-2 \end{bmatrix} = \begin{bmatrix} 1+t \\
+3t-2 \\
+2t-1 \end{bmatrix}$$
+
+**7. c. Find the value of $t$ for which the vector $AP$ is perpendicular to $l_1$**
+
+$$0 = \frac{4 (1+t) + 7 (3t-2) + 9 (2t-1)}{\sqrt{4^2 + 7^2 + 9^2} \sqrt{(1+t)^2 + (3t)^2 + (2t-1)^2}}$$
+
+$$0 = \frac{43t - 19}{\sqrt{146} \sqrt{15t^2}}$$
+
+$$0 = 43t - 19$$
+
+$$t = \frac{19}{43}$$
+
+**7. d. Find the point on $l_1$ that is closest to $A$**
+
+How?
+
+### Exercise 3O
+
+**1. A particle has position vector $a$ at $t = 0$ and position vector $b$ at time $t$. Find: i. the velocity and ii. the speed of the particle if:**
+
+**a. $a = 2i + j, b = 4i + 5j, t = 2$**
+
+$$v = \frac{1}{2} \begin{bmatrix} 4 \\
+5 \end{bmatrix} - \begin{bmatrix} 2
+1 \end{bmatrix} = \begin{bmatrix} 1 \\
+2 \end{bmatrix}$$
+
+$$s = \sqrt{1^2 + 2^2} = 2.24 km s^{-1}$$
+
+**b. $a = 2i - j, b = i + j, t = 4$**
+
+$$v = \frac{1}{4} \begin{bmatrix} 1 \\
+1 \end{bmatrix} - \begin{bmatrix} 2
+-1 \end{bmatrix} = \begin{bmatrix} \frac{-1}{4} \\
+\frac{1}{2} \end{bmatrix}$$
+
+$$s = \sqrt{(\frac{-1}{4})^2 + (\frac{1}{2})^2} = 0.56 km s^{-1}$$
+
+**c. $a = 3i + j - k, b = i + 5j + k, t = 2$**
+
+$$\begin{bmatrix} 1 \\
+5 \\
+1 \end{bmatrix} = \begin{bmatrix} 3 \\
+1 \\
+-1 \end{bmatrix} + 2v$$
+
+$$ 2v = \begin{bmatrix} 1 \\
+5 \\
+1 \end{bmatrix} - \begin{bmatrix} 3 \\
+1 \\
+-1 \end{bmatrix} = \begin{bmatrix} -2 \\
+4 \\
+2 \end{bmatrix}$$
+
+$$v = \begin{bmatrix} -1 \\
+2 \\
+1 \end{bmatrix}$$
+
+$$s = \sqrt{(-1)^2 + 2^2 + 1^2} = 2.45 km s^{-1}$$
+
+**d. $a = i + k, b = i + 4j - 3k, t = 4$**
+
+$$v = \frac{1}{4} \begin{bmatrix} 1 \\
+4 \\
+-3 \end{bmatrix} - \begin{bmatrix} 1 \\
+0 \\
+1 \end{bmatrix} = \begin{bmatrix} 0 \\
+1 \\
+-1 \end{bmatrix}$$
+
+$$s = \sqrt{1^2 + (-1)^2} = 1.41 km s^{-1}$$
+
+**2. Write the following velocities as column vectors taking the base vectors as due east and north.**
+
+**a. 10 km h^{-1} due west**
+
+$$\begin{bmatrix} -10 \\
+0 \end{bmatrix} km h^{-1}$$
+
+**b. 7.5 km h^{-1} in the direction**
+
+$$\begin{bmatrix} -3 \\
+4 \end{bmatrix}$$
+
+$$\begin{bmatrix} -4.5 \\
+6 \end{bmatrix} km h^{-1}$$
+
+**c. 18 km h^{-1} in the direction**
+
+$$\begin{bmatrix} -1 \\
+-4 \\
+8 \end{bmatrix}$$
+
+$$\begin{bmatrix} -2 \\
+-8 \\
+16 \end{bmatrix}$$
+
+**d. 5 km h^{-1} south-west**
+
+$$\begin{bmatrix} -3.5355339059 \\
+-3.5355339059 \end{bmatrix}$$
+
+**e. 15 km h^{-1} on a bearing of 40 \degree**
+
+$$\begin{bmatrix} 9.641814145 \\
+11.49066665 \end{bmatrix}$$
+
+**f. 12 km h^{-1} on a bearing of 120 \degree**
+
+$$\begin{bmatrix} 10.39230485 \\
+-6 \end{bmatrix}$$
+
+**3. A buoy is set as the origin of a coordinate system. At 13.00 a boat is $20 m$ east and $30 m$ north of a buoy and has position vector**
+
+$$\begin{bmatrix} 20 \\
+30 \end{bmatrix}$$
+
+**a. Find the distance of the boat from the buoy at 13:00**
+
+$$\sqrt{20^2 + 30^2} = 36 km$$
+
+**The boat is moving with velocity**
+
+$$\begin{bmatrix} -3 \\
+-5 \end{bmatrix} m s^{-1}$$
+
+**b. Find the position of the boat t seconds after 13:00**
+
+$$\begin{bmatrix} 20 - 3t \\
+30 - 5t \end{bmatrix}$$
+
+**c. Hence find the shortest distance from the boat to the buoy**
+
+$$\sqrt{(20-3x)^2 + (30-5x)^2} \textrightarrow Draw \textrightarrow MIN$$
+
+$$\therefore s_{min} = 1.71, at x = 6.14$$
+
+### Formula
+
+Scalar and Vector Product: $v \cdot w  = |v| |w| cos \theta = |v \times w|$
+
+Area of a parallelogram: $A = |v \times w|$ where $v$ and $w$ form two adjacent sides of a parallelogram.
+
+### Checkpoint - Vector
+
+Shift (V-WIN)
+F6 (Draw) -> F5 -> EXE
+
+### Vectors Quiz
+
+**2. Determine whether $u$ is orthogonal, parallel to $v$, or neither**
+
+**2. (a)**
+
+$$u = \begin{bmatrix} -frac{1}{2} \\
+2 \end{bmatrix}, v = \begin{bmatrix} -2 \\
+\frac{1}{2} \end{bmatrix}$$
+
+Orthogonal
+
+**2. (b)**
+
+$$u = \begin{bmatrix} 8 \\
+4 \end{bmatrix}, v = \begin{bmatrix} 6 \\
+-12 \end{bmatrix}$$
+
+2:1 | 1:-2 -> Orthogonal
+
+**2. (c)**
+
+$$u = \begin{bmatrix} 2\sqrt{3} \\
+2 \end{bmatrix}, v = \begin{bmatrix} 1 \\
+-\sqrt{3} \end{bmatrix}$$
+
+\sqrt{3}:1 | 1:-\sqrt{3} -> Orthogonal
+
+**3. Find the interior angles of the triangle $ABC$, the coordinates of whose vertices are given.**
+
+**(a) A(1,2), B(3,4), C(2,5)**
+
+$$\angle BAC = cos^{-1} (\frac{AB \cdot AC}{|AB| |AC|}) = cos^{-1} (\frac{2 (1) + 2 (3)}{\sqrt{2^2 + 2^2} \sqrt{1^2 + 3^2}}) = 26.6 \degree$$
+
+$$\angle ABC = cos^{-1} (\frac{BA \cdot BC}{|BA| |BC|}) = cos^{-1} (\frac{-2 (-1) + -2 (1)}{\sqrt{(-2)^2 + (-2)^2} \sqrt{(-1)^2 + 1^2}}) = 90 \degree$$
+
+$$\angle ACB = 180 \degree - 90 \degree - 26.6 \degree = 63.4 \degree$$
+
+**(b) A(3,4), B(-1,-7), C(-8,-2)**
+
+$$\angle BAC = cos^{-1} (\frac{AB \cdot AC}{|AB| |AC|}) = cos^{-1} (\frac{-4 (-11) + -11 (-6)}{\sqrt{(-4)^2 + (-11)^2} \sqrt{(-11)^2 + (-6)^2}}) = 41.4 \degree$$
+
+$$\angle ABC = cos^{-1} (\frac{BA \cdot BC}{|BA| |BC|}) = cos^{-1} (\frac{4 (-7) + 11 (5)}{\sqrt{4^2 + 11^2} \sqrt{(-7)^2 + 5^2}}) = 74.4 \degree$$
+
+$$\angle ACB = 180 \degree - 41.4 \degree - 74.4 \degree = 64.1 \degree$$
+
+**(c) A(3,-5), V(1,-9), C(-7,-9)**
+
+$$\angle BAC = cos^{-1} (\frac{AB \cdot AC}{|AB| |AC|}) = cos^{-1} (\frac{-2 (-8) + -4 (0)}{\sqrt{(-2)^2 + (-4)^2} \sqrt{(-8)^2 + 0^2}}) = 41.6 \degree$$
+
+$$\angle ABC = cos^{-1} (\frac{BA \cdot BC}{|BA| |BC|}) = cos^{-1} (\frac{2 (-8) + 4 (0)}{\sqrt{2^2 + 4^2} \sqrt{(-8)^2 + 0^2}}) = 116.5 \degree$$
+
+$$\angle ACB = 180 \degree - 41.6 \degree - 116.5 \degree = 21.8 \degree$$
+
+**4. Find a vector perpendicular to**
+
+$$u = \begin{bmatrix} 3 \\
+5 \end{bmatrix}$$
+
+By rotating the vector by $90 \degree$ clockwise,
+
+$$\begin{bmatrix} 5 \\
+-3 \end{bmatrix}$$
+
+**5. Determine if the triangle ABC is right-angled by using the scalar product, where the coordinates of its vertices are A(1,-3), B(2,0), C(6,-2)**
+
+$$\angle BAC = cos^{-1} (\frac{AB \cdot AC}{|AB| |AC|}) = a = cos^{-1} (\frac{1 (5) + 3 (1)}{\sqrt{1^2 + 3^2} \sqrt{5^2 + 1^2}}) = 60.3 \degree$$
+
+$$\angle ABC = cos^{-1} (\frac{BA \cdot BC}{|BA| |BC|}) = 81.9 \degree$$
+
+$$\angle ACB = 180 \degree - 60.3 \degree - 81.9 \degree = 37.9 \degree$$
+
+None of the angle is $90 \degree$, therefore it's not a right-angled triangle.
+
+**6. For what non-zero value(s) of $b$ are the vectors**
+
+$$\begin{bmatrix} -6 \\
+b \end{bmatrix}$$
+
+**and**
+
+$$\begin{bmatrix} b \\
+b^2 \end{bmatrix}$$
+
+**perpendicular?**
+
+$$0 = \frac{-6 (b) + b (b^2)}{\sqrt{(-6)^2 + b^2} \sqrt{b^2 + (b^2)^2}}$$
+
+**7. Two vectors**
+
+$$\begin{bmatrix} 3 \\
+4 \end{bmatrix}$$
+
+**and**
+
+$$\begin{bmatrix} x \\
+1 \end{bmatrix}$$
+
+**have an angle of $30 \degree$ between them. Find the possible values of $x$.**
+
+$$30 = cos^{-1} (\frac{3x + 4}{5 \sqrt{x^2 + 1}})$$
+
+<!-- TODO:-->
+
+#### Chapter 8 practice questions
+
+**1. Vector**
+
+$$u = \begin{bmatrix} 8 \\
+-2 \end{bmatrix}$$
+
+**Determine the components of vector $v$ when:**
+
+**(a) $v = -u$**
+
+$$v = \begin{bmatrix} -8 \\
+2 \end{bmatrix}$$
+
+**(b) $v = \frac{u}{2}$**
+
+$$v = \begin{bmatrix} 4 \\
+-1 \end{bmatrix}$$
+
+**(c) $3u = 2v$**
+
+$$v = \begin{bmatrix} 12 \\
+-3 \end{bmatrix}$$
+
+**2. Vector**
+
+$$u = \begin{bmatrix} 6 \\
+-2 \\
+7 \end{bmatrix}$$
+
+**and**
+
+$$v = \begin{bmatrix} -2 \\
+8 \\
+-3 \end{bmatrix}$$
+
+**Determine the vector components of $w$ when:**
+
+**(a) $w = -u + v$**
+
+$$w = \begin{bmatrix} -8 \\
+10 \\
+-10 \end{bmatrix}$$
+
+**(b) $w = u - v$**
+
+$$w = \begin{bmatrix} 8 \\
+-10 \\
+10 \end{bmatrix}$$
+
+**(c) $w = 5u - 2v$**
+
+$$w = \begin{bmatrix} 34 \\
+-26 \\
+41 \end{bmatrix}$$
+
+### Parametric Equation of Lines
+
+2D:
+
+$$y = mx + c \textrightarrow m = \frac{q}{p}$$
+
+Passing through (a,b)
+
+$$\frac{x-a}{p} = \frac{y-b}{q}$$
+
+3D:
+
+Point $A(a_1, a_2, a_3)$ with a gradient described by vector 
+
+$$\begin{bmatrix} p \\
+q \\
+s \end{bmatrix}$$
+
+$$\frac{x-a_1}{p} = \frac{y-a_2}{q} = \frac{z-a_3}{s}$$
+
+### Chapter Review
+
+**18 P2. An aircraft takes off from an airfield. The position of the aircraft at time $t$ hours after takeoff is given by the vector**
+
+$$r = \begin{bmatrix} 0 \\
+0 \\
+1 \end{bmatrix} + t \begin{bmatrix} 50 \\
+60 \\
+1 \end{bmatrix}$$
+
+**a. Find the position vector of the aircraft 4 hours after takeoff.**
+
+$$t = 4, \begin{bmatrix} 50t \\
+60t \\
+1+t \end{bmatrix} = \begin{bmatrix} 200 \\
+240 \\
+5 \end{bmatrix}$$
+
+**A second aircraft takes off from a different airfield. The position vector of this aircraft is given by the vector**
+
+$$s = \begin{bmatrix} -90 \\
+-100 \\
+0 \end{bmatrix} + \lambda \begin{bmatrix} 60 \\
+70 \\
+1 \end{bmatrix}$$
+
+**b. Determine if the two flight paths intersect and, if so, state the point of intersection.**
+
+$$\begin{bmatrix} 50t \\
+60t \\
+1+t \end{bmatrix} = \begin{bmatrix} 60λ - 90 \\
+70λ - 100 \\
+λ \end{bmatrix}$$
+
+Using solver, $t = 3, λ = 4$.
+
+$$\begin{bmatrix} 150 \\
+180 \\
+4 \end{bmatrix}$$
+
+**The two aircraft took off at the same time, so $λ = t$**
+
+**c. State, with a reason, whether the two aircraft actually collide.**
+
+$$\begin{bmatrix} 50t \\
+60t \\
+1+t \end{bmatrix} = \begin{bmatrix} 60t - 90 \\
+70t - 100 \\
+t \end{bmatrix}$$
+
+$$t = \begin{bmatrix} 9 \\
+10 \\
+no\~solution \end{bmatrix}$$
+
+$\therefore$, the two flight paths don't intersect.
+
+**d. Calculate the distance between the two airfields.**
+
+$$\begin{bmatrix} 0 \\
+0 \\
+1 \end{bmatrix} - \begin{bmatrix} -90 \\
+-100 \\
+0 \end{bmatrix} = \begin{bmatrix} 90 \\
+100 \\
+1 \end{bmatrix}$$
+
+$$\sqrt{90^2 + 100+2 + 1^2} = 134 km$$
+
+**e. Calculate the shortest distance that ever exists between the two aircraft and the time when this occurs.**
+
+$$d = s - t = \begin{bmatrix} 10t - 90 \\
+10t - 100 \\
+1 \end{bmatrix}$$
+
+Using GDC, the minimum value of $|d|$ where $t$ as the X axis is $7.141$ at $t = 9.5$
+
