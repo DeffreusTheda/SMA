@@ -1353,3 +1353,56 @@ Hint: Search for ads that's bad. Three main things to focus: company, event, imp
 1. Increase customer engagement
 2. Gather info about market preference
 3. Allocate appropriate budget for launching new product; if the potential is high, then the budget will be allocated more
+
+Target of data research are made by company.
+Big Data aren't to be shared.
+This is a primary source.
+Also a worker interviewing its colleague!
+
+## Primary research
+
++ Confidential
++ Targeted
++ Up2Date
+- Costly
+- Time consuming; both side got tired
+- Validity of question; repondent may not understand value.
+
+### Types of primary source
+
+#### Survey/Questionaire
+
+Respondent centered!
+Need Key Performance Indicator, e.g. effect of hyundai X on profitability: how understanding and experience with products.
+Closed (quanti) or open-ended (quali) question (using both is better).
+Usually with scale 1-5 for closed question.
+Ideally, the respondent is limited to specific group, which lead to more linear data graph.
+
+#### Interview
+
+Compared to Survey:
+
+- More in depth; out of script!
+- More time consuming.
+- Limited respondent (representatives of groups).
+- What distinguish them: Interviewer ask directly!
+
+#### FGD (Focus Group Discussion)
+
+A guided small-group discussion with typically 6-10 people,
+aimed at gathering in-depth insights and opinions on a specific topic.
+It is moderated,
+and is designed to encourage participants to share their genuine thoughts and opinions.
+Respondent are prohibited to be too active or too passive.
+It focuses on gaining rich,
+descriptive data rather than statistical representation
+
+The goals of FGD is to explore and understand people’s views and experiences related to a specific topic,
+identify patterns, themes, and trends in participants’ opinions and attitudes,
+and inform future decisions, policies, or actions based on the gathered insights
+
+#### Observation
+
+Respondent is not questioned and instead their behaviour is observed.
+e.g. Alfamart, communicate with HP, see what peoples buy.
+

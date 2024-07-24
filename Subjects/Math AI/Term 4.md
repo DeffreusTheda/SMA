@@ -900,7 +900,11 @@ $$\begin{bmatrix} x \\
 
 $$30 = cos^{-1} (\frac{3x + 4}{5 \sqrt{x^2 + 1}})$$
 
-<!-- TODO:-->
+With brute-forcing (guessing X, seeing result and adjusting it until it's accurate), I get this:
+
+$$x = 2.34105821$$
+
+I don't know why solver can't do this though
 
 #### Chapter 8 practice questions
 
@@ -957,6 +961,300 @@ $$w = \begin{bmatrix} 8 \\
 $$w = \begin{bmatrix} 34 \\
 -26 \\
 41 \end{bmatrix}$$
+
+**3. Find the equation of each line in the form $\frac{x-h}{p} = \frac{y-k}{q}$ that passes through the given point $P$ with gradient $m$**
+
+**(a) $P(-2,2), m = \frac{3}{5}$**
+
+<!-- TODO:-->
+
+**(b) $P(4,-1), m = -\frac{2}{3}$**
+
+<!-- TODO:-->
+
+**(c) $P(0,4), m = \frac{3}{2}$**
+
+<!-- TODO:-->
+
+**(d) $P(11,7), m = -\frac{4}{3}$**
+
+<!-- TODO:-->
+
+**4. Find the equation of the line in 3-space dimensions through the given point $P$ with the gradient described by the direction vector $u$**
+
+$$\textbf (a) P(3,0,-2), u = \begin{bmatrix} 2 \\
+-3 \\
+-6 \end{bmatrix}$$
+
+$$\begin{bmatrix} 3 \\
+0 \\
+-2 \end{bmatrix} = \begin{bmatrix} x_i \\
+y_i \\
+z_i \end{bmatrix} + t \begin{bmatrix} 2 \\
+-3 \\
+-6 \end{bmatrix}$$
+
+Assuming $t = 0$,
+
+$$r = \begin{bmatrix} 3 \\
+0 \\
+-2 \end{bmatrix} + t \begin{bmatrix} 2 \\
+-3 \\
+-6 \end{bmatrix}$$
+
+$$\textbf (b) P(-4,4,0), u = \begin{bmatrix} 5 \\
+0 \\
+-2 \end{bmatrix}$$
+
+$$r = \begin{bmatrix} -4 \\
+4 \\
+0 \end{bmatrix} + t \begin{bmatrix} 5 \\
+0 \\
+-2 \end{bmatrix}$$
+
+**5.**
+
+**6. A radio-controlled boat in a pond moves in a direction described by the vector**
+
+$$u = \begin{bmatrix} -1 \\
+2 \end{bmatrix}$$,
+
+**moving $1 m$ to the west for every $2 m$ to the north, every minute. Determine, accurate to 3 significant figures, the distance covered by the boat in:**
+
+**(a) 1 minute**
+
+$$\sqrt{(-1)^2 + 2^2} = \sqrt{5} = 2.24 m$$
+
+**(b) 2.25 minute**
+
+$$sqrt{(-1 \cdot 2.25)^2 + (2 \cdot 2.25)^2} = 5.03 m$$
+
+**(c) 10 minute**
+
+$$sqrt{(-1 \cdot 10)^2 + (2 \cdot 10)^2} = \sqrt{500} = 22.4 m$$
+
+**(d) t minute**
+
+$$sqrt{(-t)^2 + (2t)^2}$$
+
+**7. The boat in question 6 starts from a position $20 m$ to the east of the person controlling it and moves along the same vector $u$. Find the distance from the container to the boat after:**
+
+**(a) 1 minute**
+
+Let B be the coordinate of the boat,
+
+$$B = \begin{bmatrix} 20 \\
+0 \end{bmatrix} + \begin{bmatrix} -1 \\
+2 \end{bmatrix} = \begin{bmatrix} 19 \\
+2 \end{bmatrix}$$
+
+$$\sqrt{19^2 + 2^2} = \sqrt{365} = 19.1 m$$
+
+**(b) t minute**
+
+$$B = \begin{bmatrix} 20 \\
+0 \end{bmatrix} + t \begin{bmatrix} -1 \\
+2 \end{bmatrix}$$
+
+$$\sqrt{(20 - t)^2 + (2t)^2}$$
+
+**8. A second boat, starting at the same time and $25 m$ to the west of the boat in question 7, moves in a direction described by the vector**
+
+$$v = \begin{bmatrix} 2 \\
+1 \end{bmatrix}$$,
+
+**moving $2 m$ to the east for every $1 m$ to the north, every minute.**
+
+**(a) Determine the distance between the two boats after:**
+
+**(i) 1 minute**
+
+Let B the coordinate of the first boat and S the coordinate of the second boat,
+
+$$B = \begin{bmatrix} 20 \\
+0 \end{bmatrix} + \begin{bmatrix} -1 \\
+2 \end{bmatrix} = \begin{bmatrix} 19 \\
+2 \end{bmatrix}$$
+
+$$S = \begin{bmatrix} -25 \\
+0 \end{bmatrix} + \begin{bmatrix} 2 \\
+1 \end{bmatrix} = \begin{bmatrix} -23 \\
+1 \end{bmatrix}$$
+
+$$SB = \begin{bmatrix} -23 \\
+1 \end{bmatrix} - \begin{bmatrix} 19 \\
+2 \end{bmatrix} = \begin{bmatrix} -42 \\
+-1 \end{bmatrix}$$
+
+$$\sqrt{(-42)^2 + (-1)^2} = 42.0 m$$
+
+**(ii) t minute**
+
+Let B the coordinate of the first boat and S the coordinate of the second boat,
+
+$$B = \begin{bmatrix} 20 \\
+0 \end{bmatrix} + t \begin{bmatrix} -1 \\
+2 \end{bmatrix} = \begin{bmatrix} 20-t \\
+2t \end{bmatrix}$$
+
+$$S = \begin{bmatrix} -25 \\
+0 \end{bmatrix} + t \begin{bmatrix} 2 \\
+1 \end{bmatrix} = \begin{bmatrix} -25+2t \\
+t \end{bmatrix}$$
+
+$$SB = \begin{bmatrix} 20-t \\
+2t \end{bmatrix} - \begin{bmatrix} -25+2t \\
+t \end{bmatrix} = \begin{bmatrix} 45-3t \\
+t \end{bmatrix}$$
+
+$$\sqrt{(55-3t)^2 + t^2}$$
+
+**(b) Would the two boats collide?**
+
+Let $s$ be the $t$ of the second boat, they would collide at the coordinate:
+
+$$\begin{bmatrix} 20-t \\
+2t \end{bmatrix} = \begin{bmatrix} -25+2s \\
+s \end{bmatrix}$$
+
+$$2t = s$$
+
+$$\begin{bmatrix} 20-t \\
+2t \end{bmatrix} = \begin{bmatrix} -25+4t \\
+2t \end{bmatrix}$$
+
+$$20 - t = -25 + 4t \textrightarrow t = 9$$
+
+No, they wouldn't collide if $t = s$, but
+Yes, they may collide, but only if $2t = s$ holds true.
+
+**9. Find the scalar product for each pair of vectors**
+
+$$\textbf (a) u = \begin{bmatrix} -5 \\
+2 \end{bmatrix}, v = \begin{bmatrix} 2 \\
+1 \end{bmatrix}$$
+
+$$-5 (2) + 2 (1) = -9$$
+
+$$\textbf (b) u = \begin{bmatrix} -3 \\
+-6 \end{bmatrix}, v = \begin{bmatrix} -6 \\
+3 \end{bmatrix}$$
+
+$$-3 (-6) + -6 (3) = 0$$
+
+$$\textbf (c) u = \begin{bmatrix} 8 \\
+2 \\
+-7 \end{bmatrix}, v = \begin{bmatrix} -1 \\
+4 \\
+0 \end{bmatrix}$$
+
+$$8 (-1) + 2 (4) + -7 (0) = 0$$
+
+$$\textbf (d) u = \begin{bmatrix} -2 \\
+2 \\
+-1 \end{bmatrix}, v = \begin{bmatrix} 2 \\
+-3 \\
+6 \end{bmatrix}$$
+
+$$-2 (2) + 2 (-3) + -3 (6) = -28$$
+
+**10. Find the scalar product for each pair of vectors, where $\theta$ is the angle between them.**
+
+$$\textbf (a) |u| = 7, |v| = 11, \theta = 60 \degree$$
+
+Let $S$ be the scalar product,
+
+$$\theta = cos^{-1} (\frac{S}{|u| |v|}) \textrightarrow S = cos \theta \cdot |u| |v|$$
+
+$$S = cos 60 \cdot 7 \cdot 11 = 0.5$$
+
+$$\textbf (b) |u| = 11.2, |v| = 5, \theta = 120 \degree$$
+
+$$S = cos 120 \cdot 11.2 \cdot 5 = -0.5$$
+
+$$\textbf (c) |u| = 9, |v| = 9, \theta = 45 \degree$$
+
+$$S = cos 45 \cdot 9 \cdot 9 = 0.71$$
+
+$$\textbf (d) |u| = 13, |v| = 6, \theta = 23 \degree$$
+
+$$S = cos 23 \cdot 13 \cdot 6 = 0.99$$
+
+**11. Find each vector product: $u \times v$**
+
+$$\textbf (a) u = \begin{bmatrix} 0 \\
+1 \\
+0 \end{bmatrix}, v = \begin{bmatrix} 1 \\
+0 \\
+0 \end{bmatrix}$$
+
+$$\begin{bmatrix} 1 (0) - 0 (0) \\
+0 (1) - 0 (0) \\
+0 (0) - 1 (1) \end{bmatrix} = \begin{bmatrix} 0 \\
+0 \\
+-1 \end{bmatrix}$$
+
+$$\textbf (a) u = \begin{bmatrix} -1 \\
+0 \\
+0 \end{bmatrix}, v = \begin{bmatrix} 0 \\
+-1 \\
+0 \end{bmatrix}$$
+
+$$\begin{bmatrix} 0 (0) - -1 (0) \\
+0 (0) - 0 (-1) \\
+-1 (-1) - 0 (0) \end{bmatrix} = \begin{bmatrix} 0 \\
+0 \\
+1 end{bmatrix}$$
+
+$$\textbf (a) u = \begin{bmatrix} 1 \\
+2 \\
+2 \end{bmatrix}, v = \begin{bmatrix} 2 \\
+1 \\
+2 \end{bmatrix}$$
+
+$$\begin{bmatrix} 2 (2) - 1 (2) \\
+2 (2) - 2 (1) \\
+1 (1) - 2 (2) \end{bmatrix} = \begin{bmatrix} 2 \\
+2 \\
+-3 end{bmatrix}$$
+
+$$\textbf (a) u = \begin{bmatrix} 5 \\
+2 \\
+-2 \end{bmatrix}, v = \begin{bmatrix} 2 \\
+1 \\
+6 \end{bmatrix}$$
+
+$$\begin{bmatrix} 2 (6) - 1 (-2) \\
+-2 (2) - 6 (5) \\
+5 (1) - 2 (2) \end{bmatrix} = \begin{bmatrix} 14 \\
+-34 \\
+1 end{bmatrix}$$
+
+**12. Find the angle between each pair of vectors, correct to the nearest degree.**
+
+$$\textbf (a) u = \begin{bmatrix} -9 \\
+12 \end{bmatrix}, v = \begin{bmatrix} 4 \\
+3 \end{bmatrix}$$
+
+<!-- TODO:-->
+
+$$\textbf (b) u = \begin{bmatrix} -9 \\
+12 \end{bmatrix}, v = \begin{bmatrix} 4 \\
+3 \end{bmatrix}$$
+
+<!-- TODO:-->
+
+$$\textbf (c) u = \begin{bmatrix} -9 \\
+12 \end{bmatrix}, v = \begin{bmatrix} 4 \\
+3 \end{bmatrix}$$
+
+<!-- TODO:-->
+
+$$\textbf (d) u = \begin{bmatrix} -9 \\
+12 \end{bmatrix}, v = \begin{bmatrix} 4 \\
+3 \end{bmatrix}$$
+
+<!-- TODO:-->
 
 ### Parametric Equation of Lines
 

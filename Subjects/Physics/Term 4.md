@@ -1,3 +1,7 @@
+# Term 4
+
+[Slides](https://docs.google.com/presentation/d/1WNhyNvFinqL9Jm8i8uPQu33gopPeHwOOt73iyhptrx8/edit#slide=id.g2ed7bc12787_0_6)
+
 ## Newton Law of Gravitation
 
 $F = G \frac{M_1 \cdot M_2}{r^2}$
@@ -264,7 +268,7 @@ $$M_e = \frac{4 \pi^2 (3.8 \times 10^8)^3}{6.674 \cdot 10^{-11} (2332800)^2}$$
 
 $$\rho = \frac{3 M_e}{4 \pi R_e^3} = 5431.762591 kg m^{-3}$$
 
-7.
+**7.**
 
 $$\frac{T_1^2}{r_1^3} = \frac{T_2^2}{r_2^3}$$
 
@@ -290,4 +294,130 @@ $$T^2 = \frac{4 \pi^2 r^3}{G M}$$
 $$M = \frac{4 \pi^2 r^3}{G T^2}$$
 
 $$M = \frac{4 \pi^2 (27000 \cdot 9.46728 \times 10^{15})^3}{6.674 \times 10^{-11} (8.03043107 \times 10^{15})^2} = 1.53201414 \times 10^{41}$$
+
+## Electric field
+
+Most of the notes are in Anki.
+
+### Leaning Check
+
+**13. A proton is placed on the positive plate in a parallel plate arrangement and is then released**
+
+**The potential difference between the plates is $120 V$ and the separation of the plates is $2.0 cm$.**
+
+**a. Calculate the electric field strength in between the plates.**
+
+$$E = \frac{V}{d} = \frac{120}{2 \times 10^{-2}} = 6000$$
+
+**b. Calculate the force on the proton.**
+
+$$F = E q = 6000 \cdot 1.6 \times 10^{-19} = 9.6 \times 10^{-16}$$
+
+**c. Determine the gain in kinetic energy of the proton when it reaches the negative plate.**
+
+$$\delta KE = W = V q = 120 \cdot 1.6 \times 10^{-19} = 1.92 \times 10^{-17}$$
+
+**d. The distance between the plates is doubled but the potential difference remains the same. How do the answers to parts a and b change, if at all?**
+
+Both a and b is halved.
+KE is still the same though.
+
+### Test Your Understanding
+
+**1. A charged conducting sphere with charge $$+12 µC$$ is allowed to touch an identical conducting sphere of charge $$-6 µC$$. The spheres are then separated. What is the charge on each sphere after separation?**
+
+$$\frac{12 + (-6)}{2} = 3 µC$$
+
+**2. The electroscope is a device consisting of a metal sphere, a metallic rod connected to the sphere and two light metallic leaves attached to the rod. When charge is deposited on the sphere, rod and leaves, the leaves repel as shown. The whole arrangement (see Figure) is protected within a glass jar. Suppose the charge on the electroscope is positive. A negatively charged rod is put close but not touching the sphere of the electroscope. What will happen to the leaves?**
+
+The leaves will start to close as the proton move from the leaves and rod to the metal sphere due to the attraction in the metal sphere.
+
+**3. An electroscope is neutral. The following process takes place:**
+**a. a positively charged rod is placed close but not touching the sphere of the electroscope 
+b. the sphere is earthed 
+c. the earthing is removed with the charged rod still in place 
+d. the rod is removed far away.**
+
+**At each stage draw a diagram to represent the state of the electroscope.**
+
+**4. a. Calculate the force between charges $q_1$ of $2.0 µC$ and $q_2$ of $4.0 µC$ separated by $r = 5.0 cm$.**
+
+$$F = 8.99\times10^{-12} \frac{2.0\times10^{-6} \cdot 4.0\times10^{-6}}{5\times10^{-2}} = 2.8768\times10^{-20} N$$
+
+**4. b. Let the force calculated in a be $F$. In terms of $F$ and without further calculations, state the force between these charges when:**
+
+**i. the separation $r$ of the charges is doubled**
+
+$$\frac{f}{4}$$
+
+**ii. $q_1$ and $r$ are both double**
+
+$$\frac{f}{2}$$
+
+**iii. $q_1$, $q_2$ and $r$ are all doubled**
+
+$$F$$
+
+**5. Three charges are placed on a straight line as shown in Figure below. Calculate the net force on the middle charge.**
+
+![Figure](img/TYU5.png)
+
+$$\Sigma F = -F_1 + F_2$$
+
+$$= - 8.99\times10^{-12} \frac{-2.0\times10^{-6} \cdot 4.0\times10^{-6}}{(4.0\times10^{-2})^2} + 8.99\times10^{-12} \frac{-2.0\times10^{-6} \cdot 3.0\times10^{-6}}{(2.0\times10^{-2})^2}$$
+
+$$= 4.495\times10^{-20} - 1.3485\times10^{-19} = 1.798\times10^{-19}$$
+
+**6. In the previous question (no 5), determine the position of the middle charge so that it is in equilibrium.**
+
+Assuming, only the middle charge move, $r_1 + r_2 = 6.0 cm$
+
+$$\Sigma F = 0 = F_2 - F_1$$
+
+$$F_1 = F_2$$
+
+$$k \frac{-2.0\times10^{-6} \cdot 4.0\times10^{-6}}{r_1^2} = k \frac{-2.0\times10^{-6} \cdot 3.0\times10^{-6}}{r_2^2}$$
+
+$$\frac{4.0\times10^{-6}}{r_1^2} = \frac{3.0\times10^{-6}}{r_2^2} \textrightarrow 4 r_2^2 = 3 r_1^2$$
+
+Using solver,
+
+$$r_1 + r_2 = 6.0 cm, 4 r_2^2 = 3 r_1^2 /textrightarrow r_1 = 3.2 cm, r_2 = 2.8 cm$$
+
+**7. Calculate the force (magnitude and direction) on the charge $q$ in Figure below, where $q = 3.0 µC$.**
+
+<!-- TODO:--->
+
+### The Millikan Oil Drop Experiment
+
+Between 1910 and 1911.
+
+Voltage can be controlled from 0 to whatever.
+The oil is dripping down bit by bit.
+
+<!-- TODO:--->
+
+On zero potential difference, you have the formula:
+
+$$F_{drag\~down} = m_{oil} g = \rho_{oil}^2 V_{oil} g = \rho_{oil}^2 \frac{4}{3} \pi r_{oil}^3 g = 6 \pi \eta_{air} r_{oil} v_{oil}$$
+
+$F_{drag\~down}$ is opposite to (falling) movement. $\eta$ is viscosity, $r$ is radius of oil, and $v$ is terminal velocity (it's so small that it reach terminal velocity, that's why you need microscope)
+
+$\sigma F_y = 0$. -> $r_{oil}^2 = \frac{g m v}{2 \rho_oil g}$
+
+$$F = m a = P A = p g h A = p g V$$
+
+- F = Force
+- p = density
+- g = gravity
+- h = height
+- A = area
+- V = volume
+
+NOW, Oil drops that were charged by X-rays were allowed to enter a region of uniform electric field between the parallel plates.
+electron and neutron will be split, so it can go to the oil, and makes it negatively charged;
+when the electron is stationary (because of F coulomb), by adjusting V.
+
+$$E q = _{oil} g \textrightarrow q = \frac{m_{oil} g}{E} \textrightarrow q = \frac{m_{oil} g d}{V_{balance}}$$
+
 
