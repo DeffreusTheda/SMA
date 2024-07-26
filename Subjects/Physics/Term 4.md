@@ -364,29 +364,76 @@ $$F$$
 
 $$\Sigma F = -F_1 + F_2$$
 
-$$= - 8.99\times10^{-12} \frac{-2.0\times10^{-6} \cdot 4.0\times10^{-6}}{(4.0\times10^{-2})^2} + 8.99\times10^{-12} \frac{-2.0\times10^{-6} \cdot 3.0\times10^{-6}}{(2.0\times10^{-2})^2}$$
-
-$$= 4.495\times10^{-20} - 1.3485\times10^{-19} = 1.798\times10^{-19}$$
+$$\begin{align*}
+-F_1 + F_2 \\
+-8.99\times10^{9} \frac{-2.0\times10^{-6} 4.0\times10^{-6}}{(4.0\times10^{-2})^2} + 8.99\times10^{9} \frac{-2.0\times10^{-6} 3.0\times10^{-6}}{(2.0\times10^{-2})^2} \\
+-44.95 + (-134.85) \\
+-89.9 N
+\end{align*}$$
 
 **6. In the previous question (no 5), determine the position of the middle charge so that it is in equilibrium.**
 
-Assuming, only the middle charge move, $r_1 + r_2 = 6.0 cm$
+Assuming only the middle charge move, $r_1 + r_2 = 6.0 cm$
 
-$$\Sigma F = 0 = F_2 - F_1$$
+$$\begin{align*}
+\Sigma F &= 0 \\
+\Sigma F &= F_2 - F_1  \\
+0 &= F_2 - F_1  \\
+F_1 &= F_2 \\
+k \frac{-2.0\times10^{-6} \cdot 4.0\times10^{-6}}{r_1^2} &= k \frac{-2.0\times10^{-6} \cdot 3.0\times10^{-6}}{r_2^2} \\
+\frac{4.0\times10^{-6}}{r_1^2} &= \frac{3.0\times10^{-6}}{r_2^2} \\
+4 r_2^2 &= 3 r_1^2
+\end{align*}$$
 
-$$F_1 = F_2$$
-
-$$k \frac{-2.0\times10^{-6} \cdot 4.0\times10^{-6}}{r_1^2} = k \frac{-2.0\times10^{-6} \cdot 3.0\times10^{-6}}{r_2^2}$$
-
-$$\frac{4.0\times10^{-6}}{r_1^2} = \frac{3.0\times10^{-6}}{r_2^2} \textrightarrow 4 r_2^2 = 3 r_1^2$$
-
-Using solver,
-
-$$r_1 + r_2 = 6.0 cm, 4 r_2^2 = 3 r_1^2 /textrightarrow r_1 = 3.2 cm, r_2 = 2.8 cm$$
+$$r_1 + r_2 = 6.0 cm, 4 r_2^2 = 3 r_1^2\;\textrightarrow\;r_1 = 3.2 cm, r_2 = 2.8 cm$$
 
 **7. Calculate the force (magnitude and direction) on the charge $q$ in Figure below, where $q = 3.0 µC$.**
 
-<!-- TODO:--->
+$$\begin{align*}
+k &= 8.99\times10^9 \\
+F_1 &= k \frac{3\times10^{-6} -3\times10^{-6}}{(3\times10^{-2})^2} \\
+F_2 &= k \frac{3\times10^{-6} 6\times10^{-6}}{(5\times10^{-2})^2} \\
+F_x &= F_{2x} \\
+F_x &= k \frac{q 2q}{(5\times10^{-2})^2} \\
+F_y &= F_1 - F_y \frac{3}{5} \\
+m &= \sqrt{F_x^2 + F_y^2} \\
+m &= 82.44491724
+\end{align*}$$
+
+**8. **
+
+**15. The formula for the radius of the oil drop derived in the text (Tsokos’ book) ignores the buoyant force on the oil drop. Show that if this force is taken into account the radius is given by**
+
+$$r = \sqrt{\frac{9 \eta v}{2 (\rho - \rho_{air}) g}}$$
+
+$$F_B = \rho_{air}\,g V_{oil},W = F_{drag\,down}$$
+
+$$F_g = \frac{4}{3}\pi r^3 \rho g$$
+
+$$V = $$
+
+$$\begin{align*}
+\sigma F = F_B + F_{drag\,down} - W &= 0 \\
+F_B + F_{drag\,down} &= W \\
+\rho_{air}\,g \frac{4}{3} \pi r_{oil}^3 + \rho_{air}\,g \frac{4}{3} \pi r_{oil}^3 &= \rho_{oil}\,\frac{4}{3} \pi r_{oil}^3\,g \\
+\rho_{air}\,g \frac{4}{3} \pi r_{oil}^3 &= \rho_{oil}\,\frac{4}{3} \pi r_{oil}^3\,g - \rho_{air}\,g \frac{4}{3} \pi r_{oil}^3 \\
+3 \eta v &= \frac{2}{3} r^2 g (\rho_{oil} - \rho_{air}) \\
+r &= \sqrt{\frac{9 \eta v}{2 (\rho - \rho_{air}) g}}
+\end{align*}$$
+
+**17. Explain why it is reasonable to assume that the masses of the coin bags described above $84 g$, $63 g$, $98 g$, $35 g$, $56 g$ and $42 g$ lead to the conclusion that the mass of each coin is $7 g$.**
+
+Because the greatest common divisor is 7 g, thus all given mass are a multiple of 7 g.
+
+$$\begin{align*}
+84g = 2^2 \cdot 3 \cdot 7 &= 7 * 12 \\
+63g = 3^2 \cdot 7 &= 7 * 9 \\
+98g = 2 \cdot 7^2 &= 7 * 14 \\
+35g &= 7 * 5 \\
+56g = 2^3 \cdot 7 &= 7 * 8 \\
+42g = 2 \cdot 3 \cdot 7 &= 7 * 6
+\end{align*}$$
+
 
 ### The Millikan Oil Drop Experiment
 
@@ -419,5 +466,3 @@ electron and neutron will be split, so it can go to the oil, and makes it negati
 when the electron is stationary (because of F coulomb), by adjusting V.
 
 $$E q = _{oil} g \textrightarrow q = \frac{m_{oil} g}{E} \textrightarrow q = \frac{m_{oil} g d}{V_{balance}}$$
-
-

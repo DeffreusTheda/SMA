@@ -1069,32 +1069,34 @@ $$v = \begin{bmatrix} 2 \\
 
 **(i) 1 minute**
 
-Let B the coordinate of the first boat and S the coordinate of the second boat,
+Let B the coordinate of the first boat and S the relative coordinate of the second boat to the first boat,
 
-$$B = \begin{bmatrix} 20 \\
-0 \end{bmatrix} + \begin{bmatrix} -1 \\
-2 \end{bmatrix} = \begin{bmatrix} 19 \\
+$$B = t \begin{bmatrix} -1 \\
+2 \end{bmatrix} = \begin{bmatrix} -1 \\
 2 \end{bmatrix}$$
 
 $$S = \begin{bmatrix} -25 \\
-0 \end{bmatrix} + \begin{bmatrix} 2 \\
+0 \end{bmatrix} + s \begin{bmatrix} 2 \\
 1 \end{bmatrix} = \begin{bmatrix} -23 \\
 1 \end{bmatrix}$$
 
 $$SB = \begin{bmatrix} -23 \\
-1 \end{bmatrix} - \begin{bmatrix} 19 \\
-2 \end{bmatrix} = \begin{bmatrix} -42 \\
+1 \end{bmatrix} - \begin{bmatrix} -1 \\
+2 \end{bmatrix} = \begin{bmatrix} -22 \\
 -1 \end{bmatrix}$$
 
-$$\sqrt{(-42)^2 + (-1)^2} = 42.0 m$$
+$$\begin{align*}
+|SB| &= \sqrt{(-22)^2 + (-1)^2} \\
+|SB| &= \sqrt{485} \\
+|SB| &\approx 22.02 m
+\end{align*}$$
 
 **(ii) t minute**
 
 Let B the coordinate of the first boat and S the coordinate of the second boat,
 
-$$B = \begin{bmatrix} 20 \\
-0 \end{bmatrix} + t \begin{bmatrix} -1 \\
-2 \end{bmatrix} = \begin{bmatrix} 20-t \\
+$$B = t \begin{bmatrix} -1 \\
+2 \end{bmatrix} = \begin{bmatrix} -t \\
 2t \end{bmatrix}$$
 
 $$S = \begin{bmatrix} -25 \\
@@ -1102,31 +1104,33 @@ $$S = \begin{bmatrix} -25 \\
 1 \end{bmatrix} = \begin{bmatrix} -25+2t \\
 t \end{bmatrix}$$
 
-$$SB = \begin{bmatrix} 20-t \\
+$$SB = \begin{bmatrix} -t \\
 2t \end{bmatrix} - \begin{bmatrix} -25+2t \\
-t \end{bmatrix} = \begin{bmatrix} 45-3t \\
+t \end{bmatrix} = \begin{bmatrix} 25-3t \\
 t \end{bmatrix}$$
 
-$$\sqrt{(55-3t)^2 + t^2}$$
+$$\sqrt{(25-3t)^2 + t^2}$$
 
 **(b) Would the two boats collide?**
 
 Let $s$ be the $t$ of the second boat, they would collide at the coordinate:
 
-$$\begin{bmatrix} 20-t \\
-2t \end{bmatrix} = \begin{bmatrix} -25+2s \\
-s \end{bmatrix}$$
-
-$$2t = s$$
-
-$$\begin{bmatrix} 20-t \\
-2t \end{bmatrix} = \begin{bmatrix} -25+4t \\
-2t \end{bmatrix}$$
-
-$$20 - t = -25 + 4t \textrightarrow t = 9$$
+$$\begin{align*}
+\begin{bmatrix} 20-t \\
+2t \end{bmatrix} &= \begin{bmatrix} -25+2s \\
+s \end{bmatrix} \\
+2t &= s
+\begin{bmatrix} 20-t \\
+2t \end{bmatrix} &= \begin{bmatrix} -25+4t \\
+2t \end{bmatrix} \\
+20 - t = -25 + 4t \\
+t = 9 \\
+\begin{bmatrix} 11 \\
+18 \end{bmatrix}
+\end{align*}$$
 
 No, they wouldn't collide if $t = s$, but
-Yes, they may collide, but only if $2t = s$ holds true.
+yes, they may collide, but only if $2t = s$ holds true.
 
 **9. Find the scalar product for each pair of vectors**
 
@@ -1166,19 +1170,19 @@ Let $S$ be the scalar product,
 
 $$\theta = cos^{-1} (\frac{S}{|u| |v|}) \textrightarrow S = cos \theta \cdot |u| |v|$$
 
-$$S = cos 60 \cdot 7 \cdot 11 = 0.5$$
+$$S = 7 \cdot 11 \cdot cos 60 = 38.5 \degree$$
 
 $$\textbf (b) |u| = 11.2, |v| = 5, \theta = 120 \degree$$
 
-$$S = cos 120 \cdot 11.2 \cdot 5 = -0.5$$
+$$S = 11.2 \cdot 5 \cdot cos 120 = -28 \degree$$
 
 $$\textbf (c) |u| = 9, |v| = 9, \theta = 45 \degree$$
 
-$$S = cos 45 \cdot 9 \cdot 9 = 0.71$$
+$$S = 9 \cdot 9 \cdot cos 45 = 57.3 \degree$$
 
 $$\textbf (d) |u| = 13, |v| = 6, \theta = 23 \degree$$
 
-$$S = cos 23 \cdot 13 \cdot 6 = 0.99$$
+$$S = 13 \cdot 6 \cdot cos 23 = 71.8 \degree$$
 
 **11. Find each vector product: $u \times v$**
 
@@ -1236,25 +1240,120 @@ $$\textbf (a) u = \begin{bmatrix} -9 \\
 12 \end{bmatrix}, v = \begin{bmatrix} 4 \\
 3 \end{bmatrix}$$
 
-<!-- TODO:-->
+$$\begin{align*}
+\theta &= cos^{-1} (\frac{-9 (4) + 12 (3)}{\sqrt{(-9)^2 + 12^2} \sqrt{4^2 + 3^2}}) \\
+\theta &= 90 \degree
+\end{align*}$$
 
-$$\textbf (b) u = \begin{bmatrix} -9 \\
-12 \end{bmatrix}, v = \begin{bmatrix} 4 \\
-3 \end{bmatrix}$$
+$$\textbf (b) u = \begin{bmatrix} 13 \\
+-12 \end{bmatrix}, v = \begin{bmatrix} -15 \\
+-8 \end{bmatrix}$$
 
-<!-- TODO:-->
+$$\begin{align*}
+\theta &= cos^{-1} (\frac{13 (-15) + -12 (-8)}{\sqrt{13^2 + (-12)^2} \sqrt{(-15)^2 + (-8)^2}}) \\
+\theta &= 109 \degree
+\end{align*}$$
 
-$$\textbf (c) u = \begin{bmatrix} -9 \\
-12 \end{bmatrix}, v = \begin{bmatrix} 4 \\
-3 \end{bmatrix}$$
+$$\textbf (c) u = \begin{bmatrix} 2 \\
+1 \\
+2 \end{bmatrix}, v = \begin{bmatrix} 1 \\
+-2 \\
+-2 \end{bmatrix}$$
 
-<!-- TODO:-->
+$$\begin{align*}
+\theta &= cos^{-1} (\frac{2 (1) + 1 (-2) + 2 (-2)}{\sqrt{2^2 + 1^2 + 2^2} \sqrt{1^2 + (-2)^2 + (-2)^2}}) \\
+\theta &= 116 \degree
+\end{align*}$$
 
-$$\textbf (d) u = \begin{bmatrix} -9 \\
-12 \end{bmatrix}, v = \begin{bmatrix} 4 \\
-3 \end{bmatrix}$$
+$$\textbf (d) u = \begin{bmatrix} -1 \\
+2 \\
+2 \end{bmatrix}, v = \begin{bmatrix} 3 \\
+6 \\
+-2 \end{bmatrix}$$
 
-<!-- TODO:-->
+$$\begin{align*}
+\theta &= cos^{-1} (\frac{-1 (3) + 2 (6) + 2 (-2)}{\sqrt{(-1)^2 + 2^2 + 2^2} \sqrt{3^2 + 6^2 + (-2)^2}}) \\
+\theta &= 76.2 \degree
+\end{align*}$$
+
+**13. Ryan and Jack have model aeroplanes which take off from level ground. Jack's aeroplane takes off after Ryan's. The position of Ryan's aeroplane $t$ seconds after it takes off is given by**
+
+$$\textbf r = \begin{bmatrix} 5 \\
+6 \\
+0 \end{bmatrix} + r \begin{bmatrix} -4 \\
+2 \\
+4 \end{bmatrix} m$$
+
+**(a) Find the speed of Ryan's aeroplane.**
+
+$$\begin{align*}
+\begin{bmatrix} -4 \\
+2 \\
+4 \end{bmatrix} \\
+\sqrt{(-4)^2 + 2^2 + 4^2} \\
+6
+\end{align*}$$
+
+**(b) Find the height of Ryan's aeroplane after two seconds.**
+
+$$\begin{align*}
+\textbf r &= \begin{bmatrix} 5 \\
+6 \\
+0 \end{bmatrix} + t \begin{bmatrix} -4 \\
+2 \\
+4 \end{bmatrix} m \\
+t = 2, r &= \begin{bmatrix} 5-4t \\
+6+2t \\
+4t \end{bmatrix} \\
+r &= \begin{bmatrix} -3 \\
+10 \\
+8 \end{bmatrix}
+\end{align*}$$
+
+**The position of Jack's aeroplane $s$ seconds after it takes off is given by:**
+
+$$\textbf \begin{bmatrix} -39 \\
+44 \\
+0 \end{bmatrix} + s \begin{bmatrix} 4 \\
+-6 \\
+7 \end{bmatrix} m$$
+
+**(c) Shows that the paths of the aeroplane are perpendicular.**
+
+$$\begin{align*}
+r_R = \begin{bmatrix} -4 \\
+2 \\
+4 \end{bmatrix}, r_J = \begin{bmatrix} 4 \\
+-6 \\
+7 \end{bmatrix} \\
+cos^{-1} (\frac{-4 (4) + 2 (-6) + 4 (7)}{\sqrt{(-4)^2 + 2^2 + 4^2} \sqrt{4^2 + (-6)^2 + 7^2}}) \\
+90 \degree \\
+\therefore \text{They're perpendicular! :O}
+\end{align*}$$
+
+**The two aeroplane collide at the point $(-23,20,28)$**
+
+**(d) How long after Ryan's aeroplane takes off does Jack's aeroplane take off?**
+
+$$\begin{align*}
+\begin{bmatrix} -39+4s \\
+44-6s \\
+7s \end{bmatrix} &= \begin{bmatrix} -23 \\
+20 \\
+28 \end{bmatrix} \\
+\\
+-39+4s &= -23 \textrightarrow s &= 4 \\
+\\
+\begin{bmatrix} 5-4t \\
+6+2t \\
+4t \end{bmatrix} &= \begin{bmatrix} -23 \\
+20 \\
+28 \end{bmatrix} \\
+\\
+5-4t = -23 \textrightarrow t &= 7 \\
+t - s &= 4 \\
+\therefore \text{Ryan's aeroplane takes off 4 second after Jack's aeroplane take off :D}
+\end{align*}$$
 
 ### Parametric Equation of Lines
 
