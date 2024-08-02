@@ -1,5 +1,7 @@
 [[IND A - Jurnal by Redi Murti]][[IND A - Analisis OOP]]
 
+[Analisis Orang-Orang Proyek XI-5](https://docs.google.com/document/d/1GqaUteG1xAIc7l2FvvunzqtqCpk8c6y2VGTV8cSQCwI/edit)
+
 **Ahmad Tohari** dilahirkan di **Banyumas**, **13 Juni 1948**. Dia tidak pernah melepaskan diri dari pengalaman hidup kedesaannya yang mewarnai seluruh karya sastranya -- *Ronggeng Dukuh Paruk* (1982) yang telah diterbitkan dalam bahasa Jepang, Cina, Belanda, Inggris, dan Mexico serta pernah di film kan dengan judul *Sang Penari*; *Di Kaki Bukit Cibalak* (1986), *Senyuman Karyamin* (1989), *Bekisar Merah* (1993) yang telah diterbitkan dalam bahasa Inggris; *Lingkar Tanah Lingkar Air* (1992); ***Orang-Orang Proyek*** (2002); Kubah (2005) yang telah diterbitkan dalam bahasa Jepang; *Ronggeng Dukuh Paruk Banyumasan* (2006); *Mata yang Enak Dipandang*
 
 # ***2023-07-26***
@@ -138,11 +140,21 @@
 - Page 239 - 240
 	- Walaupun bukan orang proyek lagi, Kabul mengikuti HUT GLM dan ingin menonton peresmian jembatan; orang2 sempit-sempitan di belakang truk; eksplitasi tenaga kerja masyarakat nganggur; mereka gembira tragis, tak tahu menjadi korban ambisi orang partai, *ibaratkan mereka tidak seragam*
 	- Ada pawai kendaraan dimulai dari lokasi jembatan; pejabat nyaman di mobil bagus, massa dihimpit ke truk-truk ketika matahari terik; 
+
 # 2023-08-21
+
 - Page 241 - 253
 	- Sang Ketua Umum GLM berwibawa; GLM puncak kejayaan palsu; Kabul sempat pingsan sebentar; Matahari sering terhalang awan; Kabul berkata "orang2 bodoh dimanfaatkan oleh partai"
 	- Mereka tegang dan cemas melihat trailer pohon *klepu* melewati jembatan; Pawai usai, jembatan gpp skrg; Warung Mak Sumeh akan tutup, perpisahan (hening, senyum > seribu kata); Pemandangan proyek sepi, setiap orang bingung mau kemana setelah ini; 
 	- Desember 1992, Kabul bekerja membangun hotel di Cirebon dan sudah sebulan menikah dengan Wati; Menuju rumah Biyung, Kabul terhenti oleh Jembatan Cibawor yang rusak, terlupakan; Walaupun struktur kuat, lantainya rusak setelah satu tahun, Kabul kecewa
 	- Kabul mendengar seruling, namun lebih rindu kepada Biyung jadi tak menghampiri; orang2 proyek reputasinya buruk, hanya mencari untung; cerita lucu "surga dan neraka membuat jembatan" dari Dalkijo sendiri - orang2 proyek mengakui kegilaan mereka dan mereka tak peduli; bentuk apapun proyek itu yang penting untung sendiri
 	- "Sampai kapan begini?" tanya Wati - ketika proyek habis/dibunuh; "ada berapa ribu proyek lain yang seperti ini?"
+
 ### Tamat :D
+
+# Analisis
+
+Pejabat yang korupsi, tapi dalam novel, orang tengah dan bawah juga korupsi dengan cara mereka sendiri.
+Ahmad Tohari menggunakan penohokan yang kontras untuk menyampaikan isu dalam novel.
+
+

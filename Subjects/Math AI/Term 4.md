@@ -1208,7 +1208,7 @@ $$\begin{bmatrix} 0 (0) - -1 (0) \\
 0 (0) - 0 (-1) \\
 -1 (-1) - 0 (0) \end{bmatrix} = \begin{bmatrix} 0 \\
 0 \\
-1 end{bmatrix}$$
+1 \end{bmatrix}$$
 
 $$\textbf (a) u = \begin{bmatrix} 1 \\
 2 \\
@@ -1220,7 +1220,7 @@ $$\begin{bmatrix} 2 (2) - 1 (2) \\
 2 (2) - 2 (1) \\
 1 (1) - 2 (2) \end{bmatrix} = \begin{bmatrix} 2 \\
 2 \\
--3 end{bmatrix}$$
+-3 \end{bmatrix}$$
 
 $$\textbf (a) u = \begin{bmatrix} 5 \\
 2 \\
@@ -1232,7 +1232,7 @@ $$\begin{bmatrix} 2 (6) - 1 (-2) \\
 -2 (2) - 6 (5) \\
 5 (1) - 2 (2) \end{bmatrix} = \begin{bmatrix} 14 \\
 -34 \\
-1 end{bmatrix}$$
+1 \end{bmatrix}$$
 
 **12. Find the angle between each pair of vectors, correct to the nearest degree.**
 
@@ -1320,7 +1320,7 @@ $$\textbf \begin{bmatrix} -39 \\
 
 **(c) Shows that the paths of the aeroplane are perpendicular.**
 
-$$\begin{align*}
+$$\begin{gather*}
 r_R = \begin{bmatrix} -4 \\
 2 \\
 4 \end{bmatrix}, r_J = \begin{bmatrix} 4 \\
@@ -1329,7 +1329,7 @@ r_R = \begin{bmatrix} -4 \\
 cos^{-1} (\frac{-4 (4) + 2 (-6) + 4 (7)}{\sqrt{(-4)^2 + 2^2 + 4^2} \sqrt{4^2 + (-6)^2 + 7^2}}) \\
 90 \degree \\
 \therefore \text{They're perpendicular! :O}
-\end{align*}$$
+\end{gather*}$$
 
 **The two aeroplane collide at the point $(-23,20,28)$**
 
@@ -1342,7 +1342,7 @@ $$\begin{align*}
 20 \\
 28 \end{bmatrix} \\
 \\
--39+4s &= -23 \textrightarrow s &= 4 \\
+-39+4s = -23 \textrightarrow s &= 4 \\
 \\
 \begin{bmatrix} 5-4t \\
 6+2t \\
@@ -1451,3 +1451,296 @@ $$d = s - t = \begin{bmatrix} 10t - 90 \\
 
 Using GDC, the minimum value of $|d|$ where $t$ as the X axis is $7.141$ at $t = 9.5$
 
+# Sampling
+
+## Quantitative data
+
+### Discrete
+
+Specific values, e.g. number of accidents, points in IBDP, number of female students, etc.
+
+### Continuous
+
+Data that needs measurement, e.g. body height, weight, etc.
+Has units and must need measurement tool.
+Real number, may be fractions.
+Usually represented in frequency table with interval (or range).
+
+## Sampling Method
+
+### Simple Random Sampling
+
+Everyone in the population has the same chance to be sampled.
+
+### Systematic Sampling
+
+Choosing every $n$th student from a sorted population of $N$ students, into $k$ students ($\frac{N}{n}$)
+
+### Stratified Sampling
+
+Selecting random sample where numbers in certain categories are proportional to the numbers in the population.
+Widely used in college.
+
+e.g. 320: 130, 103, 87 -(k = 100)-> $\frac{100 \times 130}{320}, \frac{100 \times 103}{320}, \frac{100 \times 87}{320}$
+
+### Quota Sampling
+
+Decide how many members of each group.
+
+### Convenience Sampling
+
+Take samples from the members of the population that you have access until you have a sample of the desired size.
+Similar to quote sampling but don't differ group, only cares about total sample.
+
+## Exercise!
+
+**1. Stratified sampling**
+
+**2. A dog kennel has 120 dogs.**
+
+**a.**
+
+**b. A sample of the population was taken to check the health of the dogs in the kennel. A
+systematic sample of every 5 dogs was used. How many dogs were taken for the sample?**
+
+23
+
+**c. In order to take a sample of 50 dogs, stratified by their age, state the number of dogs of each
+age you need to select.**
+
+From age 1 to 16, respectively, 4 3 7 5 9 4 4 4 2 2 2 1 1 1 0 1.
+
+**3.In a poll to predict the results in an election, a sample from the population is taken with the intention of providing an accurate forecast. Explain why the sample would be stratified, and suggest different strata that might be important.**
+
+The proportion of sample for each group will be the same as the proportion of population for each group.
+
+### Example 2
+
+**a.**
+
+9
+
+**b.**
+
+7.942857142857143
+
+**c.**
+
+8
+
+**d.**
+
+a day of sunshine refers to a period of time when the sky is mostly clear, with at least 80% cloud cover
+
+## Deviation
+
+Standard of deviation is a statistical measure that describes the amount of variation or dispersion in a dataset. It represents how spread out the data points are from the mean value.
+Data is divided into 2 by the mean value.
+
+Variants: Standard deviation squared
+
+Data can be quartir or into 100 groups (percentile).
+Median is the 50 percentile.
+Interquartile Range (IQR) is a measure of variability in statistics, used to describe the spread or dispersion of a dataset: upper quartir - lower quartir.
+
+Sometimes, some value (outlier; extreme result/deviation) can distort result of statistical processes.
+It affect mean and SD.
+**Outlier values must be removed!**
+Outlier atas: Q3 + 1.5 IQR
+Outlier bawah: Q1 - 1.5 IQR
+
+### Example 3
+
+**a.**
+
+13-30
+
+**b.**
+
+13 15 16 19 21 21 21 21 26 30
+
+Q1: 16, Q3: 21, Q2: 21
+IQR = 21-16 = 5
+
+**c.**
+
+$$\begin{align*}
+X = 20.3 \\
+s &= \frac{\Sigma (20.3 - 17)^2}{10 - 1} \\
+s &= 121
+\end{align*}$$
+
+**d.**
+
+21+7.5 = 28.5
+Yeah.
+
+## Exercise 2B
+
+**1. Find the mean, median and mode for the following data sets and comment on any pieces of data that you think may be outliers.**
+
+**a. The times of 25 telephone calls in minutes: 1.0 1.5 2.3 2.6 2.8 3.0 3.4 3.8 4.1 4.5 4.6 4.8 5.2 5.3 5.5 5.8 6.0 6.3 6.6 7.3 7.5 7.5 7.5 17.8 25.0**
+
+Mean: 6.068
+Median: 5.2
+Mode: 7.5
+
+Outliers: 17.5 25.0
+
+**b. The heights, in metres, of 15 sunflowers: 1.1 2.2 2.5 2.5 2.5 3.1 3.5 3.6 3.9 4.0 4.1 4.4 4.6 4.9 6.1**
+
+Mean = 3.53,
+Median = 3.6,
+Mode = 2.5
+
+No outliers.
+
+**c. The results of a Geography test: 22 39 45 46 46 52 54 58 62 62 62 67 70 75 78 82 89 91 95 98**
+
+Mean = 64.65,
+Median = 62.0,
+Mode = 62.0
+
+No outliers.
+
+**2. In a survey, 25 people were asked how many times they visited the cinema in the last two weeks. The results are given in the frequency table:*
+
+| Number of visits | 0 | 1 | 2 | 3 | 5 | 8 |
+| ---------------: | - | - | - | - | - | - |
+| Number of people | 5 | 5 | 6 | 2 | 1 | 1 |
+
+0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 2 3 3 5 8
+
+**a. Find the mean, median and modal number of visits.**
+
+Mean = 1.8,
+Median = 1.5,
+Mode = 2.0
+
+**b. Find the standard deviation and the variance of the number of visits.**
+
+SD = 1.9358,
+Variance = 3.7473684210526317
+
+**3. The table shows the number of orthodontist visits per year made by the students in Grade 10.**
+
+| Number of visits | 0 | 4 | 6 | 8 | 10 | 12 | 14 |
+| ---------------: | - | - | - | - | -- | -- | -- |
+| Frequency        | 3 | 2 | 8 | 4 |  2 | 12 |  5 |
+
+**a. Find the mode, the median and the mean, and comment on which is the most appropriate to use.**
+
+Mode = 12.0,
+Median = 10.0,
+Mean = 8.944444444444445
+
+Median feels like the most appropriate, as the biggest mode are 12 and 6 with 3:2 ratio. The middle ground between these two group is 9.6, close to 10, the median.
+
+**b. Find the standard deviation and comment on the result.**
+
+4.1538, compared to the range of 14, it's a low deviation.
+
+**c. Find the range and interquartile range, and comment on the spread of the data.**
+
+Range is $14 - 0 = 14$,
+IQR = 6.0
+
+The spread of the data is highly concentrated on higher values, as can be seen with the mean as 9, median as 10, and mode as 12.
+
+**4. The heights in centimetres of 15 basketball players are: 175 183 191 196 198 201 203 203 204 206 207 209 211 212 213. The heights of 15 randomly chosen males are: 154 158 158 162 165 168 171 176 178 180 181 182 182 183 186**
+
+**a. Find the mean and standard deviation for each group**
+
+Basketball:
+Mean = 200.8 cm,
+SD = 10.8246
+
+Random Males:
+Mean = 172.3 cm $\approx$ 172 cm
+SD = 10.6735
+
+**b. Compare your answers and comment on any similarities or differences.**
+
+Both group has a similar SD.
+Except, the mean is way different.
+The only outliers is in the basketball group, the height of 175.0 cm.
+
+**5. Mr Jones, a teacher in Valley High School, collects the following data from his class and suggests that it provides evidence that Robotics Club members are better at Maths than Astronomy Club members.**
+
+| Name | Club | Result | Name | Club | Result |
+| -- | -- | -- | -- | -- | -- |
+| Abdullah L | R | 72 | Justine H | R | 83 |
+| Angela W | R | 96 | Kara F | A | 70 |
+| Arthur B | R | 84 | Kay H | A | 60 |
+| Brad S | A | 61 | Lia S | A | 70 |
+| Dalia V | A | 83 | Marcus C | A | 64 |
+| Eddie R | A | 77 | Marina B | R | 89 |
+| Elsie D | A | 78 | Mattias L | R | 52 |
+| Emma M | A | 60 | Natalya A | A | 60 |
+| Ernesto H | R | 65 | Preston H | A | 68 |
+| Hadassah H | R | 79 | Thalia C | A | 69 |
+| Jenny E | A | 83 | Vance T | R | 83 |
+| Joanna S | R | 81 | Waylon D | R | 57 |
+| Jonathan S | A | 69 | | | |
+
+**Calculate the mean, median, standard deviation and quartiles for the Robotics and Astronomy Clubs’ Maths results in Mr Jones’ class. State whether or not your calculations support Mr Jones’ claim**
+
+Robotics Club: 72 83 96 84 77 89 52 65 79 83 81 57,
+Mean = 76.5,
+Median = 80,
+SD = 12.9228,
+Q1 = 68.5,
+Q2 = 80,
+Q3 = 83.5
+
+Astronomy Club: 70 60 61 70 83 64 77 78 60 68 69 83 69,
+Mean = 70.15384615384616 $\approx$ 70.2,
+Median = 69.0,
+SD = 8.0296,
+Q1 = 62.5,
+Q2 = 69,
+Q3 = 77.5
+
+The mean, median, and quartiles, of both Club shows that the Robotics Club is much smarter than the Astronomy Club in Math.
+Furthermore, the deviation in Robotics Club is bigger, suggesting higher range of smartness.
+
+**6. For the sample collected in Exercise 2A question 1, find the mean and standard deviation for the English results of each year. Comment on any changes in the distribution of English results over the five years that are indicated by these values.**
+
+**7. The number of sweets in 25 bags has a mean of 30 and standard deviation of 3. In a special promotion, the manufacturer doubles the number of sweets in each bag. Write down the new mean and the new standard deviation of the number of sweets in a bag.**
+
+60 and 6
+
+**8. Mrs Ginger’s Grade 8 class sat an English test. The test was out of 40 marks. The mean score was 32 marks and the standard deviation was 8 marks. In order to change this to a mark out of 100, Mrs Ginger thinks that it would be all right to multiply all the scores by 2 and then add 20 to each one. Mr Ginger thinks that it would be fairer to multiply all the scores by 2.5. Miss Ginger suggests multiplying by 3 and subtracting 20 from each score.**
+
+**a. Write down the new mean and the new standard deviation for each suggestion.**
+
+Mrs Ginger:
+
+$$\text{Mean} = 32 \times 2  + 20 = 84 \\
+\text{Standard deviation} = 8 \times 2 = 16$$
+
+Mr Ginger:
+
+$$\text{Mean} = 32 \times 2.5 = 80 \\
+\text{Standard deviation} = 8 \times 2.5 = 20$$
+
+Miss Ginger:
+
+$$\text{Mean} = 32 \times 3 - 20 = 76 \\
+\text{Standard deviation} = 8 \times 3 = 24$$
+
+**Matty had an original score of 12, Zoe had an original score of 25 and Ans had an original score of 36.**
+
+**b. Find their new scores under all three suggested changes**
+
+Matty: 44, 30, 16
+Zoe: 70, 62.5, 55
+Ans: 92, 90.0, 88
+
+**c. Comment on how each of these three suggestions would affect students with low, middling and high marks out of 40.**
+
+Mrs Ginger suggestion would overall increase score the most, especially for lower scores.
+
+Mr Ginger suggestion is the most moderate compared to the two other suggestion, acting as a standard or middle ground.
+
+Miss Ginger suggestion has the lowest overall increase in scores, and higher score student would benefit more.

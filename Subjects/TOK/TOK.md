@@ -1,5 +1,4 @@
 # Indigenous Society
-
 ## Definitions
 
 ### UN Statement

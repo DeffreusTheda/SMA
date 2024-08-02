@@ -389,6 +389,8 @@ $$r_1 + r_2 = 6.0 cm, 4 r_2^2 = 3 r_1^2\;\textrightarrow\;r_1 = 3.2 cm, r_2 = 2.
 
 **7. Calculate the force (magnitude and direction) on the charge $q$ in Figure below, where $q = 3.0 µC$.**
 
+![Figure](~/Pictures/Screenshots/swappy-20240730-084916.png)
+
 $$\begin{align*}
 k &= 8.99\times10^9 \\
 F_1 &= k \frac{3\times10^{-6} -3\times10^{-6}}{(3\times10^{-2})^2} \\
@@ -396,11 +398,57 @@ F_2 &= k \frac{3\times10^{-6} 6\times10^{-6}}{(5\times10^{-2})^2} \\
 F_x &= F_{2x} \\
 F_x &= k \frac{q 2q}{(5\times10^{-2})^2} \\
 F_y &= F_1 - F_y \frac{3}{5} \\
+F_y &= 90 - 38.8 \\
+F_y &= 51.1 N \\
 m &= \sqrt{F_x^2 + F_y^2} \\
-m &= 82.44491724
+m &= \sqrt{51.84^2 + 51.1^2} \\
+m &= 72.8 N \\
+\theta &= tan^{-1} (\frac{51.1}{51.8}) \\
+\theta &= 44.6 \degree \\
+\text{In IB, }\theta\text{is measured anti-clockwise from the positive X axis} \\
+\therefore \theta &= 44.6 + 180 = 224.6 \degree
 \end{align*}$$
 
-**8. **
+**9. Figure below shows two spherical charges that are fixed in place. The spheres have the same radius.**
+
+![Figure](~/Pictures/Screenshots/swappy-20240730-090326.png)
+
+**Explain :**
+
+**a. In which region, I, II or Ill, could the electric field be zero?**
+
+Region I may be zero, because force from $q$ and $-2q$ has the possibility to cancel out.
+The relative magnitude of $-2q$ to $q$ counteract the fact that $q$ is closer to $-2q$.
+
+$$E_{net}(I) = 0 = k \frac{q}{r_1^2} - k \frac{2q}{r_2^2} \textrightarrow r_2 = \sqrt{2} r_1, r_2 > r_1$$
+
+**b. In which region, I, II or Ill, does the electric field attain its maximum magnitude?**
+
+At region II, because the force from $q$ and $-2q$ would act on the charge with the same direction.
+
+**10. Four charges, each of magnitude q, are fixed at the vertices of a square of side a, as shown in Figure below.**
+
+![Figure](~/Pictures/Screenshots/swappy-20240730-091251.png)
+
+**a. What is the direction of the electric field at the centre of the square?**
+
+To the left.
+The Y components of each force cancel out each other, $\Sigma F_y = 0$.
+
+**b. What is the magnitude of the field in a?**
+
+$$4 cos 45 k \frac{q}{r^2}$$
+
+**11. Two plastic spheres each of mass $100.0 mg$ are suspended from very fine insulating strings of length $85.0 cm$, as shown in Figure below. When equal positive charges are placed on the spheres, the spheres repel and are in equilibrium when $10.0 cm$ apart.**
+
+**a. Determine the charge on each sphere.**
+
+$$\begin{align*}
+r &= 0.1 m \\
+k \frac{q^2}{(0.1)^2} \\
+q &= \sqrt{\frac{0.1^2}{8.99\times10^{9}}} \\
+q &= 1.05467865\times10^{-6}
+\end{align*}$$
 
 **15. The formula for the radius of the oil drop derived in the text (Tsokos’ book) ignores the buoyant force on the oil drop. Show that if this force is taken into account the radius is given by**
 
@@ -466,3 +514,99 @@ electron and neutron will be split, so it can go to the oil, and makes it negati
 when the electron is stationary (because of F coulomb), by adjusting V.
 
 $$E q = _{oil} g \textrightarrow q = \frac{m_{oil} g}{E} \textrightarrow q = \frac{m_{oil} g d}{V_{balance}}$$
+
+# Magnetic Field and Force
+
+Magnetic fields are produced around all moving charges (currents).
+The Earth’s magnetic field is also thought to be created by currents in the Earth’s molten iron and nickel core.
+The North geomagnetic pole actually represents the South pole of Earth’s magnetic field because opposite magnetic poles attract.
+Compasses point in the direction of field lines. The North end of a magnet, points toward Earth’s South magnetic field.
+The end closer to the geographic north is called the north (seeking) pole, the other end is called the south (seeking) pole.
+The strength of the field is shown by the density of the field lines.
+The field lines never cross.
+
+The vector representing a magnetic field is called magnetic flux density and its symbol is B. 
+Its unit is the tesla, T.
+In materials called ferromagnetic these tiny field s a re aligned so that a large observable macroscopic magnetic field is produced . 
+We can not isolated north and south poles, so  no magnetic monopole has ever been found. 
+We can isolate charges, it is explain why electric charge is quantised.
+The strength of a field is related to the density of field lines. This tells us that the magnetic field is strongest close to the poles.
+
+Small magnetic compasses around a long straight wire that carries current upwards. 
+The magnetic field is tangent to this circle.
+
+The right-hand grip rule for the magnetic field around a straight current-carrying wire:
+
+- The thumb is in the direction of the current.  Using the conventional current I (i.e. the direction that positive charges are moving in the wire)
+- The fingers curl in the direction of the magnetic field. 
+- The magnetic flux density (B) is the quantity that is used to measure how strong the field is.
+
+![pic](~/Pictures/Screenshots/swappy-20240730-094020.png)
+
+When a current-carrying wire is made into a circular loop the field inside is due to the addition of all the field components around the loop, making the field at the centre greater. 
+Adding more loops to form a coil will increase the field.
+A solenoid is a special type of coil where the loops are wound next to each other along a cylinder to form a helix.
+
+A different right-hand grip rule gives the direction of the magnetic field for a solenoid:
+
+- The fingers curl in the direction of the current.
+- The thumb points in the direction of the magnetic field or north pole.
+
+An electric charge moving in a region of magnetic field experiences a new type of force called a magnetic force.
+A charge q moving with speed v in a region of magnetic field of magnetic flux density B will experience a magnetic force F given by: 
+
+$$\begin{align*}
+F &= q v \times B \\
+F &= q v B sin \theta \\
+F &= q v B \text{ for } \theta = 90 \degree \\
+B &= \frac{F}{q v} \\
+/Phi &= B \cdot A \\
+\\
+B = \text{magnetic field strength} (T) \\
+Φ = \text{the number of flux or magnetic lines} (Wb) \\
+1 Wb (\text{weber}) = 1 Vs (\text{volt.second}) \\
+1T (\text{tesla}) = 1 Wb.m^{-2} or kg s^{-2} A^{-1} \\
+A = \text{area} (m^2) \\
+F = \text{magnetic force} (N) \\
+I = \text{current} (A) \\
+L = \text{length of wire} (m) \\
+q = \text{charge} (C) \\
+v = \text{speed of charge or drift speed} (ms1) \\
+\theta = \text{the angle between current direction and field lines}
+\end{align*}$$
+
+If the velocity of the charge is parallel to the direction of the field, the magnetic force is zero
+A magnetic flux density of I T produces a force of 1 N on a charge of 1 C moving at 1 m s- 1 at right angles to the direction of the field . 
+There are “Fleming hand’s rules” to help us find this direction
+
+#### Fleming Hand Rules
+
+The right-hand rule gives the direction of the force on a positive charge / conventional current.
+The left-hand rule gives the direction of the force on a negative charge / electron. 
+Figure a
+Four fingers point in the direction of the field
+The thumb in the direction of the velocity. 
+The direction away from the palm is the direction of the force.
+Figure b
+The middle finger now represents the force
+the index finger represents the field
+the thumb represents the velocity. 
+Figure c
+Curl the right-hand fingers so that they rotate from the vector v to the vector B 
+The direction of the thumb is the direction of the force. 
+
+
+#### Learning Check
+
+**21. Four long straight wire are placed perpendicular to the plane of the paper at the edges of a square. The same current is in each wire in the direction shown in the diagram. Deduce the direction of the magnetic field at point P in the centre of the square.**
+
+The wires above has its magnetic field direction is clockwise, whereas the wires below has its magnetic field direction anti-clockwise.
+
+**22. Express the tesla in terms of fundamental units.**
+
+$$\begin{align*}
+F &= q v \times B \\
+kg m s^{-2} = C m s^{-1} T \\
+T = \frac{kg}{C s}
+correct: kg s^{-2} A^{-1}
+\end{align*}$$

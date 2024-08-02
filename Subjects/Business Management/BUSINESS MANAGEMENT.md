@@ -1334,7 +1334,7 @@ The variables can be anything.
 
 # 4.4 Market Research
 
-Assessment Objectives (AO)
+## Assessment Objectives (AO)
 
 EO 3 is highest in SL, whereas for HL it's EO 4.
 Eash EO has their own command term.
@@ -1406,3 +1406,70 @@ and inform future decisions, policies, or actions based on the gathered insights
 Respondent is not questioned and instead their behaviour is observed.
 e.g. Alfamart, communicate with HP, see what peoples buy.
 
+## Secondary Research
+
++ Cheap
++ Time effective
+- Validity of data; may not what we exactly wanted; untrusted sources
+- Public data
+- General
+- Usually outdated
+
+### Types of Secondary Research
+
+#### Journal \w DOI
+
+DOI is digital object identifier, which can be a link.
+Google scholar or directly to the publisher.
+International sources is preferable.
+e.g. University Repository.
+SkyHub, second link on web search.
+Jounal is good based its index: Q1 (best), Q2, Q3 (worst).
+Search in journal ranking for its index (orange colored website).
+Journal give analyzed data (so not much use as raw), and quali data are easier to extract.
+It can also link to others document or tools from its literature review.
+
+#### Online DB
+
+Examples are Youtube, statistic center website, yahoo finance, investopedia, wall street journal, macrotrend (up to 10 years).
+Not open company are revenue report are not detailed and just focus on growth reporting,
+you need third-party source for the full report.
+
+#### Articles
+
+News publisher like Kompas, CNN, Tribun, CNBC, BBC.
+
+#### Magazine
+
+Forbes, Citilink Magazine
+
+#### Government publication
+
+## Sampling Method
+
+From a population!
+Sample can be random or selected, for each smaller group in the population.
+Representatives.
+
+### Random Sampling
+
+Just randomly pick.
+Usually with excel, with randomization.
+
+- Sample may not represent the entire population.
+
+### Quota Sampling
+
+With a particular nominal.
+e.g. from 300, pick 50 or 60.
+How to determine quota?
+May take reference from journal sampling size from the total population.
+Sugiyono - research method.
+
+### Convenience Sampling
+
+Depend on your own, mostly to make things easier.
+Usually divide using groups.
+
++ Same characteristics
+- Bias; sample either be overpresented or underpresented
