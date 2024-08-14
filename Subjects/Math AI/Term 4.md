@@ -1708,7 +1708,7 @@ Furthermore, the deviation in Robotics Club is bigger, suggesting higher range o
 
 **7. The number of sweets in 25 bags has a mean of 30 and standard deviation of 3. In a special promotion, the manufacturer doubles the number of sweets in each bag. Write down the new mean and the new standard deviation of the number of sweets in a bag.**
 
-60 and 6
+$30 \times 2 = 60$ and $|2| \times 3 = 6$
 
 **8. Mrs Ginger’s Grade 8 class sat an English test. The test was out of 40 marks. The mean score was 32 marks and the standard deviation was 8 marks. In order to change this to a mark out of 100, Mrs Ginger thinks that it would be all right to multiply all the scores by 2 and then add 20 to each one. Mr Ginger thinks that it would be fairer to multiply all the scores by 2.5. Miss Ginger suggests multiplying by 3 and subtracting 20 from each score.**
 
@@ -1744,3 +1744,167 @@ Mrs Ginger suggestion would overall increase score the most, especially for lowe
 Mr Ginger suggestion is the most moderate compared to the two other suggestion, acting as a standard or middle ground.
 
 Miss Ginger suggestion has the lowest overall increase in scores, and higher score student would benefit more.
+
+## Exercise 2C
+
+**1. For the following sets of data, find**
+
+**i. the modal class**
+
+**ii. an estimate for the mean**
+
+**iii. an estimate for the median**
+
+Comment on the meaning of these values and state which one is most appropriate to use in each case, giving a reason for your answer.
+
+**a.**
+
+| Number of cars, n | Frequency |
+| --- | --- |
+| 0 \le n < 30 | 12 |
+| 30 \le n < 60 | 28 |
+| 60 \le n < 90 | 39 |
+| 90 \le n < 120 | 42 |
+| 120 \le n < 150 | 54 |
+| 150 \le n < 180 | 65 |
+
+**a. i.**
+
+$150 \le n < 180$
+
+**a. ii.**
+
+$111.625$
+
+**a. iii.**
+
+$90 \le n < 120 \approx 105$
+
+**b.**
+
+| Speed of cars,s(mph) | Frequency |
+| --- | --- |
+| 40 \le s < 45 | 4 |
+| 45 \le s < 50 | 8 |
+| 50 \le s < 55 | 23 |
+| 55 \le s < 60 | 15 |
+| 60 \le s < 65 | 6 |
+| 65 \le s < 70 | 4 |
+
+**b. i.**
+
+$50 \le n < 55$
+
+**b. ii.**
+
+$54.4$
+
+**b. iii.**
+
+$50 \le s < 55 \approx 52.5$
+
+**c.**
+
+| Time to complete a puzzle, t(minutes) | Frequency |
+| --- | --- |
+| 2 \le t < 3 | 2 |
+| 3 \le t < 4 | 5 |
+| 4 \le t < 5 | 3 |
+| 5 \le t < 6 | 7 |
+| 6 \le t < 7 | 4 |
+| 7 \le t < 8 | 9 |
+| 8 \le t < 9 | 3 |
+
+**c. i.**
+
+$30 \le n < 40$
+
+**c. ii.**
+
+$5.86$
+
+**c. iii.**
+
+$5 \le t < 6 \approx 5.5$
+
+## Box-and-whisker diagram
+
+Data yang lebih informatif timbang histograf
+from discrete or continuous
+very convenient for comparing sets of data
+
+To draw a box diagram, you first need to calculate the median, the quartiles, and the minimum and maximum values of the data. You then draw the box diagram as shown.
+
+If you have outlier, then it'll be denoted with `x`.
+
+### Example 6
+
+**a. State which region has the tallest mountain.**
+
+Himalaya
+
+**b. State the region with the lowest standard deviation.**
+
+Other
+
+**c. Estimate the median height of peaks in the Karakoram.**
+
+$7500 m \le \text{median} < 7450 m$
+
+**d. Estimate the interquartile range of heights of peaks in the Himalaya.**
+
+$7850 - 7300 \approx 550 m$
+
+**e. Estimate the range of heights of peaks in the Karakoram.**
+
+$8600 - 7200 \approx 1400 m$
+
+### Example 7
+
+**1. Draw a box-and-whisker diagram for the number of days of precipitation in London for the given years, marking the outlier.**
+
+Range = 30.0 - 13.0 = 17.0
+Mean = 203.0 / 10 = 20.3
+Median = 21.0
+Mode = 21.0
+Q1 = 16.0
+Q2 = 21.0
+Q3 = 21.0
+IQR = 21.0 - 16.0 = 5.0
+Outliers (X < 8.5, X > 28.5): 30.0, 
+Variance = 25.566666666666666
+The standard deviation is: 5.0563
+
+**2. The time, in minutes, to complete 200 games of chess is shown in the table.**
+
+| Time, x minutes | Frequency |
+| --- | --- |
+| 20 ≤ x < 30 | 36 |
+| 30 ≤ x < 40 | 67 |
+| 40 ≤ x < 50 | 48 |
+| 50 ≤ x < 60 | 27 |
+| 60 ≤ x < 70 | 10 | | 70 ≤ x < 80 | 7 | | 80 ≤ x < 90 | 5 |
+
+**a. Draw a histogram to represent this data.**
+
+**b. Find the mean, median, Q1 , Q3 and range, and determine if there are any outliers.**
+
+$$\begin{align*}
+mean = 8490.0 / 200 &= 42.45
+median &= 35
+Q_1 &= 35
+Q_3 &= 45
+range = max - min &= 85 - 25 = 60
+IQR = Q_3 - Q_1 = 10
+\text{lower boundary} &= 35 - 1.5 \times 10 = 20
+\text{upper boundary} &= 45 - 1.5 \times 10 = 60
+outliers &= 65, 75, 85
+\end{align*}$$
+
+**c. Given that the quickest time was 26 minutes and the longest time was 84 minutes, draw a box-and-whisker plot to represent this data.**
+
+![diagram](./img/ex2d-2c.png)
+
+**d. **
+
+<!-- TODO: Finish this!! -->

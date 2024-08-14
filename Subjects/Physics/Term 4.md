@@ -315,7 +315,7 @@ $$F = E q = 6000 \cdot 1.6 \times 10^{-19} = 9.6 \times 10^{-16}$$
 
 **c. Determine the gain in kinetic energy of the proton when it reaches the negative plate.**
 
-$$\delta KE = W = V q = 120 \cdot 1.6 \times 10^{-19} = 1.92 \times 10^{-17}$$
+$$\Delta KE = W = V q = 120 \cdot 1.6 \times 10^{-19} = 1.92 \times 10^{-17}$$
 
 **d. The distance between the plates is doubled but the potential difference remains the same. How do the answers to parts a and b change, if at all?**
 
@@ -610,3 +610,63 @@ kg m s^{-2} = C m s^{-1} T \\
 T = \frac{kg}{C s}
 correct: kg s^{-2} A^{-1}
 \end{align*}$$
+
+# Motion in Electric Field
+
+The path of an electric charge in a uniform electric field is either a straight line or a parabolic path:
+Straight-line path: Occurs if the charge is initially at rest or if its initial velocity is parallel to the electric field.
+The particle will experience a force qE in the direction of the field (A negative charge would move in the opposite direction)
+It will move along a straight line with acceleration:
+
+The positive charge increases its kinetic energy as it moves to the right. 
+The gain in kinetic energy from X to Y is equal to the work done by the electric force, and that is qV. 
+
+## Parabolic path
+
+A more interesting case is when the charge enters a region of uniform electric field with an initial velocity $u$ that is at right angles to the electric field.
+
+1. the particle will follow a parabolic path
+2. the role of the acceleration of gravity is played by the acceleration $a = \frac{q E}{m}$
+3. the component of velocity normal to the field will remain constant : $v_x = u$
+4. the component of velocity parallel to the field will increase uniformly: $v_y = u_y + at = \frac{q E}{m} t$
+
+## Kinetic Energy
+
+The kinetic energy of the particle increases as time goes on because the electric force is doing work on the particle. 
+
+1. After time $t$, the particle will move a horizontal distance 
+$x = ut$
+2. Vertical distance: $y = \frac{1}{2} a t^2 = \frac{1}{2} \frac{q E}{m} t$
+3. Kinetic Energy
+
+$$\begin{align*}
+Ek = \frac{1}{2} m v^2 = \frac{1}{2} m (x_x^2 + v_y^2) \\
+EK = \frac{1}{2} m u^2 + \frac{1}{2} m (\frac{q E t}{m})^2 \\
+Ek_f = Ek_i + \frac{1}{2} \frac{(q E t)^2}{m} \\
+\Delta Ek = Ek_f - Ek_i \\
+\Delta Ek = \frac{1}{2} \frac{m E^2 q^2 t^2}{m^2} \\
+\Delta Ek = E q \frac{1}{2} \frac{q E}{m} t^2 \\
+\text{substitute with y and F} \\
+W = \Delta Ek = F y
+\end{align*}$$
+
+4. the change in kinetic energy is the work done by the electric force.
+
+#### Leaning Check
+
+**1. A proton and an alpha ($^2_4He$) particle (mass $4m_P$, charge $+2e$) are placed on the positive plate inside a parallel plate arrangement, as shown in Figure. The particles are released at the same time.<br>Which particle will reach the negative plate first?**
+
+$$a = \frac{E q}{m} \
+a_p = \frac{E e}{m} \
+a_{\alpha} = \frac{E 2e}{4m} \
+\frac{a_p}{a_{\aplha}} = \frac{1}{2} \
+\therefore proton$$
+
+**2. A potential difference of 120 V is established between two oppositely charged parallel plates. A proton is placed on the positive plate and is then released, as shown in Figure.<br>What is the speed of the proton as it hits the negatively charged plate?**
+
+$$
+W = \Delta E k \
+q V = \frac{1}{2} m v^2 \
+v = \sqrt{\frac{2 q V}{m}} \
+v = \sqrt{\frac{2 1.60\times10^{-19} V}{1.673\times10^{-27}}}
+$$
