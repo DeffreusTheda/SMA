@@ -636,7 +636,7 @@ The kinetic energy of the particle increases as time goes on because the electri
 
 1. After time $t$, the particle will move a horizontal distance 
 $x = ut$
-2. Vertical distance: $y = \frac{1}{2} a t^2 = \frac{1}{2} \frac{q E}{m} t$
+2. Vertical distance: $y = \frac{1}{2} a t^2 = \frac{1}{2} \frac{q E}{m} t^2$
 3. Kinetic Energy
 
 $$\begin{align*}
