@@ -12,7 +12,7 @@ def calculate(numbers):
         return 0  # Standard deviation is undefined for a single number
 
     print(f'Range = {max(numbers)} - {min(numbers)} = {max(numbers) - min(numbers)}')
-    print(f'Mean = {sum(numbers)} / {n} = {sum(numbers) / n}')
+    print(f'Mean = \\frac{{{sum(numbers)}}}{{{n}}} = {sum(numbers) / n}')
     print(f'Median = {statistics.median(numbers)}')
     print(f'Mode = {statistics.mode(numbers)}')
     Q1 = statistics.median(numbers[:n//2])
@@ -27,7 +27,7 @@ def calculate(numbers):
     for num in numbers:
         print((str(num)+', ') if num < (Q1 - (1.5 * IQR)) or num > (Q3 + (1.5 * IQR)) else '', end='')
     print(f'\nVariance = {statistics.variance(numbers)}')
-    print(f"The standard deviation is: {math.sqrt(sum((x - (sum(numbers) / n)) ** 2 for x in numbers) / (n - 1)):.4f}")
+    print(f"The standard deviation is: sqrt{{\\frac{{{sum((x - (sum(numbers) / n)) ** 2 for x in numbers)}}}{{{n} - 1}}}} = {math.sqrt(sum((x - (sum(numbers) / n)) ** 2 for x in numbers) / (n - 1)):.4f}")
 
 # Get input from the user
 numbers = []

@@ -656,17 +656,99 @@ W = \Delta Ek = F y
 
 **1. A proton and an alpha ($^2_4He$) particle (mass $4m_P$, charge $+2e$) are placed on the positive plate inside a parallel plate arrangement, as shown in Figure. The particles are released at the same time.<br>Which particle will reach the negative plate first?**
 
-$$a = \frac{E q}{m} \
-a_p = \frac{E e}{m} \
-a_{\alpha} = \frac{E 2e}{4m} \
-\frac{a_p}{a_{\aplha}} = \frac{1}{2} \
+$$a = \frac{E q}{m} \\
+a_p = \frac{E e}{m} \\
+a_{\alpha} = \frac{E 2e}{4m} \\
+\frac{a_p}{a_{\aplha}} = \frac{1}{2} \\
 \therefore proton$$
 
 **2. A potential difference of 120 V is established between two oppositely charged parallel plates. A proton is placed on the positive plate and is then released, as shown in Figure.<br>What is the speed of the proton as it hits the negatively charged plate?**
 
-$$
-W = \Delta E k \
-q V = \frac{1}{2} m v^2 \
-v = \sqrt{\frac{2 q V}{m}} \
-v = \sqrt{\frac{2 1.60\times10^{-19} V}{1.673\times10^{-27}}}
-$$
+$$/begin{align*}
+W = \Delta E k \\
+q V = \frac{1}{2} m v^2 \\
+v = \sqrt{\frac{2 q V}{m}} \\
+v = \sqrt{\frac{2 \cdot 1.60\times10^{-19} \cdot 120}{1.67\times10^{-27}}} \\
+v = 151637.7657 \approx 1.52\times10^{5} m s^{-1}
+/end{align*}$$
+
+**3. An electron moving at speed $6.0 \times 10^6 m s^{-1}$ enters two oppositely charged parallel plates at a point near the lower plate, as shown in Figure. The length of the plates is $12 cm$, and their separation is $4.8 cm$. There is a potential difference of $60 V$ between the plates. The upper plate is positively charged. 
+
+![]() <!-- TODO:-->
+
+**a. Determine:**
+**i. the magnitude and direction of the electric field in between the plates**
+
+$$/begin{align*}
+\text{Direction: downward} \\
+E = \frac{V}{d} = \frac{60}{4.8\times10^{-2}} \\
+E = 1250 V m^{-1}
+/end{align*}$$
+
+**ii. the magnitude and direction of the acceleration of the electron when inside the region of electric field.**
+
+$$/begin{align*}
+\text{Direction: upwards} \\
+a = \frac{E q}{m} \\
+a = \frac{1250 \cdot 1.6\times10^{19}}{9.1\times10^{-31}} \\
+a = 2.1978022\times10^{14} \approx 2.20\times10^{14} m s^{-2}
+/end{align*}$$
+
+**b. Suggest whether the electron will hit the upper plate or not.**
+
+Yes, because the x-axis ($6.0 \times 10^6 m s^{-1}$) component is way lesser than the acceleration on the y-axis ($$), and the length of the plates is only $1.2\times10^{-1} m$
+
+$$/begin{align*}
+y = \frac{1}{2} a t^2 \\
+y = \frac{1}{2} 2.20\times10^{14} \cdot 2\times10^{-8} \\
+y = 2200000 m \\
+\therefore \text{won't collide}
+/end{align*}$$
+
+#### Parabolic Path
+
+$$/begin{align*}
+v_x &= v cos \theta \\
+v_x &= 6.0\times10^6 cos 30 \\
+v_x &= 5196152.423 m s^{-1}
+v_y &= 3000000 m s^{-1} \\
+\\
+a &= \frac{q E}{m} \\
+a &= \frac{1.6\times10^{-19} \frac{60\times10^3}{4.8\times10^{-2}}}{1.67\times10^{-27}} \\
+a &= 1.19760479\times10^{14} m s^{-2} \approx 1.2\times10^{14} m s^{-2} \\
+\\
+v_y^2 &= u_y^2 + 2 a s \\
+0 &= (3.0\times10^6)^2 - 2 \cdot 1.2\times10^{14} y \\
+y &= \frac{-(3.0\times10^6)^2}{-2 \cdot 1.2\times10^{14}} \\
+y &= 0.0375 m \\
+\therefore \text{don't hit}
+/end{align*}$$
+
+#### Learning Check
+
+**Continue from question 3**
+
+**4. The length of the plates in Figure is $22 cm$. Figure shows the proton at its highest point.<br>Calculate:**
+
+**a. the horizontal distance covered by the proton when it is at its highest point**
+
+$$/begin{align*}
+0 = u sin 30 + a t \\
+t = \frac{u sin 30}{a} \\
+t = \frac{6.0\times10^6 sin 30}{1.2\times10^{14}} \\
+t = 2.5\times10^{-8} \\
+\\
+x = u_x t \\
+x = 6.0\times10^6 cos(30) \cdot 2.5\times10^{-8} \\
+x = 0.13 m
+/end{align*}$$
+
+**b. the horizontal distance covered by the proton when it is at its highest point**
+
+$$/begin{align*}
+W = \Delta Ek \\
+W = Ek_f - Ek_i \\
+W = \frac{1}{2} m v_y^2 - \frac{1}{2} m u_y^2 \\
+W = 0 - \frac{1}{2} 1.67\times10^{-27} (3.0\times10^6)^2 \\
+W = 7.515\times10^{-15}
+/end{align*}$$

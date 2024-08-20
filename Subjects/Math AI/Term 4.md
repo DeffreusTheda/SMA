@@ -1908,3 +1908,232 @@ outliers &= 65, 75, 85
 **d. **
 
 <!-- TODO: Finish this!! -->
+
+### Exam-Style questions
+
+**11. P1: Eight primary school children were given a spelling test which was marked out of 20.<br>Their results were: 15, 20, 18, 4, 12, 17, 12, 9<br>Find:**
+
+**a. the range of the data [1]**
+
+$$20 - 4 = 16$$
+
+**b. the mean mark [2]**
+
+$$\frac{107}{8} \approx 13.4$$
+
+**c. the median mark [1]**
+
+$$13.5$$
+
+**d. the modal mark [1]**
+
+$$12.0, \text{with frequency of} 2$$
+
+**e. the variance of the data [2]**
+
+$$27.4$$
+
+**12. P2: The following tables show the mean daily temperatures, by month, in both Tenerife and
+Malta.**
+
+**Tenerife:**
+
+| Month | Mean daily temperature (°C) |
+| -- | -- |
+| January | 19 |
+| February | 20 |
+| March | 21 |
+| April | 21 |
+| May | 23 |
+| June | 25 |
+| July | 28 |
+| August | 29 |
+| September | 28 |
+| October | 26 |
+| November | 23 |
+| December | 20 |
+
+**Malta:**
+
+| Month | Mean daily temperature (°C) |
+| January | 16 |
+| February | 16 |
+| March | 17 |
+| April | 20 |
+| May | 24 |
+| June | 28 |
+| July | 31 |
+| August | 31 |
+| September | 28 |
+| October | 25 |
+| November | 21 |
+| December | 17 |
+
+**a. Find the mean temperature over the course of the year for Tenerife. [2]**
+
+$$\frac{283}{12} = 23.6$$
+
+**b. Find the standard deviation of temperatures in Tenerife. [2]**
+
+$$\sqrt{\frac{136.91666666666666}{12 - 1}} = 3.53$$
+
+**c. Find the mean temperature over the course of the year for Malta. [2]**
+
+$$\frac{274}{12} = 22.8$$
+
+**d. Find the standard deviation of temperatures in Malta. [2]**
+
+$$\sqrt{\frac{365.66666666666663}{12 - 1}} = 5.77$$
+
+**e. By referring directly to your answers from parts a–d), make contextual comparisons about the temperatures in Tenerife and Malta throughout the year. [4]**
+
+The temperature in Malta varies more than Tenerife, with higher range of even though both have similar mean of temperature.
+
+**13. P2: Ben practises playing the Oboe daily. The time (in minutes) he spends on daily practice over 28 days is as follows.<br>10, 15, 30, 35, 40, 40, 45, 55, 60, 62, 64, 64, 66, 68, 70, 70, 72, 75, 75, 80, 82, 84, 90, 90, 105, 110, 120, 180**
+
+**a. Find the median time. [2]**
+
+$$69$$
+
+**b. Find the lower quartile. [2]**
+
+$$50$$
+
+**c. Find the upper quartile. [2]**
+
+$$83$$
+
+**d. Find the range. [2]**
+
+$$180 - 10 = 170$$
+
+**e. Determine whether there are any outliers in the data. [4]**
+
+$$180, \gt 83 + 1.5 \times (83 - 50), 132.5$$
+
+**f. Draw a box-and-whisker diagram for the above data, marking any outliers as required. [3]**
+
+![examstyle-13f](./img/examstyle-13f.png)
+
+**14. P2: The following raw data is a list of the height of flowers (in cm) in Eve’s garden.<br>26.5, 53.2, 27.5, 33.6, 44.6, 39.5, 24.9, 45.1, 47.8, 39.3, 33.1, 38.7, 44.1, 22.3, 44.1, 30.5, 25.5, 35.9, 37.1, 40.2, 23.3, 36.2, 34.8, 37.3**
+
+**a. Copy and complete the following grouped frequency table. [3]**
+
+| Height, (x cm) | Frequency |
+| --- | --- |
+| 20 ≤ x < 25 | 3 |
+| 25 ≤ x < 30 | 3 |
+| 30 ≤ x < 35 | 4 |
+| 35 ≤ x < 40 | 7 |
+| 40 ≤ x < 45 | 4 |
+| 45 ≤ x < 50 | 2 |
+| 50 ≤ x < 55 | 1 |
+
+**b. Find an estimate for the mean height, using the frequency table. [2]**
+
+$$\frac{865.1}{24} = 36.0$$
+
+**c. Find an estimate for the variance, using the frequency table. [2]**
+
+$$68.03650362318841$$
+
+**d. Find an estimate for the standard deviation, using the frequency table. [2]**
+
+$$sqrt{\frac{1564.8395833333334}{24 - 1}} \approx 8.25$$
+
+**e. Eve's neighbour's garden was also surveyed. It was found that the flowers in the neighbour's garden had a mean height of 32.1 cm and standard deviation 7.83 cm. Compare the heights of the flowers in both gardens, drawing specific conclusions. [3]**
+
+The mean of both garden differ, but the standard deviation is close in term of value. The ratio between standard deviation and mean height in both garden is similar too, $0.229$ and $0.244$ for Eve's and her neighbour', respectively. When comparing flowers in a garden, the deviation of height looks the same on both garden.
+
+**15. Icicles creamery decided to analyse their ice cream sales to see if there was any correlation between sales and the average outdoor temperature for that particular month.<br>The following data was collected:**
+
+| Month | Mean temperature (T°C) | Sales ($) |
+| -- | -- | -- |
+| January | 3 | 350 |
+| February | 4 | 650 |
+| March | 9 | 900 |
+| April | 11 | 920 |
+| May | 17 | 1080 |
+| June | 22 | 1200 |
+| July | 25 | 1260 |
+| August | 29 | 1390 |
+| September | 19 | 1220 |
+| October | 11 | 880 |
+| November | 8 | 770 |
+| December | 6 | 500 |
+
+**a. Plot the given points on a scatter diagram. [2]**
+
+![examstyle-15a](./img/examstyle-15a.png)
+
+$$/begin{align*}
+T = \frac{164}{12} \approx 13.7 \\
+P = \frac{11120}{12} \approx 926.67 \\
+\therefore (13.7, 926.67)
+/end{align*}$$
+
+**b. Calculate the coordinates of the point (T, P) and hence draw a line of best fit.  [3]**
+
+![examstyle-15a](./img/examstyle-15a.png)
+
+**c. Calculate Pearson's Product Moment Correlation Coefficient for this data, and interpret your result. [2]**
+
+$$0.9441$$
+
+**d.**
+
+$$Yeah, as shown by the Pearson's Product Moment Correlation Coefficient, it's a strong correlation$$
+
+**16.**
+
+**a.**
+
+$$9.6 * 200 + 5000 = 6920$$
+
+**b.**
+
+$$2.15 * 200 = 430$$
+
+**17.**
+
+0.3
+3.0
+2.5
+4.8
+1.2
+1.9
+4.0
+2.2
+4.1
+0.9
+
+155000
+92000
+66000
+72000
+116000
+153000
+48000
+118000
+106000
+140000
+
+**a.**
+
+$$-0.7659$$
+
+This means that there's weak correlation between distance of employee from the centre of Sydney and their salary.
+
+**b.**
+
+![examstyle-17b](./img/examstyle-17b.png)
+
+$$/begin{align*}
+s = \frac{1066000}{10} = 106600 \\
+d = \frac{24.9}{10} = 2.49
+/end{align*}$$
+
+**c.**
+
+Listen here, first of all, the correlation between distance to centre of Sydney and salary is weak.
+Secondly, there's a lot more factor that influence salary than just distance to the centre of Sydney.
