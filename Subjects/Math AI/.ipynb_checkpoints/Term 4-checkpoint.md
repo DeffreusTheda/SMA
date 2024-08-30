@@ -2140,53 +2140,7 @@ Secondly, there's a lot more factor that influence salary than just distance to 
 
 ### Exam-Style Questions
  
-**8. P1:**
-
-**i.**
-
-$$1 \textrightarrow \text{perfect positive}$$
-
-**ii.**
-
-$$-0.8 \textrightarrow \text{strong negative}$$
-
-**iii.**
-
-$$0.4 \textrightarrow \text{weak positive}$$
-
-**iv.**
-
-$$-0.4 \textrightarrow \text{weak negative}$$
-
-**v.**
-
-$$0 \textrightarrow \text{zero}$$
-
-**9. P2:<br><br>x: 1 2 3 4 5 6 7 9<br>y: 9 8 7 6 5 5 5 2**
-
-**a.**
-
-![9p2-a](./img/9p2-a.png)
-
-**b.**
-
-$$\text{Inversely proportional}$$
-
-**c. i.**
-
-$$\frac{37.0}{8} = 4.625$$
-
-**c. ii.**
-
-$$\frac{47.0}{8} = 5.875$$
-
-**c. iii.**
-
-![9p2-c-iii](./img/9p2-c-iii.png)
-
-**d.**
-
-
+**8. P**
 
 ### Exam--style Questions - desc stat
 

@@ -752,3 +752,209 @@ W = \frac{1}{2} m v_y^2 - \frac{1}{2} m u_y^2 \\
 W = 0 - \frac{1}{2} 1.67\times10^{-27} (3.0\times10^6)^2 \\
 W = 7.515\times10^{-15}
 /end{align*}$$
+
+
+$R = \frac{m v}{q B}$
+
+$$v = \frac{2 \pi r}{T} = \Omega r = \frac{2 \pi R}{T}$$
+$$\begin{align*}
+T = \frac{2 \pi m}{q B} \\
+W = F y
+\end{align*}$$
+
+normal = right angle = perpendicular.
+circular movement.
+velocity change, but not speed.
+no work (W) while in the region of the magnetic field, Ek final and Ek initial doesn't change.
+
+$$\begin{align*}
+W = F r \\
+W = F r cos \theta \\
+W = F r cos 90 \degree \\
+W = 0
+\end{align*}$$
+
+$$\begin{align*}
+\end{align*}$$
+
+## Motion in crossed electric and magnetic field 
+
+Gabungan perpendicular: 2 forces: electric and magnetic.
+Search resultant vector of bot ofrces.
+e.g. positive change right go in electric field that's going down.
+-> v goes down cuz electron is there, $F_{\text{electric}}$ ($qE$) to down , $F_{\text{magnetic}}$ ($q v B$) to up.
+
+q: when it's electron: the two forces are swapped.
+
+## Test your understanding
+
+**1. Why can't a charged particle follow a circular path in a uniform electric field?**
+
+Because the force doesn't point to the center of the circle of the electric field.
+
+**2. Two parallel plates are oppositely charged. An electron is positioned on the negative plate and a proton on the positive plate.The particles are released.<br>Compare, for when the particles reach the opposite plate: the kinetic energy, the speed, the time to move across.**
+
+$$\begin{align*}
+W_p == W_e \\
+q = -q, \text{only magnitude} \\
+V \text{(voltage)} == \\
+\\
+\frac{1}{2} m_e v_e^2 = \frac{1}{2} m_p v_p^2 \\
+9.11\times10^{-31} v_e^2 = 1.67\times10^{-27} v_p^2 \\
+v_e \approx 43 v_p \\
+\\
+\frac{v - u}{a} = t \\
+m a = E q \\
+a = \frac{E q}{m} \\
+v = \frac{q E}{m} t \\
+\frac{v m}{q E} = t \\
+\frac{v m}{ E} = t_e \\
+43 = \frac{t_e}{t_p} \frac{m_p}{m_e} \\
+43 \frac{m_e}{m_p} = \frac{t_e}{t_p} \frac{m_p}{m_e} \\
+\frac{t_e}{t_p}= 0.02345688623 \\
+t_p = 42.6 t_e \\
+\therefore t_p > t_e
+\end{align*}$$
+
+**3. Two parallel plates are oppositely charged. A proton (charge +e, mass m) and an alpha particle (charge +2e, mass 4m) are placed on the positively charged plate.<br>When the particles reach the opposite plate, what is the ratio of: the proton speed to the alpha particle speed, time of travel of the proton to time of travel of the alpha particle?**
+
+$$\begin{align*}
+\frac{v_p}{v_d} &= \frac{q_p m_a}{m_p q_a} = 8 \\
+v &= \sqrt{\frac{2 V q}{m}} \\
+\frac{v_p}{v_a} &= \sqrt{\frac{q_p m_a}{m_p q_a}} \\
+\frac{v_p}{v_a} &= \sqrt{2} \\
+v_p &= \sqrt{2} v_a \\
+\\
+v &= \frac{q E}{m} t \\
+t &= \frac{m v}{q E} \\
+\frac{t_p}{t_a} &= \frac{m_p v_p q_a}{q_p m_a v_a} \\
+\frac{t_p}{t_a} &= \frac{m_p \sqrt{2} q_a}{q_p m_a} \\
+\frac{t_p}{t_a} &= 0.7071067812 \\
+\end{align*}$$
+
+**4. A proton is injected with speed $1.8\times10^5 m s{-1}$ into the region between two oppositely charged parallel plates. The top plate is the negative plate, and there is a potential difference of $60 V$ between the plates. The plates are $8.0 cm$ apart and $24 cm$ long. <br>How far above the positive plate will the proton be when it leaves the plates?**
+
+$$\begin{align*}
+F &= \frac{E q}{m} \\
+F &= \frac{E q}{(1.67\times10^{-27})^2} \\
+F &= \frac{60 \cdot 1.6\times10^{-19}}{(8\times10^{-2} 1.67\times10^{-27})^2} \\
+F &= 5.37846463\times10^{38} \\
+a &= \frac{q E}{m} \\
+a &= \frac{q V}{m d} \\
+a &= 7.18562874\times10^{10} \\
+s &= u_y t + \frac{1}{2} a t^2 \\
+t &= \frac{24\times10^{-2}}{1.8\times10^5} = 1.33333333\times10^{-6} \\
+s &= 0 + 0.127744511 m
+\end{align*}$$
+
+**5. A proton is injected into the region between two oppositely charged parallel plates. The top plate is the positive plate, and there is a potential difference of $150 V$ between the plates. The plates are $4.0 cm$ apart. The velocity of the proton makes an angle of $30°$ with the horizontal.**
+
+$$\begin{align*}
+\end{align*}$$
+
+##  Physics SLP
+
+**1. An investigation was undertaken to determine the relationship between the length of a pendulum $l$ and the time taken for the pendulum to oscillate twenty times. The time it takes to complete one swing back and forth is called the period $T$. It can be shown that $T = 2 \pi \sqrt{\frac{l}{g}}$ where $g$ is the acceleration due to gravity.<br>The data in the table below was obtained.**
+
+| Length of pendulum $\pm 0.05 m$ | Time for 20 oscilations $\pm 0.2 s$ | Period $T$ | $T^2$ | Absolute error of $T^2$ |
+| --- | --- | --- | --- | --- |
+| 0.21 | 18.1 |  |  |  |
+| 0.40 | 25.5 |  |  |  |
+| 0.62 | 31.5 |  |  |  |
+| 0.80 | 36.8 |  |  |  |
+| 1.00 | 40.4 |  |  |  |
+
+**a. Copy the table and complete the period column for the measurements. Be sure to give the uncertainty and the units of T.**
+
+**b. Calculate the various values for $T^2$ including its units.**
+
+**c.Determine the absolute error of $T^2$ for each value.**
+
+| Length of pendulum $\pm 0.05 m$ | Time for 20 oscilations $\pm 0.2 s$ | Period $T$ | $T^2$ | Absolute error of $T^2$ |
+| --- | --- | --- | --- | --- |
+| 0.21 | 18.1 | $0.905 \pm 0.01$ | 0.819 | 0.552 |
+| 0.40 | 25.5 | $1.275 \pm 0.01$ | 1.626 | 0.392 |
+| 0.62 | 31.5 | $1.575 \pm 0.01$ | 2.481 | 0.317 |
+| 0.80 | 36.8 | $1.84 \pm 0.01$ | 3.386 | 0.272 |
+| 1.00 | 40.4 | $2.02 \pm 0.01$ | 4.080 | 0.248 |
+
+**d. Draw a graph of T2 against l. Make sure that you choose an appropriate scale to use as much of a piece of graph paper as possible. Label the axes, put a heading on the graph, and use error bars. Draw the curve of best fit.**
+
+**e. What is the relationship that exists between $T^2$ and $l$?**
+
+$$\text{Perpendicular}$$
+
+**f. Are there any outliers?**
+
+$$\text{}$$
+
+**g. From the graph determine a value for $g$**
+
+$$\begin{align*}
+T = 2 \pi \sqrt{\frac{l}{g}} \\
+\frac{T}{2 \pi} = \sqrt{\frac{l}{g}} \\
+\frac{T^2}{4 \pi^2} = \frac{l}{g} \\
+g = \frac{4 pi^2}{l T^2} \\
+\text{from the data}, g \approx
+\end{align*}$$
+[0.21, 0.40, 0.62, 0.80, 1.00]
+
+## Phase Difference
+
+$\delta \phi$
+
+$$\begin{align*}
+\Delta \phi = \frac{\Delta t}{T} \times 2 \pi \text{(in radians)} \\
+\\
+\frac{0.25}{2} \times 2 \pi \\
+\frac{\pi}{4} \\
+45 \degree\\
+\end{align*}\delta$$
+
+# Differential
+
+$$\begin{align*}
+a = \frac{\Delta v}{\Delta t} = \frac{d v}{d t} \\
+= \frac{d^2 x}{d t^2} \\
+\text{if not constant:} \\
+J = \frac{d^3 x}{d t^3} \\
+\\
+y = n t^x \\
+\frac{d y}{d t} = n x t^{x-1} \\
+y = 2 t^3 = \frac{d y}{d t} = 2 \cdot 3 t^2 = 6 t^2 \\
+\text{now differentiate that!} \\
+\frac{d^2 y}{d t^2} = 6 \cdot 2 t^{2-1} = 12 t \\
+\frac{d^3 y}{d t^3} = 12 \cdot 1 t^{1-1} = 12 \\
+\frac{d^4 y}{d t^3} = 12 \cdot 0 t^{0-1} = 0 \\
+\\
+y = 14 t^3 + 2 t^2 + 15 t + 1 \\
+\frac{d y}{d t} = 14 \cdot 3 t^2 + 2 \cdot 2 t^1 + 15 = 42 t^2 + 4 t + 15 \\
+\\
+s = u t + \frac{1}{2} a t^2 \\
+v = \frac{d s}{d t} = u \cdot 1 t^0 + \frac{a}{2} \cdot 2 t^1 \\
+v = u + a t \\
+\\
+\text{once more,} \\
+y = 4 t^{\frac{1}{2}} \\
+\frac{d y}{d t} = 4 \cdot \frac{1}{2} t^{\frac{1}{2} - 1} \\
+= 2 t^{-\frac{1}{2}} \\
+= \frac{2}{\sqrt{t}} \\
+\\
+y = x^{-1} \\
+\frac{d y}{d t} = 1 \cdot -1 x^{-2} \\
+= -x^{-2} \\
+\\
+y = sin \theta \\
+\frac{d y}{d t} = cos \theta \\
+\text{because } sin \textrightarrow cos \textrightarrow -sin \textrightarrow -cos \\
+\\
+y = sin (\omega t) \\
+\frac{d y}{d \omega t} = cos \omega t \\
+\frac{d y}{d t} = cos \omega 1 t^0 \\
+\text{we make parables: } m = \omega t \\
+= \frac{d y}{d t} \frac{d m}{d m} \\
+= \frac{d y}{d m} \frac{d m}{d t} \text{(computative)} \\
+= \frac{d sin m}{d m} \cdot \frac{d \omega t}{d t} \\
+= cos m \cdot \omega \\
+= \omega cos \omega t
+\end{align*}$$
