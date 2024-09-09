@@ -1155,7 +1155,7 @@ Data bisa diambli dari revenue atau cash flow; Revenue pasti selalu berganti.
 
 ## Average Rate of Return (ARR)
 
-$\frac{total~profit}{initial~cost \cdot years} \cdot 100%$<br>
+$\frac{total~profit}{initial~cost \cdot years} \cdot 100\%$<br>
 Total profit is total revenue reduced by initial cost.
 
 # 4.1: Introduction to Marketing
@@ -1473,3 +1473,37 @@ Usually divide using groups.
 
 + Same characteristics
 - Bias; sample either be overpresented or underpresented
+
+## Branding
+
+The role, or purpose of branding includes:
+
+- Create original identity for a good, service or organization.
+- Differentiate a business from rivals.
+- Build brand awareness.
+- Build brand loyalty.
+- Create a particular or desired corporate image.
+
+### Brand
+
+A name, symbol, sign, or design that differentiate from rivals.
+
+### Branding
+
+Marketing techniques used to give a unique name or identity, .e.g.: Amazon, Nestle, Lego, IKEA, Apple.
+
+### Brand Awareness
+
+The extent to which customers know and recognize an individual brand.
+
+### Brand Loyalty
+
+When customers repeatedly buys and habitually but the same brand.
+
+### Brand Value
+
+Expected earning potential of a branch, i.e. it's forecast future sales revenue.
+
+### Brand Development
+
+Part of a firm's marketing strategy in communicating the value of a brand and what the brand stands for.

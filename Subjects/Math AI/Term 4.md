@@ -2311,3 +2311,342 @@ $$$$
 **e.**
 
 $$$$
+
+# Non-Linear Regression
+
+Whe you can use a curve rahter than a straight line, to fir bivariate data.
+
+In IB, it's only: Power, Sine, Cubic, Queadratic, Exponential.
+Not really important, as in paper questions you're usually asked to use a certain model.
+e.g. what's the Y on this model?
+e.g.  comparing which model fits best: use $r^2$ and pick closest one to 1!
+
+The coefficient of determination, commonly denoted as $r-squared, is a statistical measure that evaluates the goodness of fit of a linear regression model. It represents the proportion of the variance in the dependent variable (y) that is predictable from the independent variable(s) (x).
+Cofficient of Determination ($r^2$) can be calculated by finding $1 - \frac{SS_{res}}{SS_{Tot}}$. $SS_{res}$ is the sum of squared residual. 
+
+Mindmap: 
+
+![[mindmap.png]]
+
+When the values near o, most of the variation is due to other factors where as 1 indicate most is predictable by the explanatory variable.
+Model choice should be used on the context of the phenomenon and usefulness of the model.
+e.g. pemodelan suhu tertinggi di boyolali per minggu selama setahun: ada kemarau dan hujan, dan periodik, modalnya pasti sine, walaupun $r^2$ tidak sempurna 1. 
+
+## Quadratic Regression (Page 248)
+
+a. v
+
+b. Power
+
+c. $x^2$
+
+d. 
+
+e. very fitting, 98% is touching the line
+
+f. $6.098405142$
+
+g. $12.22329464$
+
+h. Out of domain.
+
+## Cubic Regression (page 264)
+
+a. v
+
+b. Power
+
+c. Quadruple, as it has the highest $r^2$
+
+d. $r^2 \approx 0.995$, this means that 99.5% of the data can be explained by the explanatory factors using Quadratic model.
+
+e. the model fits the scatter plot data well!
+
+## Exponential Modelling (page 316)
+
+**a.**
+
+**b.**
+
+$y = 129168.941 \times 0.64232674^x$
+
+**c.**
+
+$r^2 = 088800159$
+
+**e.**
+
+$X = 10.982 \times 7 = 76.87161587 \approx 77 \text{ days}$
+
+## Exercise 6E
+
+**1. a.**
+
+done
+
+**1. b.**
+
+$6.35\times10^{-8} x^4 + -1.64$... done, quadratic
+
+**1. c.**
+
+Yeah because $r^2 = 0.984$, very close to one.
+
+**1. d.**
+
+No, because it's weekly, not a particular time on a year.
+
+**2. a.**
+
+done
+
+**2. b.**
+
+**2. c.**
+
+Yes, 99.2% percent of the data can be explained by the function.
+
+**2. d.**
+
+Unreliable, because out of domain.
+
+**3. c.**
+
+With the quadratic model, this is quite reasonable, at the temperature of $17.5 \degree$
+
+## Exercise 6H
+
+**1. b.**
+
+2.24
+
+**1. d.**
+
+Quadratic fits better, it has bigger value of $r^2$
+
+**2. b.**
+
+It's a quadratic function because it always going to have the closest $r^2$ to $1$.
+
+**2. c.**
+
+Because if we're calculating for tomorrow, we'll be calculating out of domain with our function.
+
+**5. c.**
+
+$y \approx 4.19 \times x^{3}$
+
+**5. c.**
+
+$\text{Power model has approximately 100\% value for the coeffiecient of determination, suggesting that it's perfect!}$
+\
+**5. d.**
+
+$\text{The model function matchs the data perfectly}$
+
+**5. e.**
+
+$\text{4190}$
+
+**5. f.**
+
+$V_{actual} = 4188.790205 cm^3\text{, while the model say }V_m = 4190 cm^3$
+
+**6. c.**
+
+$y = 1.65 \times 1.69^x$
+
+**6. d.**
+
+$r^2 \approx 0.945$
+
+**6. f.**
+
+$\approx 6.53 ~\textrightarrow~ 6\text{ days}$
+
+# Non-Linear Regresion using Logarithms
+
+- Apply logarithms to the data: $log~x$, $log~y$
+- Generate log/lin, lin/log, log/log plots to see which one straightens the data the best
+- Use your GDC to find the "linear" model
+- Use logarithms properties to find the nonlinear model
+
+## Pearson-whatever question
+
+**2. b.**
+
+We can't perform logarithm on $0$.
+Also, the shape of the best fit line isn't a curve, it's parabolic.
+
+**2. c.**
+
+$w = -0.00006916 T^2 + 0.00057298 T + 9.8051$
+
+**2. d.**
+
+$\approx 9.8020$
+
+**2.  e.**
+
+$x = 4.27$, $y = 9.806$
+
+**3. c**
+
+My model is $y = 2.41\times10^{-3} x + 0.192$, and $r^2 \approx 0.859$
+
+**3. d.**
+
+$\approx 1.88$a. 
+
+y = 0.839 x + 1.43
+
+9.99 - 8.987 =  -1.003
+10.99 - 11.50 = 0.5010
+13.29 - 14.86 = 1.570
+16.69 - 16.54 = -0.1500
+19.99 - 19.06 = -0.9300
+
+$SS_{res} = 1.006 + 0.251 + 2.4649 + 0.225 + 0.8649 = 4.8118$
+
+b.
+
+$y = 0.0592 x^2 + -0.925 x + 13.5$
+
+9.99  - 9.97  = -0.0200
+10.99 - 10.92 = -0.07000
+13.29 - 13.85 = 0.5600
+16.69 - 16.03 = -0.6600
+19.99 - 20.18 = 0.1900
+
+0.0004 + 0.0049 + 0.3136 + 0.4356 + 0.0361 = 0.7906
+
+c. Quadratic regression model is better to represent the data: it has bigger coefficient of determination ($r^2$), it has less sum of squared residual ($SS_{res}$), and the data pattern is more like a curve rather than a linear line.
+
+# Probability
+
+### Exercise 5A (Page 210-211)
+
+**1. A letter is picked at random from the letters of RANDOM. Calculate the probability that it is a letter from MATHS.**
+
+$$\text{A & M}, \frac{2}{6}$$
+
+**2. This dartboard has 20 sectors each of equal area.<br>If a dart lands in a numbered sector at random, find the probability that the number is:**
+
+**a. at least 4**
+
+$$\frac{4}{20}$$
+
+**b. more than 6**
+
+$$\frac{14}{20} = \frac{7}{10}$$
+
+**c. less than 30**
+
+$$1$$
+
+**d. no more than 14**
+
+$$\frac{14}{20} = \frac{7}{10}$$
+
+**e. prime**
+
+$$\frac{8}{20} = \frac{2}{5}$$
+
+**f. square**
+
+$$\frac{4}{20} = \frac{1}{5}$$
+
+**g. a solution to the equation $x^2 = 3$.**
+
+$$x = \sqrt{3}\\
+0$$
+
+**3. A survey was carried out in a small city centre street one Saturday afternoon. Shoppers were asked about how they travelled that day. The results are shown in the table below.**
+
+| Mode of transport | Car | Bus | Foot |
+| --- | --- | --- | --- |
+| Male | 40 | 59 | 37 |
+| Female | 33 | 41 | 29 |
+
+**One shopper is randomly selected.**
+
+**a. Find the probability that this shopper travelled by car.**
+
+$$\frac{(40 + 33)}{40 + 59 + 37 + 33 + 41 + 29} = 0.305$$
+
+**One male shopper is randomly selected.**
+
+**b. Find the probability that this male shopper travelled by foot.**
+
+$$\frac{37}{40 + 59 + 37} = 0.272$$
+
+**c. 1300 shoppers visit the town in one week. Estimate the number of shoppers who travelled by bus.**
+
+$$1300 \times \frac{59 + 41}{40 + 59 + 37 + 33 + 41 + 29} = 543.93 \approx 544$$
+
+**4. A personal identification number (PIN) consists of four digits. Consider the PIN 0005 equal to the number 5, etc. Find the probability that a PIN number is:**
+
+**a. equal to 0000**
+
+$$\frac{1}{10^4} = 0.0001$$
+
+**b. less than 8000 and more than 7900**
+
+$$\frac{8000 - 7900 - 1}{10000} = 0.0099$$
+
+**c. divisible by 10**
+
+$$\text{0 is considered to be divisible by 10}\\
+\frac{1000}{10000} = 0.1$$
+
+**d. at least 13**
+
+$$\frac{10000- 13}{10000} = 0.9987$$
+
+**6. A health professional is investigating the theoretical probability that a randomly chosen female smokes is 0.17. She organizes a survey and asks 11278 females if they smoke or not. Using her theoretical probability, determine the number of females she would predict to be smokers.**
+
+$$0.17 \times 11278 = 1917.26 \approx 1917$$
+
+**7. A multiple choice test consists of 10 questions. Each question has five answers. Only one of the answers is correct. For each question, Jose randomly chooses one of the five answers. Predict the expected number of questions Jose answers correctly**
+
+$$10 \times \frac{1}{5} = 2$$
+
+### Canva Slides Question 11-13
+
+**11.**
+
+$$\frac{5}{18}$$
+
+**12.**
+
+**a.**
+
+$$1 - 0.12 - 0.31 - 0.27 = 0.3$$
+
+**b.**
+
+$$0.12 + 0.31 = 0.42$$
+
+**c.**
+
+$$260 \times 0.42 = 84$$
+
+**13.**
+
+**a.**
+
+$$0.02 \times 15000 + 0.06 \times 8000 + 0.12 \times 3000 = 1140 \$$$
+
+**b.**
+
+$$1140 * 1.7 = 1938 \$$$W3/5->W2/3->W3/5 = 3/5 * 2/3 * 3/5 = 0.24
+    |     `>B2/5
+    `>B1/3->W2/5 = 3/5 * 1/3 * 2/5 = 0.08
+	      `>B3/5
+B2/5->W1/3->W3/5 = 2/5 * 1/3 * 3/5 = 0.08
+    |     `>B2/5
+	`>B2/3->W2/5 = 2/5 * 2/3 * 2/5 = 8/75
+ 	      `>B3/5
+
+A = \frac{38}{75} \approx 0.507
+

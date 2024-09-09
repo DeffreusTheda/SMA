@@ -696,7 +696,7 @@ a = 2.1978022\times10^{14} \approx 2.20\times10^{14} m s^{-2}
 
 **b. Suggest whether the electron will hit the upper plate or not.**
 
-Yes, because the x-axis ($6.0 \times 10^6 m s^{-1}$) component is way lesser than the acceleration on the y-axis ($$), and the length of the plates is only $1.2\times10^{-1} m$
+Yes, because the x-axis ($6.0 \times 10^6 m s^{-1}$) component is way lesser than the acceleration on the y-axis, and the length of the plates is only $1.2\times10^{-1} m$
 
 $$/begin{align*}
 y = \frac{1}{2} a t^2 \\
@@ -958,3 +958,161 @@ y = sin (\omega t) \\
 = cos m \cdot \omega \\
 = \omega cos \omega t
 \end{align*}$$
+
+## [C_Part1](https://docs.google.com/document/d/1Q6-O6IsUyMVcE1hyW-CymEQ83628tOVuilbbmmxwhpQ/edit)
+
+**1. a.**
+
+The repetition of motion of about an equilibrium/mean/fixed point.
+
+**1. b.**
+
+Oscilations that has constant amplitude, and frequency, and acceleration is inversely proportional to displacement, also amplitude is independent to period.
+
+**2.**
+
+No. It's oscilation, but not SHM because the restoring force in not natural (external forces, collision with walls).
+
+**3. a.**
+
+there's always acceleration that is inversely proportional to the displacement from a fixed point.
+
+**3. b.**
+
+because the graph is not linear; the periode is not constant
+
+**3. c.**
+
+because damping exists, oscilation with higher amplitudes will experience air resistance; a ~ -x at lower value of displacement, looking from the graph.
+
+**4.**
+
+$$\begin{align*}
+T &= 2 \pi \sqrt{\frac{l}{g}} \\
+l &= \frac{g T^2}{4 \pi^2} \\
+l &= \frac{9.8 1^2}{4 \pi^2} \\
+l &= 0.248 m
+\end{align*}$$
+
+**5.**
+
+$$\begin{align*}
+T &\propto \sqrt{l} \\
+\frac{T}{T'} &= \sqrt{\frac{L}{L'}} \\
+\frac{T}{T'} &= \sqrt{\frac{L}{104\%}} \\
+T &= 0.98 T' \\
+T' &= 1.02 T
+\end{align*}$$
+
+$$2\%$$
+
+**6.**
+
+$$\begin{align*}
+T = 2 \pi \frac{m}{k} \\
+m = \frac{k T^2}{4 \pi^2} \\
+m = \frac{240 \cdot 1.2^2}{4 \pi^2} \\
+m = 8.75 kg
+\end{align*}$$
+
+**8. a.**
+
+$$\sqrt{l}$$
+
+**8. b.**
+
+$$\frac{2 \pi}{\sqrt{g}}$$
+
+**8. c.**
+
+$$l$$
+
+**8. d.**
+
+$$\frac{4 \pi^2}{g}$$
+
+**9. a.**
+
+$$\pi$$
+
+**9. b.**
+
+$$\frac{2}{4} = 0.5$$
+
+**9. c.**
+
+$$\begin{align*}
+a = -\pi^2 \cdot 4\times10^{-2} \\
+a \approx --0.395 m s^{-1}
+\end{align*}$$
+
+**10. a. i.**
+
+$$0.5 s$$
+
+**10. a. ii.**
+
+$$0.0 s \text{ and } 2.0 s$$
+
+**10. a. iii.**
+
+$$0.0 s, 1.0 s, 2.0 s$$
+
+**10. a. iv.**
+
+$$1.5 s $$
+
+**10. b.**
+
+$$0.5 Hz \text{ and } \pi~rad s^{-1}$$
+
+**12. a.**
+
+$$2$$
+
+**12. b.**
+
+$$(0.6, 0)$$
+
+**12. c.**
+
+$$(0.0, 0), (0.6, 0), (1.2, 0)$$
+
+**12. d.**
+
+$$\text{negative}$$
+
+**13. b.**
+
+$$(0, 0)$$
+
+**13. c.**
+
+$$\begin{align*}
+-0.1 = -\Omega^2 0.5 \\
+TODO
+\end{align*}$$
+
+**13.
+
+## Learning Check
+
+**9. a. i.**
+
+$$\frac{80 kg J}{0.40 kg} = 32.0 J$$
+
+**9. a. ii.**
+
+$$\begin{align*}
+80\times10^{-3} $= \frac{1}{2} \cdot 0.4 \cdot v^2 \\
+v $= \sqrt{0.4} = 0.63 m s^{-1}
+\end{align*}$$
+
+**9. a. iii.**
+
+$$4 cm$$
+
+**9. a. iv.**
+
+$$80 J - 60 J = 20 J$$, from the graph
+
