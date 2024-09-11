@@ -156,7 +156,8 @@ $\frac{m v^2}{r} = \frac{G M m}{r^2}$
 
 $T^2 = \frac{4 \pi^2 r^2}{G M}$
 
-$a = \alpha r$ alpha is angular acceleration
+$a = \alpha r$<br>
+$\alpha$ is angular acceleration<br>
 $\omega$ is angular velocity
 
 ## Learning Check
@@ -299,7 +300,7 @@ $$M = \frac{4 \pi^2 (27000 \cdot 9.46728 \times 10^{15})^3}{6.674 \times 10^{-11
 
 Most of the notes are in Anki.
 
-### Leaning Check
+### Learning Check
 
 **13. A proton is placed on the positive plate in a parallel plate arrangement and is then released**
 
@@ -324,7 +325,7 @@ KE is still the same though.
 
 ### Test Your Understanding
 
-**1. A charged conducting sphere with charge $$+12 µC$$ is allowed to touch an identical conducting sphere of charge $$-6 µC$$. The spheres are then separated. What is the charge on each sphere after separation?**
+**1. A charged conducting sphere with charge $+12 µC$ is allowed to touch an identical conducting sphere of charge $-6 µC$. The spheres are then separated. What is the charge on each sphere after separation?**
 
 $$\frac{12 + (-6)}{2} = 3 µC$$
 
@@ -1116,3 +1117,6 @@ $$4 cm$$
 
 $$80 J - 60 J = 20 J$$, from the graph
 
+## 
+
+The temperature of gas increase when average kinetic energy of the gas molecules increase.
