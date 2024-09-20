@@ -2661,5 +2661,234 @@ Independent
 
 Mutually exclusive & Independent
 
-**e.**
+### Practice - Probability of Events
 
+**Consider the following Venn Diagrams/information that show/describe the sets of students that study History (H) and Geography (G) in different schools. Answer the questions that go with each one by using the laws of probability.**
+
+**School 1**
+
+**a) Work out $P(G)$**
+
+$$\frac{15}{30}$$
+
+**b) Work out $P(H)$**
+
+$$\frac{20}{30}$$
+
+**c) Work out $P(G|H)$**
+
+$$\frac{10}{20}$$
+
+**d) What can we conclude from the difference between the answers to a) and c)?**
+
+Both has the same absolute value, but in different scope, universal and H.
+
+**e) Using the rule for independent events, verify if studying history and studying geography are independent events in this school.**
+
+$$\begin{align*}
+P(G|H) &= P(G) \\
+\frac{10}{20} &= \frac{15}{30} \\
+&\therefore \text{True}
+\end{align*}$$
+
+**f) Verify that $P(G \cup H) = P(g) + P(H) + P(G \cap H)$**
+
+$$\begin{align*}
+\frac{25}{30} &= \frac{15}{30} + \frac{20}{30} - \frac{10}{30} \\
+&\therefore \text{True}
+\end{align*}$$
+
+**g) Why are these events not mutually exclusive?**
+
+Because they have intersection.
+
+**School 2**
+
+**a) Work out $P(G)$**
+
+$$\frac{16}{48}$$
+
+**b) Work out $P(H)$**
+
+$$\frac{26}{48}$$
+
+**c) Work out $P(G|H)$**
+
+$$\frac{10}{26}$$
+
+**d) What can we conclude from the difference between the answers to a) and c)?**
+
+These two events, H and G, are dependent.
+
+**e) Using the rule for independent events, verify if studying history and studying geography are independent events in this school.**
+
+$$\begin{align*}
+P(G | H) &= P(G) \\
+\frac{10}{26} &\ne \frac{16}{48} \\
+&\therefore \text{dependent}
+\end{align*}$$
+
+**f) Verify that $P(G \cup H) = P(g) + P(H) + P(G \cap H)$**
+
+$$\begin{align*}
+\frac{32}{48} &= \frac{10}{48} + \frac{26}{48} - \frac{10}{48} \\
+&\therefore \text{False...}
+\end{align*}$$
+
+**g) Why are these events not mutually exclusive?**
+
+Because they have intersection.
+
+**School 3**
+
+**a) Work out $P(G)$**
+
+$$\frac{24}{36}$$
+
+**b) Work out $P(H)$**
+
+$$\frac{20}{36}$$
+
+**c) Work out $P(G|H)$**
+
+$$\frac{8}{20}$$
+
+**d) What can we conclude from the difference between the answers to a) and c)?**
+
+These two events are dependent.
+
+**e) Using the rule for independent events, verify if studying history and studying geography are independent events in this school.**
+
+$$\begin{align*}
+P(G \cap H) &= P(G) \times P(h) \\
+\frac{8}{20} &= \frac{24}{36} \times \frac{20}{36} \\
+\frac{2}{5} &\ne \frac{10}{27} \\
+&\therefore \text{dependent}
+\end{align*}$$
+
+**f) Verify that $P(G \cup H) = P(g) + P(H) + P(G \cap H)$**
+
+$$\frac{36}{36} = \frac{24}{36} + \frac{20}{36} - \frac{8}{36}$$
+
+**g) Why are these events not mutually exclusive?**
+
+$$P(G \cap H) = \frac{8}{36} \ne 0$$
+
+**School 4**
+
+**In this school you are given that $P(G) = 0.4$, and $P(H) = 0.6$ $P(G \cup H)= 0.8$**
+
+**a) Work out $P(H \cap H)$**
+
+$$\begin{align*}
+P(G \cup H) = 0.8 &= 0.4 + 0.6 - P(G \cap H) \\
+P(G \cap H) &= 0.2
+\end{align*}$$
+
+**b) Show if the events are independent or not**
+
+$$\begin{align*}
+P(G \cap H) &= P(G) \times P(H) \\
+0.2 &= 0.4 \times 0.6 \\
+0.2 &\ne 0.24 \\
+&\therefore \text{dependent}
+\end{align*}$$
+
+**c) Show if the events are mutually exclusive or not**
+
+$$\begin{align*}
+P(G \cap H) &= 0.2 \ne 0 \\
+&\therefore \text{not mutally exclusive}
+\end{align*}$$
+
+**School 5**
+
+**a) Work out $P(H \cap H)$**
+
+$$\begin{align*}
+P(G \cap H) &= P(G) + P(H) - P(G \cup H) \\
+P(G \cap H) &= 0.3 + 0.4 - 0.7 \\
+P(G \cap H) &= 0 \\
+\end{align*}$$
+
+**b) Show if the events are mutually exclusive or not**
+
+$$\begin{align*}
+P(G \cap H) &= 0 \\
+&\therefore \text{mutually exclusive}
+\end{align*}$$
+
+**School 6**
+
+**a) Work out $P(H)$**
+
+$$\begin{align*}
+P(G \cup H) &= P(G) + P(H) - P(G \cap H) \\
+P(H) &= P(G \cup H) - P(G) + P(G \cap H) \\
+P(H) &= 0.8 - 0.6 + 0.1 \\
+P(H) &= 0.3
+\end{align*}$$
+
+**b) Work out $P(G | H)$**
+
+$$\begin{align*}
+P(G | H) &= \frac{P(G \cap H)}{P(H)} \\
+P(G | H) &= \frac{0.1}{0.3}
+\end{align*}$$
+
+**c) Show if these events are independent or not**
+
+$$\begin{align*}
+P(G | H) &= P(G) \\
+\frac{0.1}{0.3} &\ne 0.6 \\
+&\therefore \text{dependent}
+\end{align*}$$
+
+**The following are the results of a survey on the Sport played by students in middle and high school.**
+
+| | Basketball (B) | Volleyball (V) | Handball (H) | Football (F) |
+| --- | --- | --- | --- | --- |
+| Middle School (MS) | 19 | 65 | 15 | 51 |
+| High School (HS) | 34 | 42 | 18 | 36 |
+
+**From the table above, answer the following questions,**
+
+| $P(MS)$ | $\frac{150}{280}$ | $P(HS \cap F)$ | $\frac{36}{280}$ | $P(HS \cap F)$ | $\frac{36}{280}$ |
+| --- | --- | --- | --- | ---| --- |
+| $P(HS)$ | $\frac{130}{280}$ | $P(MS \cap H)$ | $\frac{15}{280}$ | $P(MS \| B)$ | $\frac{19}{53}$ |
+| $P(B)$ | $\frac{53}{280}$ | $P(V’)$ | $\frac{173}{280}$ | $P(HS \cap \| V)$ | $\frac{42}{280}$ |
+| $P(V)$ | $\frac{107}{280}$ | $P(MS’)$ | $\frac{130}{280}$ | $P(H \| HS)$ | $\frac{18}{130}$ |
+
+
+$$\begin{align*}
+MS &= 19 + 65 + 15 + 51 = 150 \\
+HS &= 34 + 42 + 18 + 36 = 130
+\end{align*}$$
+
+**Consider the following Venn diagram to fill in the table below it. The Venn diagram shows the three sets, A – those who are pro-abortion, D – those who are pro-death penalty and E – those who are pro-euthanasia**
+
+**From this diagram, fill in the probabilities in the table below.**
+
+| $P(A)$ | $\frac{24}{52}$ | $P(E \cap A)$ | $\frac{8}{52}$ | $P(A \| D)$ | $\frac{9}{15}$ |
+| - | - | - | - | - | - |
+| $P(D)$ | $\frac{15}{52}$ | $P(E \cap D)’$ | $\frac{47}{52}$ | $P((A \cup E) \cap E’)$ | $\frac{28}{52}$ |
+| $P(A \cup D)$ | $\frac{30}{52}$ | $P(A \cap D \cap E)$ | $\frac{3}{52}$ | $P(E’ \| A)$ | $\frac{16}{52}$ |
+| $P(E’)$ | $\frac{28}{52}$ | $P(A \cup D)’$ | $\frac{22}{52}$ | $P(E \| (A \cup D))$ | $\frac{10}{30}$ |
+
+$$\begin{align*}
+S &= 10 + 5 + 6 + 3 + 2 + 4 + 14 + 8 = 52
+\end{align*}$$
+
+**Consider the following Venn diagram to fill in the table below it. The Venn diagram shows the three sets, H – those who study history, C – those who study Chemistry and E – those who study English.**
+
+**From this diagram, fill in the probabilities in the table below.**
+
+| $P(C)$ | $\frac{56}{111}$ | $P(H \cup E)$ | $\frac{85}{111}$ | $P(E \| C)$ | $\frac{26}{56}$ |
+| - | - | - | - | - | - |
+| $P(H)$ | $\frac{83}{111}$ | $P(E \cap H)$ | $\frac{48}{111}$ | $P(H \| E’)$) | $\frac{35}{65}$ |
+| $P(E’)$ | $\frac{65}{111}$ | $P(C \cup H \cup E)$ | $\frac{93}{111}$ | $P((C \cup H) \| E)$ | $\frac{56}{64}$ |
+| $P(C \cap H)$ | $\frac{36}{111}$ | $P(C \cup E)$’ | $\frac{35}{111}$ | $P((C \cup H) \cap (H \cup E)’)$ | $\frac{12}{111}$ |
+
+$$\begin{align*}
+S &= 12 + 8 + 18 + 18 + 30 + 17 + 8 = 111
+\end{align*}$$

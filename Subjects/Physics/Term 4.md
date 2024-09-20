@@ -1096,7 +1096,7 @@ TODO
 
 **13.
 
-## Learning Check
+## C. Wave Behavior - Learning Check
 
 **9. a. i.**
 
@@ -1116,6 +1116,51 @@ $$4 cm$$
 **9. a. iv.**
 
 $$80 J - 60 J = 20 J$$, from the graph
+
+**10. A particle performs simple harmonic motion (shm). What is the phase difference between the displacement and the acceleration of the particle?<br>
+A. 0<br>
+B. π/2<br>
+C. π<br>
+D. 3π/2**
+
+$$C. \pi$$
+
+**19. Give one example that shows that EM waves carry energy.**
+
+Solar light is carrying proton/heat energy and heats the planet.<br>
+Microwave carries thermal energy to cook the food.
+
+**20. Explain why we call EM waves transverse.**
+
+Because the direction of energy transfer is perpendicular to the magnetic field and electric field.
+
+**21. Recall Wien's law, The universe is filled with EM waves at a temperature of 2.7 K. What part of the EM spectrum do these waves belong to?**
+
+$$\lambda_{max} = \frac{2.9\times10^{-3}}{2.7} = 1.1\times10^{-3}$$
+
+**22. The distance between the earth and the sun is $1.5\times10^{11} m$. How long does light take to travel to earth from the sun?**
+
+$$\frac{1.5\times10^{11}}{3.0\times10^8} = 500 s \approx 8 \frac{1}{3} m$$
+
+**23. Light of wavelength $656 nm$ in air enters glass where the speed of light is $2.0\times10^8 m s^{-1}$. What is the wavelength of the light in glass?**
+
+$$\begin{align*}
+\text{frequency must be constant}, f = \frac{v}{\lambda} \\
+656 nm \frac{2.0\times10^8}{3.0\times10^8} = 437.33 \approx 437 nm
+\end{align*}$$
+
+**Light of wavelength 686 nm in air enters water where the speed of light is 2.3 x 108 ms-1, making an angle of 40° with the normal. Determine:**
+
+**A. if the angle of refraction will be greater or smaller than 40°**
+
+Water is denser compared to air, causing light velocity to decrease, thus shortening the gaps between wavefronts of ligth or in other word the wavelength of light. Therefore, angle of refraction is smaller than incident angle.}
+
+**B. the wavelength of light in water.**
+
+$$\begin{align*}
+686 \frac{2.3\times10^8}{3.0\times10^8} \\
+525.9333333 \approx 526 nm
+\end{align*}$$
 
 ## Unit D Exercise
 
@@ -1214,3 +1259,28 @@ $B$
 **18.**
 
 $C$
+
+## Investigation
+
+**7.**
+
+**a.** 
+
+A wave which propagates molecules that it passes through, compressing them at wave crest and decompressing them at the trough. A wave where the displacement of the particle is parallel to the wave pulse.
+
+**b. ii.**
+
+$2 cm$
+
+**c. i.**
+
+
+
+**c. ii.**
+
+$6 cm$
+
+Circular wavefront: gelombang air tapi melingkar dari point of source, onmi direction (radially)
+incident angle = angle of reflection
+image is located at the crossing-point of the extension of the reflection line.
+lebih rapat = belok ke yang rapat  = v is slower -> frequency = v\wavelength
