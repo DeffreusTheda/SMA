@@ -1,0 +1,76 @@
+El-nino, lanina, nanti akan ada konologis, ada juga sebab akibat, el-nino -> kronologis -> sebab-akibat. Harus muncul dalam uraian tulisannya dalam bentuk hierarki. Infografis lebih mengarah ke fenomena sosial. Past Paper / UTBK ada infografis sosial/alam
+
+problem dan dimunculkan alternatif solusi, sebutkan dan tuangkan 
+perbandingan akan ada dua hal yang sangat kontras, dalam grafis atau teks, tergantung.
+fitur:
+- judul: (macem-macem: metafora, fakta, fungsi: {kejutan, daya tarik}, pertanyaan retoris)
+- subjudul: cek keterkaitan dengan judul, harus analisis; fungsi? mempersempit konteks
+- simbol: kerap di grafis, sering dimunculkan grafik dengan jenis tertentu (sebutkan), dan fungsinya
+- warna/tipografi: jenis font/bentuk tulisan, ukuran, warna, 
+- referensi: sumber kredibilitas, kalau tidak ada maka komentari
+- ilustrasi: kaitkan dengan teks yang ada, misal satu gambar tapi interpretasi lebih dari 3 sudut pandang -> cermati teks untuk memilih POV intended.
+- statistik: mempermudah pembaca dalam memahami pesan; tabel perbandingan -> komentari
+
+## Latihan 
+
+- Font
+  - sangat standar -> formal
+- Ukuran font
+  - angka besar -> mencolok terhadap pembaca
+  - judul -> mewakili infografis, fakta-t6tp> menghubungkan tanggal rilis infografis: merayakan 
+  - subjudul "Tahukah Kamu?" -> warna kuning->menarik perhatian,kontras , lebih besar dari teks
+    - ironis pada "Faktanya" <- UUD yang belum terimplementasi baik, tiadanya kebijakan perlindungan pekerja imigran yang berspektif keadilan gender
+    - memfokuskan pada kurangnya keadilan gender dalam hukum & fakta pekerja migran perempuan
+  - sama semua untuk teks, tanpa beban di satu sisi sehingga seimbang
+- warna font
+  - kontras yang berbeda digunakan untuk memisahkan sebuah teks dan teks lanjutannya
+  - 9.8% -> merah, kesan bukan berita yang baik
+- ilustrasi kartun
+  - Faktanya: mengilustrasikan tipe-tipe perempuan yang haknya kurang terdukung oleh undang-undang
+    - lansia, ibu hamil, tanpa pekerjaan, dan difabel
+  - Tahukah Kamu: Pekerjaan yang mengarah ke fisik dan kesehatan -> ilustrasi kuli melawan stereotip hanya laki-laki yang boleh melakukan pekerjaan fisik
+- statistiknya
+  - angka yang mendukung bahwa pekerja migran perempuan Indonesia tidak diuntungkan jika dibandingkan dengan pekerja migran laki-laki: {69:31, 74:26}
+  - memberikan gambaran dan memudahkan dalam memahami pesan yang disampaikan, khususnya dalam segi skala dan perbandingan
+- sumber-sumber informasi
+- efek yang dicapai
+
+#1
+
+Ilustrasi aktivitas perempuan -> 
+kontras hitam dan merah untuk menarik perhatian
+kutipan berlater belakang meraph muda -> ilustrator keadilan -> kontras realita sosial pekerja migran perempuan
+Penulis menggunakan semua unsuer tersebut untuk menyampaikan isu perlindungan pekerja migran Indonesia yang didukung kutipan untuk lebih memfokuskan pada isu diskriminasi gender pekerja migran --> konteks
+kontras/ironi judul dan kutipan, tidak euforia seperti biasanya tetapi ironi
+
+#2
+
+ilustrator menggunakan simbol laki-laki & perempuan dengan tambahan simbol persamaan untuk menggambarkan ironi di indonesia yaitu perempuan yang tidak mendapatkan hak yang setara dengan laki-laki.
+data kemiskinan dari sumber terpecaya untuk mendukung ironi yang ada -> walaupun turun, ketidakadilan gender masih ada dan mengancam pekerja migran perempuan
+ironi berupa ketika perempuan menaiki anak tangga kesejahteraan dan bekerja dengan keras, ketidaksetaraan gender semakin dirasakan. hal ini digambarkan melalui katrol persamaan gender yang turun jika figur perempuan menaiki tangga.
+
+#3 
+
+rentan dan perlu perlindungan, terutama dalam segi hukum
+
+#4 
+
+judul "Tahukah Kamu?" -> kontras -> menarik perhatian dan penasaran serta kedekatan dengan pembaca
+warna latar belakang tenang dan lebih formal
+ukuran -> penting dan mempertegas
+warna putih lebih mencolok daripada kuning, sehingga kotak yang membahas persentase kasus dan jumlah pekerjaan migran perempuan menjadi lebih mencolok.
+kotak sebagai grafik bar chart digunakan oleh ilustrator untuk membantu menyampaikan statistik kepada pembaca
+
+#5 
+
+simbol helikopter sebagai ajakan atau seruan penyelamatan, yang dihubungkan dengan kerentanan pekerja migran terhadap kekerasan, menciptakan efek empati terhadap pembaca
+data statistik menunjukkan ketidakadilan gender yang dialami oleh pekerja migran
+skala dari 6 mempermudah visualisasi dan pemahaman pembaca
+
+#end
+
+restate,
+meskipun demikian, lebih menarik apabila:
+- warna tidak hanya terbatas pada warna dasar atau sangat kontras
+- terlalu banyak persegi, lebih baik jika ilustrasi divariasikan
+- tata letak

@@ -1,0 +1,1 @@
+In [[standing waves]], nodes are some points as a result of [[destructive interference]] between the two waves, the [[displacement]] is always zero.

@@ -2892,3 +2892,226 @@ S &= 10 + 5 + 6 + 3 + 2 + 4 + 14 + 8 = 52
 $$\begin{align*}
 S &= 12 + 8 + 18 + 18 + 30 + 17 + 8 = 111
 \end{align*}$$
+
+## 
+
+$$\begin{align*}
+\frac{c}{c_m}, \text{ratio of light speed in air and light speed in medium.}
+\end{align*}$$
+
+$$\begin{align*}
+P(1) = 0.4, P(2) &= a, P(3) = b \\
+E(X) = 1 &= 0.4 (1) + a (2) + b (3) \\
+a (2) + b (3) &= 0.6 \\
+2a + 3b &= 0.6 \\
+2a &= -3b + 0.6 \\
+a &= -1.5b + 0.3 \\
+\\
+a &= 
+\end{align*}$$
+
+## Exercise 13C
+
+**1.**
+
+**a.**
+
+$$0.039$$
+
+**b.**
+
+$$0.414$$
+
+**c.**
+
+$$\frac{0.4257}{0.5858} = 0.7268$$
+
+**d.**
+
+$$0.259$$
+
+**e.**
+
+$$\frac{0.174}{0.9463} = 0.1838$$
+
+**2.**
+
+$$1.20$$
+
+**3.**
+
+$$\text{proven by graph; 0.179 is below the mean, whereas 0.299 is more than the mean value.}$$
+
+**4.**
+
+$$\begin{align*}
+S &= \frac{278}{10} = 27.8 \\
+S&\thicksim Po(27.8) \\
+P(S = 27) &= 0.076 \\
+P(S = 28) &= 0.075 \\
+&\therefore \text{27 is more likely!}
+\end{align*}$$
+
+**5.**
+
+$$\begin{align*}
+C&\thicksim Po(2.31) \\
+P(C \geq 4) &= 0.203 \\
+P(3 \geq C \geq 1) &= 0.698 \\
+P(C = 0) &= 1 - 0.203 - 0.698 = 0.099 \\
+\\
+0 &= 0.2026 \times £ 10000 - 0.0992 \times p_b \\
+p_b = \frac{0.2026 \times £ 10000}{0.0992} &= £ 20423.3871 \approx £ 20423
+\end{align*}$$
+
+**6.**
+
+$$\begin{align*}
+E(X) &= \frac{0 \times 15 + 1 \times 30 + 2 \times 28 + 3 \times 14 + 4 \times 7 + 5 \times 8}{15 + 30 + 28 + 14 + 7 + 8} = \frac{196}{102} = 1.92 \\
+
+\end{align*}$$
+
+**7.**
+
+**a.**
+
+$$\begin{align*}
+A\thicksim Po(4.2 \times 2)&, B\thicksim Po(1.7 \times 2) \\
+P(A = 0 \cap B = 0) &= P(A = 0) \times P(B = 0) \\
+P(A = 0 \cap B = 0) &= 0.0000075
+\end{align*}$$
+
+**b.**
+
+**8.**
+
+**a.**
+
+$$\begin{align*}
+A\thicksim Po(0.597 \times 5) \\
+P(A = 0) = 0.0505395
+\end{align*}$$
+
+**b.**
+
+$$\begin{align*}
+A&\thicksim Po(0.597 \times 24 \times 10) \\
+P(A \geq 3) &= 1 - P(A \leq 2) = 1
+\end{align*}$$
+
+**c.**
+
+$$\begin{align*}
+A&\thicksim Po(0.597 \times 24) \\
+P(A \geq 10) = 0.15494668 \\
+C&\thicksim B(7, 0.15494668) \\
+P(C \geq 5) = 1 - P(C \leq 4) = 1.3394\times10^{-3}
+\end{align*}$$
+
+**9.**
+
+**a.**
+
+$$\begin{align*}
+A&\thicksim Po(5.1) \\
+P(A = 0) \times 365 = 6.0967\times10^{-3} \times 365 = 2.2253 \approx 2
+\end{align*}$$
+
+**b.**
+
+$$\begin{align*}
+P(A \geq 11) \times 100 &= 0.01560102 \times 100 = 1.56010211 \approx 2
+\end{align*}$$
+
+## Examples
+
+$$\begin{align*}
+X&\thicksim N(100, 16^2) \\
+P(92 \leq x \leq 117) &= 0.54745808 \approx 0.547 \\
+\\
+0.5328072, 0.93319279, 0.93319279
+\end{align*}$$
+
+**10.**
+
+**a.**
+
+$$\begin{align*}
+0.25599645
+\end{align*}$$
+
+**b.**
+
+$$\begin{align*}
+0.74400354 &\textrightarrow 0.98292405
+\end{align*}$$
+
+**c.**
+
+$$\begin{align*}
+\frac{0.3114292}{0.43489138} &= 0.7161080084
+\end{align*}$$
+
+**d.**
+
+$$\begin{align*}
+P(L \geq 42 | L \geq 40) &= P(L \geq 42) \\
+0.7161080084 &= 0.3114292 \\
+&\therefore \text{dependent}
+\end{align*}$$
+
+**11.**
+
+$$/begin{align*}
+
+\end{align*}$$
+
+## Toddle
+
+$$\begin{align*}
+Lower=100, Upper=10^{99}&, Numtrial=103, p=0.85 \\
+\textrightarrow p&=6.2031\times10^{-5}
+\\
+\\
+E(M &\leq 100) \\
+100 &= 0.85 \times n \\
+n = \frac{100}{0.85} &= 117.64 \approx 117 \\
+\\ 
+\\ 
+Lower=6,~ Upper=10^{99},~ \sigma=0.5,~ \mu=5.5 \\
+\textrightarrow p=0.15865525 \approx 0.159 \\
+\\
+\\
+P(Z=0) = 0.07776 \\
+\\
+\\
+
+\end{align*}$$
+
+## Exercise  - Page 34 
+
+**5.**
+
+**a.**
+
+$$\begin{align*}
+43 - 0.3 \times 3 &\approx 42.1 km
+\end{align*}$$
+
+**b.**
+
+$$\begin{align*}
+43 + 0.3 \times 2 &= 43.6 km
+\end{align*}$$
+
+**6.**
+
+$$\begin{align*}
+68%
+\end{align*}$$
+
+**7.**
+
+$$\begin{align*}
+
+\end{align*}$$

@@ -1096,6 +1096,10 @@ TODO
 
 **13.
 
+## **C4. TEST YOUR UNDERSTANDING PART 2**
+
+
+
 ## C. Wave Behavior - Learning Check
 
 **9. a. i.**
@@ -1160,6 +1164,34 @@ Water is denser compared to air, causing light velocity to decrease, thus shorte
 $$\begin{align*}
 686 \frac{2.3\times10^8}{3.0\times10^8} \\
 525.9333333 \approx 526 nm
+\end{align*}$$
+
+**30.**
+
+> [!NOTE]
+> Taken from John Allum 3“ Edition Page 402
+
+A train travelling at a constant speed approaches a station where it will not stop. The driver of the train sounds a warning horn, of frequency 200Hz, as the train approaches and then passes through the station. Sketch graphs (on the same axes) to show how the frequency heard by:
+
+a. the driver varies with time
+
+$$\begin{align*}
+\text{constant}
+\end{align*}$$
+
+b. the people at the station varies with time.
+
+$$\begin{align*}
+\text{constant, but of higher frequency than driver's observed frequency}
+\end{align*}$$
+
+**31.**
+
+$$\begin{align*}
+\frac{\Delta \lambda}{\lambda} &\approx \frac{v}{c} \\
+\frac{689\times10^{-9} - 656\times10^{-9}}{656\times10^{-9}} &\approx \frac{v}{3.00\times10^8} \\
+v &\approx \frac{689\times10^{-9} - 656\times10^{-9}}{656\times10^{-9}} \times 3.00\times10^8 \\
+v \approx 15091463.41 m s^{-1} &= 1.51\times10^7
 \end{align*}$$
 
 ## Unit D Exercise
@@ -1284,3 +1316,197 @@ Circular wavefront: gelombang air tapi melingkar dari point of source, onmi dire
 incident angle = angle of reflection
 image is located at the crossing-point of the extension of the reflection line.
 lebih rapat = belok ke yang rapat  = v is slower -> frequency = v\wavelength
+
+
+##  Unit C Exercise
+
+**1.** 
+
+$$\text{A}$$
+
+**2.**
+
+$$\text{B}$$
+
+**3.**
+
+$$\text{A}$$
+
+**4.**
+
+$$\text{A wave with its particle displacement at right angles to the direction of energy transfer.}$$
+
+**5.**
+
+$$\begin{align*}
+f &= \frac{v}{\lambda} \\
+v &= \frac{f}{\lambda} \\
+v &= \frac{0.5}{16} \\
+v &= 0.03125 \approx 3.125 \times 10^{-2}
+\end{align*}$$
+
+**6.**
+
+$$\text{(8, 0)}$$
+
+**7.**
+
+$$\Delta \phi = \frac{\Delta t}{T} = \frac{v_t m_T}{m_t v_T} = $$
+
+**8.**
+
+$$T \text{, period in second}$$
+
+**9.**
+
+$$\text{From using the stopwatch}$$
+
+**10.**
+
+$$\text{A single measurement could be a 'fluke'. The means of multiple measurement will provide a closer calculated value to the actual value.}$$
+
+**11.**
+
+$$T^2$$
+
+**12.**
+
+**13.**
+
+$$\text{B}$$
+
+**14.**
+
+$$\text{D}$$
+
+**15.**
+
+$$\text{A}$$
+
+**16.**
+
+$$\text{C}$$
+
+**17.**
+
+$$\text{From plastic to water, $\theta$ should increase, not decrease.}$$
+
+**18.**
+
+$$\text{There should be refraction ray.}$$
+
+**19.**
+
+$$\begin{align*}
+\frac{1.0}{1.6} &= \frac{sin 32}{sin \theta} \\
+\theta &= sin^{-1} \left(\frac{1.6 sin 32}{1.0}\right) \\
+\theta &= 57.98083803 \approx 58 \degree
+\end{align*}$$
+
+**20.**
+
+$$\begin{align*}
+\theta_i &= sin^{-1} \left(\frac{1.33 sin 90}{1.6}\right) \\
+\theta_i &= 56.22735815 \approx 56 \degree
+\end{align*}$$
+
+**21.**
+
+$$\begin{align*}
+\omega &= \frac{2 \pi}{10 \times 10^{-3}} \\
+\omega &= 628.32 rad s^{-1} \\
+&\textrightarrow -\omega^2 x \cdot T \\
+&\textrightarrow -628.32^2 \cdot 4.0 \cdot 10 \times 10^{-2} \\
+&\textrightarrow -157914.409 \approx -157914
+\end{align*}$$
+
+**22.**
+
+$$\text{B}$$
+
+**23.**
+
+$$\text{D}$$
+
+**24.**
+
+$$\text{C}$$
+
+**25.**
+
+$$\begin{align*}
+\theta_c = sin^{-1} \left(\frac{4 \times 2}{3 \times 3}\right) \\
+\theta_c = sin^{-1} \left(\frac{8}{9}\right) \\
+\therefore \text{D}
+\end{align*}$$
+
+**26.**
+
+$$\text{A}$$
+
+**27.**
+
+$$\begin{align*}
+v &= x \cdot f \\
+v &= 4.0\times10^{-3} \cdot 600 \\
+v &= 2.4 m s^{-1} \\
+\therefore \text{D}
+\end{align*}$$
+
+**28.**
+
+**29.**
+
+$$\text{A}$$
+
+**30.**
+
+$$\begin{align*}
+f \cdot \lambda \cdot t \\
+1000 \cdot 0.33 \cdot 2.0\times10^{-3} \\
+1000 \cdot 0.33 \cdot 2.0\times10^{-3} \\
+0.66 m \\
+\text{Sound wave are longitudinal wave} \\
+\therefore {C}
+\end{align*}$$
+
+**31.**
+
+$$\text{C}$$
+
+**32.**
+
+$$\text{C}$$
+
+**33.**
+
+$$\begin{align*}
+n_x = \frac{2}{n_g}&, n_y = \frac{n_g}{1.5} \\
+\frac{n_x}{n_y} &= \frac{2 n_g}{n_g 1.5} \\
+\frac{n_x}{n_y} &= \frac{2}{1.5} \\
+\frac{n_x}{n_y} &= \frac{4}{3} \\
+\therefore {C}
+\end{align*}$$
+
+**34.**
+
+**35.**
+
+$$\text{B}$$
+
+**36.**
+
+$$\text{D}$$
+
+**37.**
+
+$$\begin{align*}
+\lambda = v T \\
+\lambda = 340 \cdot 4\times10^{-3} \\
+\lambda = 1.36 m \\
+\end{align*}$$
+
+**38.**
+
+$$\frac{\pi}{2} \text{ or } 90 \degree$jj$A person talking in a corridor outside a room can be heard through the open door because some diffracted through the opening door (The wavelength of the sound is greater or equal as the gap of the door).
+On the other hand, light does not diffract through the door since it's wavelength is much smaller than the gap of the door.
