@@ -2202,11 +2202,11 @@ $$\frac{3380.0}{70} \approx 48.29$$
 
 **c.**
 
-$$sqrt{\frac{35794.28571428571}{70 - 1}} = 22.7763$$
+$$\sqrt{\frac{35794.28571428571}{70 - 1}} = 22.7763$$
 
 **d.**
 
-$$Original class has a higher mean and standard deviation. This means that the similar class has more low ranking grades.$$
+$$\text{Original class has a higher mean and standard deviation. This means that the similar class has more low ranking grades.}$$
 
 **10.**
 
@@ -2321,7 +2321,7 @@ Not really important, as in paper questions you're usually asked to use a certai
 e.g. what's the Y on this model?
 e.g.  comparing which model fits best: use $r^2$ and pick closest one to 1!
 
-The coefficient of determination, commonly denoted as $r-squared, is a statistical measure that evaluates the goodness of fit of a linear regression model. It represents the proportion of the variance in the dependent variable (y) that is predictable from the independent variable(s) (x).
+The coefficient of determination, commonly denoted as $r^2$, is a statistical measure that evaluates the goodness of fit of a linear regression model. It represents the proportion of the variance in the dependent variable (y) that is predictable from the independent variable(s) (x).
 Cofficient of Determination ($r^2$) can be calculated by finding $1 - \frac{SS_{res}}{SS_{Tot}}$. $SS_{res}$ is the sum of squared residual. 
 
 Mindmap: 
@@ -2528,7 +2528,7 @@ c. Quadratic regression model is better to represent the data: it has bigger coe
 
 **1. A letter is picked at random from the letters of RANDOM. Calculate the probability that it is a letter from MATHS.**
 
-$$\text{A & M}, \frac{2}{6}$$
+$$\text{A \& M}, \frac{2}{6}$$
 
 **2. This dartboard has 20 sectors each of equal area.<br>If a dart lands in a numbered sector at random, find the probability that the number is:**
 
@@ -3111,6 +3111,173 @@ $$\begin{align*}
 \end{align*}$$
 
 **7.**
+
+$$\begin{align*}
+
+\end{align*}$$
+
+## Vectors Practice
+
+**1.**
+
+**a.**
+
+$$\begin{align*}
+\frac{2i-6j}{-i+3j} &= -2 - 2 = -4 \ne 1 \\
+\end{align*}$$
+
+**b.**
+
+$$\begin{align*}
+|a \cdot b| &= 2\times-1 + -6\times3 + 1\times-1 = -21 \\
+|a| &= \sqrt{2^2 + (-6)^2 + 1^2} = 6.40 \\
+|b| &= \sqrt{(-1)^2 + 3^2 + (-1)^2} = 3.32 \\
+-21 &< 6.40\times3.32 \\
+-21 &< 21.248 \\
+\end{align*}$$
+
+**c.**
+
+$$\begin{align*}
+a \cdot a &= 2^2 + (-6)^2 + 1^2 = 41 \\
+|a|^2 &= \left(\sqrt{2^2 + (-6)^2 + 1^2}\right)^2 = 2^2 + (-6)^2 + 1^2 = 41 \\
+\end{align*}$$
+
+**2.**
+
+**i.**
+
+$$\begin{align*}
+s \times t = \begin{bmatrix} 4 (-3) - 2 (-1) \\
+-1 (-2) - -3 (3) \\
+3 (2) - -2 (4) \end{bmatrix} = \begin{bmatrix} -10 \\
+11 \\
+14 \end{bmatrix} = -10i + 11j + 14k
+\end{align*}$$
+
+**ii.**
+
+$$\begin{align*}
+\angle &= \frac{s \cdot t}{|s||t|} \\
+\angle &= cos^{-1} \left(\frac{3 (-2) + 4 (2) + -1 (3)}{\sqrt{3^2 + 4^2 + (-1)^2} \sqrt{(-2)^2 + 2^2 + 3^2}}\right) \\
+\angle &= 92.7 \degree = 1.62
+\end{align*}$$
+
+**3.**
+
+$$\begin{align*}
+a \times b = 
+\end{align*}$$
+
+**10.**
+
+**a.**
+
+$$\begin{align*}
+AB &= \begin{bmatrix} 1 \\
+6 \\
+4 \end{bmatrix} \\
+AD &= \begin{bmatrix} 4 \\
+-5 \\
+-2 \end{bmatrix} \\
+A &= |AB \times AD| = \begin{bmatrix} 1 \\
+6 \\
+4 \end{bmatrix} \times \begin{bmatrix} 4 \\
+-5 \\
+-2 \end{bmatrix} = \begin{bmatrix} 4 \\
+-5 \\
+-2 \end{bmatrix}\\
+\end{align*}$$
+
+**c.**
+
+$$\begin{align*}
+cos^{-1} (\frac{-1 (4) + 0 (-5) + -4 (-2)}{\sqrt{(-1)^2 + 0^2 + (-4)^2} \sqrt{4^2 + (-5)^2 + (-2)^2}}) \\
+81.68470747 \degree \therefore \text{acute angle}
+\end{align*}$$
+
+**11.**
+
+**a.**
+
+$$\begin{align*}
+|a| = \sqrt{2^2 + (-3)^2} = 3.605551275 \approx 3.61 m s^{-1} \\
+|b| = \sqrt{(-4)^2 + 1^2} = 4.123105626 \approx 4.12 m s^{-1}
+\end{align*}$$
+
+**b.**
+
+$$\begin{align*}
+a + b = -2i - 2j km h^{-1} 
+\end{align*}$$
+
+**c.**
+
+$$\begin{align*}
+225 \degree
+\end{align*}$$
+
+**d.**
+
+$$\begin{align*}
+\end{align*}$$
+
+**4.**
+
+$$\begin{align*}
+\leq \lambda \leq 1
+\end{align*}$$
+
+**5.**
+
+**a.**
+
+$$\begin{align*}
+|u| &= \sqrt{5t^2 - 24t + 37} \\
+|v| &= \sqrt{2t^2 - 20t + 68} \\
+|u||v| &= 18 \\
+&\text{using solveN,}\\
+t &= -2
+\end{align*}$$
+
+**b.**
+
+$$\begin{align*}
+w = u \times v = 56i - 20j - 88k &= \lambda(14i - 5j - 22k) \\
+w = \lambda(-14i + 5j + 22k) &= \lambda(\frac{14\times3}{5}i - 3j - \frac{22\times3}{5}k) \\
+\frac{x}{z} = \frac{14}{22} = \frac{7}{11} \\
+|w| = \sqrt{26} &= \sqrt{x^2 + 3^2 + (\frac{x\times}{})^2} \\
+\end{align*}$$
+
+**7.**
+
+**a.**
+
+$$\begin{align*}
+B = (5,-1,3) \\
+C = (9,0,5) \\
+|AE| = |BF| = |CG| = |DH| = 2\sqrt{105} \\
+\cos 90 = \frac{AB \cdot AE}{|AB||AE|} \\
+AE = FB = AB \times BC = 5i + 4j - 8k \\
+E = A + AE = 10i + j - 4k
+\end{align*}$$
+
+| i | j | k |
+| - | - | - |
+| 0 | 2 | -1  |
+| 4 | 1 | 2 |
+
+**b.**
+
+$$\begin{align*}
+CE = -i + j - 9k \\
+CB = -4i - j -2k \\
+\cos \theta = \frac{CE \cdot CB}{|CE||CB|} \approx 0.503
+\end{align*}$$
+
+**1.**
+
+**a.**
 
 $$\begin{align*}
 
