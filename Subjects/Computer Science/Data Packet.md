@@ -1,5 +1,5 @@
 Above: [[Packet Switching]], [[Router]]
-Related: [[Obsidian/Dreams/PENTEST/Protocols/Internet Protocol]], [[Port]], [[Binary]]
+Related: [[Internet Protocol]], [[Port]], [[Binary]]
 
 Contains:$^1$
 	Header

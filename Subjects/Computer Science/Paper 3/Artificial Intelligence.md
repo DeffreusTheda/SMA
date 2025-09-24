@@ -1,0 +1,1 @@
+Develops the ability of smart machines to perform tasks rather than natural or human intelligence, e.g., voice activated commands on [[smart devices]].

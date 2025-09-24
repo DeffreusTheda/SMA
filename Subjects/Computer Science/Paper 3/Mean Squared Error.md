@@ -1,0 +1,1 @@
+A widely used loss function that is used for regression tasks.

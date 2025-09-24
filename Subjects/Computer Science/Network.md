@@ -1,7 +1,5 @@
 ---
-tags:
-  - ComSci
-  - Terms
+tags: []
 ---
 Built on server and client.
 Networks is connected by [routers](Router).

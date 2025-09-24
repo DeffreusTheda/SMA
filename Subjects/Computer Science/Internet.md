@@ -1,7 +1,5 @@
 ---
-tags:
-  - ComSci
-  - Terms
+tags: []
 ---
 # Internet
 Globally connected network system.

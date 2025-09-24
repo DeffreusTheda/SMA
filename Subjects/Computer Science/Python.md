@@ -1,7 +1,5 @@
 ---
-tags:
-  - Programming
-  - Languages
+tags: []
 ---
 # Python
 Is a high-level programming language 

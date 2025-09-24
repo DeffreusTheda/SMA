@@ -1,0 +1,2 @@
+A function that maps any input value to a value between 0 and 1.
+Typically used as an [[Activation Function|activation function]] to introduce non-linearity into a [[Neural Network|neural network]] model.

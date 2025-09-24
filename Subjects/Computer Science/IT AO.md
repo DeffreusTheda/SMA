@@ -5,13 +5,11 @@
 	- Schematic:
 		- CPU (Central Processing Unit)
 		- ALU (Arithmetic Logic Unit)
-###### 2023-08-25
-			Part of the CPU that does all the arithmetic (+/-) and logical (AND/OR) calculations.
+			- Part of the CPU that does all the arithmetic (+/-) and logical (AND/OR) calculations.
 		- MAR (Memory Address Register) ->AddressBus-> RAM (Random Access Memory) ->DataBus->
 		- MDR (Memory Data Register) <-DataBus<- Cache <-DataBus<- RAM
 		- CU (Control Unit)
-###### 2023-08-25
-			Used to decode
+			- Used to decode
 		- Other Registers
 			- ACC
 			- CIR (Current Instruction Register)

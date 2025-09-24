@@ -1,7 +1,5 @@
 ---
-tags:
-  - ComSci
-  - Terms
+tags: []
 ---
 # Osi Model
 Related: [[Network]]
@@ -15,7 +13,7 @@ Data is sent or received between the layer above or below a layer; The seven lay
 	Receives and send converted [binary](Binary.md) data in the form of electrical pulses (wired) OR signals (wireless) that make up data transfer and transmit over a [network](Network).
 2. Data link (Do):
 	Focuses on the physical addressing of the transmission. 
-	Adds physical (**[MAC](Media%20Access%20Control.md)**) address (linked with the computer's [network interface card](Network Interface Card) of the receiving endpoint to the packet from the [network layer](OSI Model#^050611) (that includes the IP address for the remote computer).
+	Adds physical (**[MAC](Media%20Access%20Control.md)**) address (linked with the computer's [[network interface card]] of the receiving endpoint to the packet from the [network layer](OSI Model#^050611) (that includes the IP address for the remote computer).
 	Present the data in a format suitable for transmission.
 	Checks if the received information is corrupted during transmission. ^91d623
 3. Network (Not):

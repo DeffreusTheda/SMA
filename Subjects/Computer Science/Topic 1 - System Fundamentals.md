@@ -19,9 +19,9 @@
 
 > \* I think that the cons are easily mitigated with cloud backups, which I believe any organization should utilize; this also apply to other ways to change to a new system. Any considerate organization would create backup before changing or updating their system.
 
-### Direct Changover
+### Direct Changeover
 
-Old system replaces entirely by the new system.<br>
+Old system get immediately replaced entirely by the new system.
 
 - Pros:
   - Changeover swift; no awaiting; immediate effect
@@ -64,7 +64,7 @@ New system is introduced in phases, replacing old system gradually.<br>
 
 ## Data Migration
 
-A big challange when changing from an old system to a new system of the same purpose. The scale of the system directly affect data migration. Problems may inlucde:
+A big challange when changing from an old system to a new system of the same purpose. The scale of the system directly affect data migration. Problems may include:
 
 - Different file formats when changing to different software (not update from existing software, okay?)
 - Data structure differences; this require algorithm to change from old data structure to the new data structure
@@ -74,25 +74,27 @@ A big challange when changing from an old system to a new system of the same pur
 
 ## Legacy system
 
-Transition from old system to a new one can be caused by outdate, legacy system that is not up to the new standard i.e security, and efficiency, in addition to end-of-support and unavailability of legacy system. Althought, changing to a new system may be costly and time-consuming, especially with huge-scale organization. Alternative to transition to new system is maintaining and updating end-of-support legacy software (not upstream) by recruiting persons well versed in the legacy system's programming languange.
+Transition from old system to a new one can be caused by outdate, legacy system that is not up to the new standard i.e security, and efficiency, in addition to end-of-support and unavailability of legacy system.
+Although, changing to a new system may be costly and time-consuming, especially with huge-scale organization.
+Alternative to transition to new system is maintaining and updating end-of-support legacy software (not upstream) by recruiting persons well versed in the legacy system's programming language.
 
-## Local vs Remote (Saas) Software
+## Local vs Remote (SaaS) Software
 
-Local software runs on an organization system/computer e.g Notepad++, Adobe Photoshop, etc.<br>
+Local software runs on an organization system/computer e.g Notepad++, Adobe Photoshop, etc.  
 Remote software, also called 'Software as a Service', is usually accessed from a web browser e.g Office 365, Google Docs, etc.
 
 Common characteristics of local and remote software:
 
-| Local Software | Remote Software |
-|--------------- | --------------- |
-| **One-time** fee | **Subscription** fee |
-| Used on **specific OS** | Use on **any computer** via internet |
-| **No** free trial | Free trial **often** available |
-| Require **installment** | **No Installment** required |
-| **Some** automatic update | **All** update automatic |
-| **Less likely** has supplemental apps | **Most likely** has supplemental apps |
-| New version **require** a new purchase | Always on latest version |
-| Mobile synchronization often costly | Mobile synchronization often free |
+| Local Software                         | Remote Software                       |
+| -------------------------------------- | ------------------------------------- |
+| **One-time** fee                       | **Subscription** fee                  |
+| Used on **specific OS**                | Use on **any computer** via internet  |
+| **No** free trial                      | Free trial **often** available        |
+| Require **installment**                | **No Installment** required           |
+| **Some** automatic update              | **All** update automatic              |
+| **Less likely** has supplemental apps  | **Most likely** has supplemental apps |
+| New version **require** a new purchase | Always on latest version              |
+| Mobile synchronization often costly    | Mobile synchronization often free     |
 
 ### SaaS
 

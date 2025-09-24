@@ -1,7 +1,5 @@
 ---
-tags:
-  - ComSci
-  - Terms
+tags: []
 ---
 # Internet Protocol
 Above: [[Network]]
@@ -17,4 +15,4 @@ Role of protocols:
  Flow control; same rate between data transfer: received and sent.
  Prevent deadlock; two packet's don't "block each other"; they don't collide with each other.
  Prevent errors; Make sure no errors introduced in the transit.
-Different protocol use different layer in the [OSI model](OSI Model.md).
+Different protocol use different layer in the [[OSI model]]

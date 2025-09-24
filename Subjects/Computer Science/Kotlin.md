@@ -1,8 +1,5 @@
 ---
-tags:
-  - ComSci
-  - Programming
-  - Languages
+tags: []
 ---
 # String
 ###### Inserting a character at specific index in a string:

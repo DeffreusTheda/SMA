@@ -1,4 +1,3 @@
-# Vpn
 Above: [[Network]]
 
 Stand for Virtual Private Network.
@@ -8,7 +7,7 @@ Data travel to and from the internet through a secure tunnel with a VPN server a
 Internet will see the address of your request as the address of the VPN server.
 Data sent through VPN server is encrypted; tunneling (SSL, TLS, IPSec, and OpenVPN).
 
-[Advantages of VPN](SWOT & Comparing of Network Topologies.md#^040d11).
+[[SWOT & Comparing of Network Topologies.md#^040d11]]
 
 
 VPN topology:$^2$

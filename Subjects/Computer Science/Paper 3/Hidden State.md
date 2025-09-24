@@ -1,0 +1,1 @@
+The layer in between the input and output layer.

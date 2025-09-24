@@ -2,7 +2,6 @@
 
 > [!IMPORTANT]
 > "In addition" paragraphs or 'NOTE' are knowledges not taught in the IBDP and most likely never going to appear in any questions.<br>
-> I thought it would be neat to share some of these for you guys~
 
 First thing first, learn these few terms:
 

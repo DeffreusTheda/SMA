@@ -1,6 +1,5 @@
 ---
-tags:
-  - ComSci
+tags: []
 ---
 Above: [[Network]]
 ### --- Advantages (+) and disadvantages (-) of [[LAN]]:

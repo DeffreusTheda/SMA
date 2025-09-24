@@ -1,0 +1,1 @@
+In neural networks, ReLU is an [[activation function]] that do not suffer from [[vanishing gradient]] and initialize weights more effectively (e.g., using Xavier or He initialization).

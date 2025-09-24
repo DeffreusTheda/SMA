@@ -1,4 +1,3 @@
-# Isp
 Above: [[Internet]]
 Related: [[IXP]]
 
